@@ -18,7 +18,7 @@ Welcome to the C Programming Tutorials repository! This is your one-stop resourc
 4. [Assignments](#assignments)
 5. [Question Bank](#question-bank)
 6. [eBooks](#ebooks)
-7. [contribution](#contribution)
+7. [contributing](#contributing)
 
 ## Getting Started
 
