@@ -66,5 +66,7 @@ If you'd like to contribute to this tutorial repository, we welcome your contrib
 - Creating challenging assignments.
 
 Please follow our [contribution guidelines](CONTRIBUTING.md) to get started.
+<img src="https://github.com/sbccas/c-programming-tutorials/blob/main/resources/Banner.png" alt="Image" width="Auto" height="Auto">
+
 
 Happy coding, and we hope you find these resources helpful on your journey to becoming a proficient C programmer!
