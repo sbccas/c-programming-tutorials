@@ -12,7 +12,7 @@ Welcome to the C Programming Tutorials repository! This is your one-stop resourc
 
 ## Table of Contents
 
-1. [Getting Started](#getting-started)
+1. [Getting Started with Syllabus](#getting-started)
 2. [Basic Concepts](#basic-concepts)
 3. [Sample Programs](#sample-programs)
 4. [Assignments](#assignments)
@@ -23,9 +23,9 @@ Welcome to the C Programming Tutorials repository! This is your one-stop resourc
 
 If you're new to C programming, start with the basics:
 
-- [Introduction to C](notes/introduction.md)
-- [Setting Up Your Development Environment](notes/setup.md)
-- [Your First "Hello, World!" Program](sample-programs/hello_world.c)
+- [1_Syllabus](1_Syllabus/CPPM_Syllabus_2020-21.pdf)
+- [Setting Up Your Development Environment](1_Syllabus/setup.md)
+- [Your First "Hello, World!" Program](3_Programs/hello_world.c)
 
 ## Basic Concepts
 
