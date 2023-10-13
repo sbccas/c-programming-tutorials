@@ -13,11 +13,11 @@ Welcome to the C Programming Tutorials repository! This is your one-stop resourc
 ## Table of Contents
 
 1. [Getting Started with Syllabus](#getting-started)
-2. [Basic Concepts](#basic-concepts)
+2. [Materials / Notes](#material-notes)
 3. [Sample Programs](#sample-programs)
 4. [Assignments](#assignments)
-5. [Advanced Topics](#advanced-topics)
-6. [Contributing](#contributing)
+5. [Question Bank](#question-bank)
+6. [eBooks](#ebooks)
 
 ## Getting Started
 
@@ -25,48 +25,49 @@ If you're new to C programming, start with the basics:
 
 - [1_Syllabus](1_Syllabus/CPPM_Syllabus_2020-21.pdf)
 - [Setting Up Your Development Environment](1_Syllabus/setup.md)
-- [Your First "Hello, World!" Program](3_Programs/hello_world.c)
+- [Your First "Hello, World!" Program](3_Programs/HELLO.c)
 
-## Basic Concepts
+## Material Notes
 
 Learn the fundamentals of C programming:
 
-- [Variables and Data Types](notes/variables_and_data_types.md)
-- [Control Structures](notes/control_structures.md)
-- [Functions and Modular Programming](notes/functions.md)
+- [UNIT-1: Introduction](2_Notes/104_CPPM_Unit_1.pdf)
+- [UNIT-2: Input/Output Statements and Operators:](2_Notes/104_CPPM_Unit_2.pdf)
+- [UNIT-3: Decision Making statements :](2_Notes/104_CPPM_Unit_3.pdf)
+- [UNIT-4: Iterative statements :](2_Notes/104_CPPM_Unit_4.pdf)
+- [UNIT-5: Concepts of Arrays and pointer](2_Notes/104_CPPM_Unit_5.pdf)
 
 ## Sample Programs
 
 Explore a variety of sample programs to practice your skills:
 
-- [Basic Input and Output](sample-programs/basic_io.c)
-- [Working with Arrays](sample-programs/arrays.c)
-- [File Handling](sample-programs/file_handling.c)
+- [Basic Input and Output](3_Programs/CP1.c)
+- [Working with Arrays](3_Programs/p_array1.c)
 
 ## Assignments
 
 Challenge yourself with programming assignments:
 
-- [Assignment 1: Calculate Factorial](assignments/assignment1.md)
-- [Assignment 2: Implement a Simple Calculator](assignments/assignment2.md)
+- [Assignment 1:All in One](4_Assignments/104_CPPM_Practical_Assignment_Sheet.pdf)
+- [Assignment 2:Pattern](4_Assignments/104_CPPM_Pattern_Programs_in_C.pdf)
 
-## Advanced Topics
+## Question Bank
 
-Dive into more advanced C programming topics:
+Dive into more C programming Questions:
 
-- [Dynamic Memory Allocation](notes/dynamic_memory.md)
-- [Data Structures](notes/data_structures.md)
+- [MCQ QuestionBank](5_QuestionBank/104_CPPM_All_Units_MCQs.pdf)
+- [Theory Questions](5_QuestionBank/104_CPPM_All_Units_MCQs.pdf)
 
-## Contributing
+## eBooks
 
-If you'd like to contribute to this tutorial repository, we welcome your contributions. You can help by:
+If you'd like to read more books to this tutorial repository . You can by:
 
-- Adding new tutorial notes.
-- Sharing more sample programs.
-- Creating challenging assignments.
+- [MCQ QuestionBank](5_QuestionBank/104_CPPM_All_Units_MCQs.pdf)
+- [Theory Questions](5_QuestionBank/104_CPPM_All_Units_MCQs.pdf)
 
+## contributing
 Please follow our [contribution guidelines](CONTRIBUTING.md) to get started.
-<img src="https://github.com/sbccas/c-programming-tutorials/blob/main/resources/Banner.png" alt="Image" width="Auto" height="Auto">
 
+<img src="https://github.com/sbccas/c-programming-tutorials/blob/main/resources/Banner.png" alt="Image" width="Auto" height="Auto">
 
 Happy coding, and we hope you find these resources helpful on your journey to becoming a proficient C programmer!
