@@ -18,14 +18,15 @@ Welcome to the C Programming Tutorials repository! This is your one-stop resourc
 4. [Assignments](#assignments)
 5. [Question Bank](#question-bank)
 6. [eBooks](#ebooks)
+7. [contribution](#contribution)
 
 ## Getting Started
 
 If you're new to C programming, start with the basics:
 
-- [1_Syllabus](1_Syllabus/CPPM_Syllabus_2020-21.pdf)
+- [Learn about Syllabus](1_Syllabus/CPPM_Syllabus_2020-21.pdf)
 - [Setting Up Your Development Environment](1_Syllabus/setup.md)
-- [Your First "Hello, World!" Program](3_Programs/HELLO.c)
+- [Your First "Hello, World!" Program](3_Programs/HELLO.C)
 
 ## Material Notes
 
@@ -41,7 +42,9 @@ Learn the fundamentals of C programming:
 
 Explore a variety of sample programs to practice your skills:
 
-- [Basic Input and Output](3_Programs/CP1.c)
+- [Basic Input and Output](3_Programs/)
+- [Decision Making](3_Programs/)
+- [Iterative / Looping ](3_Programs/)
 - [Working with Arrays](3_Programs/p_array1.c)
 
 ## Assignments
@@ -62,11 +65,11 @@ Dive into more C programming Questions:
 
 If you'd like to read more books to this tutorial repository . You can by:
 
-- [MCQ QuestionBank](5_QuestionBank/104_CPPM_All_Units_MCQs.pdf)
-- [Theory Questions](5_QuestionBank/104_CPPM_All_Units_MCQs.pdf)
+- [Reference Books](6_eBooks/)
+- [Other Matrerial](6_eBooks/)
 
 ## contributing
-Please follow our [contribution guidelines](CONTRIBUTING.md) to get started.
+Please follow our [contribution guidelines](README.md) to get started.
 
 <img src="https://github.com/sbccas/c-programming-tutorials/blob/main/resources/Banner.png" alt="Image" width="Auto" height="Auto">
 
