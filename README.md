@@ -1,5 +1,5 @@
 # C Programming Tutorials
-### c programing tutorials based on First Year BCA Subject 104-CPPM 2023-24 
+### C Programing Tutorials based on First Year BCA Subject 104-CPPM 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/sbccas/c-programming-tutorial.svg)](https://github.com/sbccas/c-programming-tutorials/stargazers)
@@ -18,7 +18,7 @@ Welcome to the C Programming Tutorials repository! This is your one-stop resourc
 4. [Assignments](#assignments)
 5. [Question Bank](#question-bank)
 6. [eBooks](#ebooks)
-7. [contributing](#contributing)
+7. [Contributing](#contributing)
 
 ## Getting Started
 
@@ -68,7 +68,7 @@ If you'd like to read more books to this tutorial repository . You can by:
 - [Reference Books](6_eBooks/)
 - [Other Matrerial](6_eBooks/)
 
-## contributing
+## Contributing
 Please follow our [contribution guidelines](README.md) to get started.
 
 <img src="https://github.com/sbccas/c-programming-tutorials/blob/main/resources/Banner.png" alt="Image" width="Auto" height="Auto">
