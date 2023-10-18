@@ -3,10 +3,10 @@ WAP TO SHOW DEMO OF ARRAY DECLARATION
 */
 #include <stdio.h>
 #include <conio.h>
-void main()
+int main()
 {
 int fybca7[5];
-clrscr();
+//clrscr();
 printf("PROGRAM TO STORE DATA IN ARRAY:\n");
 fybca7[0] = 111;
 fybca7[1] = 222;
@@ -19,6 +19,6 @@ printf("ELEMENT AT fybca[1]=%d\n",fybca7[1]);
 printf("ELEMENT AT fybca[2]=%d\n",fybca7[2]);
 printf("ELEMENT AT fybca[3]=%d\n",fybca7[3]);
 printf("ELEMENT AT fybca[4]=%d\n",fybca7[4]);
-getch();
+//getch();
 
 }
