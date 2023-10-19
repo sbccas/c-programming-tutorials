@@ -10,6 +10,7 @@
         "CP4WHILE.C": "cpp",
         "LP1NESTE.C": "cpp",
         "P1DEMORF.C": "cpp",
-        "PAP47MEN.C": "cpp"
+        "PAP47MEN.C": "cpp",
+        "conio.h": "c"
     }
 }
