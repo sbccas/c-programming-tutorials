@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 int i,j,k,n,l;
 n=8;
-clrscr();
+//clrscr();
 for (i=1;i<=n;i++)
 {
 	for(j=8;j>=i;j--)
@@ -21,6 +21,6 @@ for (i=1;i<=n;i++)
 
        printf("\n");
 }
-getch();
+//getch();
 
 }
