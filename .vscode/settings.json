@@ -11,6 +11,17 @@
         "LP1NESTE.C": "cpp",
         "P1DEMORF.C": "cpp",
         "PAP47MEN.C": "cpp",
-        "conio.h": "c"
+        "conio.h": "c",
+        "CP4PatternPyramid.C": "cpp",
+        "CP5ArrayBubbleSort.C": "cpp",
+        "CP4WNMAE.C": "cpp",
+        "CP4SCREE.C": "cpp",
+        "CP4PSTAR.C": "cpp",
+        "CP5Array.C": "cpp",
+        "HITESHPR.C": "cpp",
+        "LP1FORPR.C": "cpp",
+        "CP5ArraySelectionSort.C": "cpp",
+        "CP4STP2.C": "cpp",
+        "CP4S7.C": "cpp"
     }
 }

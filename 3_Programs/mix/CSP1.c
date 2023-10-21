@@ -12,7 +12,7 @@ printf("Your Result is Pass.");
 }
 else
 {
-    /* false condition */
+    // false condition 
   printf("Your Result is Fail."); 
 }
 printf("\nBye"); 
