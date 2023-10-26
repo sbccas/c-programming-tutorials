@@ -22,6 +22,8 @@
         "LP1FORPR.C": "cpp",
         "CP5ArraySelectionSort.C": "cpp",
         "CP4STP2.C": "cpp",
-        "CP4S7.C": "cpp"
+        "CP4S7.C": "cpp",
+        "CP2StringFunctionsDemo.C": "cpp",
+        "CP5ArrayDemoLab.C": "cpp"
     }
 }

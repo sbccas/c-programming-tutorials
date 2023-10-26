@@ -14,6 +14,7 @@ sum=0;
 	printf("Data Stored Success\n");
 	printf("\nSUM OF ALL THE ELEMENTS IN 1-D ARRAY:\n");
 	for(i=0;i<5;i++)
+	//printf("fybca8[%d] = %d", i, fybca8[i]);
 	sum = sum + fybca8[i];
 	
 	printf("SUM OF ALL ELEMENTS OF fybca8=%d\t",sum);
