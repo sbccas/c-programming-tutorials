@@ -26,6 +26,7 @@
         "CP2StringFunctionsDemo.C": "cpp",
         "CP5ArrayDemoLab.C": "cpp",
         "CP5ArraySortingFunction.C": "cpp",
-        "PAP81ArrayMatrixDemo.C": "cpp"
+        "PAP81ArrayMatrixDemo.C": "cpp",
+        "CP5SimpleStringDemo.C": "cpp"
     }
 }
