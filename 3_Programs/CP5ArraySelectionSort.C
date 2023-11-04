@@ -23,6 +23,7 @@ int main()
     // CHECKING ELEMENTS AND SWAPPING IF ELEMENT IS SMALLER THAN SECOND ELEMENT:
     for (i = 0; i < n-1; i++)
     {
+        // Find the minimum element in unsorted array
         sml = i;
         for ( j = i+1; j < n; j++)
         {
@@ -30,14 +31,15 @@ int main()
             {
                 sml = j;
             }
-        }       
+        }
+        // Swap the found minimum element with the first element       
         if (sml!=i)
             {
             temp = array[i];
             array[i] = array[sml] ;
             array[sml] = temp;
             }
-            printf("\n");
+        printf("\n");
         for (k = 0; k < n; k++)
         {
             printf("%d\t",array[k]);
