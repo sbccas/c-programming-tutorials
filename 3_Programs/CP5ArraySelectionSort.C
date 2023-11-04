@@ -6,7 +6,7 @@
 #include<conio.h>
 int main()
 {
-  int n, i, j, array[50], sml,temp;
+  int n, i, j,k, array[50], sml,temp;
     printf("\nEnter Size for an Array (< 50): ");
     scanf("%d", &n);
     for (i = 0; i < n; i++)
@@ -26,13 +26,25 @@ int main()
         sml = i;
         for ( j = i+1; j < n; j++)
         {
-            if (array[j]<array[sml]){
+            if (array[j]<array[sml])
+            {
                 sml = j;
             }
+        }       
+        if (sml!=i)
+            {
             temp = array[i];
             array[i] = array[sml] ;
             array[sml] = temp;
+            }
+            printf("\n");
+        for (k = 0; k < n; k++)
+        {
+            printf("%d\t",array[k]);
         }
+
+          
+
       }
          printf("\nArray Elements after Selection Sorting : \n");
         for (i = 0; i < n; i++)

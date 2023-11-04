@@ -28,8 +28,4 @@ for (i = strlen(str1); i >= 0; i--)
 }
 //printf("\nNew String is : %d\n", str1);
 
-
-
-
-
 }
