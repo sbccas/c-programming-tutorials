@@ -17,15 +17,15 @@ int main()
     }
     printf("\nApplying Bubble Sorting : \n");
     // CHECKING ELEMENTS AND SWAPPING IF ELEMENT IS GREATED THAN SECOND ELEMENT:
-    for (i = 0; i < n - 1; i++)
+    for (i = 0; i < n; i++)
     {
-        for (j = i + 1; j < n; j++)
+        for (j = 0; j < n-1-i; j++)
         {
-            if (array[i] > array[j])
+            if (array[j] > array[j+1])
             {
-                temp = array[i];
-                array[i] = array[j];
-                array[j] = temp;
+                temp = array[j];
+                array[j] = array[j+1];
+                array[j+1] = temp;
             }
         }
     }

@@ -17,7 +17,7 @@ printf("New String is : %s\n", sname);
 
 for (i = 0; i <= strlen(sname); i++)
 {
-    printf("%c\t",sname[i]);
+    printf("%d\t",sname[i]);
 }
 printf("\nStr1 : %s\n", str1);
 //printf("Reverse Using Function [strrev] = %s",strrev(str1));
