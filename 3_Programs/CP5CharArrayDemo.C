@@ -11,7 +11,7 @@ int main()
  char s;
  char sname[10] = {'A','M','R','O','L','I','B','C','A','\0'};
  char sname2[10];
-printf("String1 Data= %d\n",sname);
+printf("String1 Data= %s\n",sname);
 printf("Enter String2 Data\n");
 gets(sname2);
 printf("\nEnter Character to Search Data\n");
