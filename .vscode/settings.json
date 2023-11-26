@@ -30,6 +30,9 @@
         "CP5SimpleStringDemo.C": "cpp",
         "CP5ArraySortDemoDeleteme.C": "cpp",
         "ARRAY2ByStudent.C": "cpp",
-        "CP5CharArrayDemo.C": "cpp"
+        "CP5CharArrayDemo.C": "cpp",
+        "CP5CharacterArrayDemo.C": "cpp",
+        "CPsizeofDatatypes.C": "cpp",
+        "CP5PointersDemo.C": "cpp"
     }
 }

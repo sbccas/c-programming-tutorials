@@ -4,31 +4,31 @@
 */
 #include<stdio.h>
 #include<conio.h>
+#include<stdlib.h>
 int main()
 {
- //declaring character array
- int i=0,a=0;
- char s;
- char sname[10] = {'A','M','R','O','L','I','B','C','A','\0'};
- char sname2[10];
+ system("cls");
+ int i=0,counter=0;
+ char search;
+ char sname[10] = {'A','M','R','O','L','I','B','C','A','\0'};//declaring character array
+ char sname2[10];//declaring character array
 printf("String1 Data= %s\n",sname);
 printf("Enter String2 Data\n");
 gets(sname2);
 printf("\nEnter Character to Search Data\n");
-scanf("%c",&s);
+scanf("%c",&search);
 
-//FORLOOP
-printf("OUTPUT USING FOR LOOP\n");
+printf("OUTPUT USING FOR LOOP\n");//FORLOOP
 for (i = 0; i < 10; i++)
 {
-    if(sname2[i]==s)
+    if(sname2[i]==search)
     {
-        a++;
+        counter++;
     }
     else{
         printf("%c",sname2[i]);
     }
 }
-printf("\nTOTAL '%c' in your name 2 = %d\n",s,a);
+printf("\nTOTAL '%c' in your name2 = %d\n",search,counter);
 
 }
