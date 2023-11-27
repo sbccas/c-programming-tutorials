@@ -1,6 +1,7 @@
-/* Title: WAP FOR CHARACTER ARRAY 
+/* Title: WAP for finding(search) and counting characters from character array;  
    Programmer: Hitesh Patel Year/Div: FYBCA-1 RollNo: 999 
    Date: October 5, 2023
+   CP5CharArraycountnsearch.C
 */
 #include<stdio.h>
 #include<conio.h>
