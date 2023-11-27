@@ -33,6 +33,7 @@
         "CP5CharArrayDemo.C": "cpp",
         "CP5CharacterArrayDemo.C": "cpp",
         "CPsizeofDatatypes.C": "cpp",
-        "CP5PointersDemo.C": "cpp"
+        "CP5PointersDemo.C": "cpp",
+        "deletepointer.C": "cpp"
     }
 }
