@@ -1,1 +1,4 @@
-A','M','R','O','L',' ','I','\0
+int i=999;
+float f=3.14;
+char c='a';
+long long d=9879879870;
