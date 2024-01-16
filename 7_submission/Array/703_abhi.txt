@@ -1,0 +1,35 @@
+/*remark
+name:abhi beladiya
+roll no:703
+title:write the program for display number array
+*/
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+int a[10],i,n;
+clrscr();
+
+printf("enter length of array:");
+scanf("%d",&n);
+
+printf("enter values to store in the array:\n");
+
+for(i=0;i<n;i++)
+ {
+  printf("enter a[%d]:",i);
+  scanf("%d",&a[i]);
+ }
+ printf("display stored values:\n");
+
+for(i=0;i<n;i++)
+ {
+  printf("a[%d]=%d\n",i,a[i]);
+ }
+getch();
+}
+
+

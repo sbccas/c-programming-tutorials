@@ -1,0 +1,95 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c,f;
+clrscr();
+printf("Please Chooes One Vacation");
+printf("\nType-1 Beach");
+printf("\nType-2 Famous City");
+printf("\nType-3 Mountains\n");
+scanf("%d",&a);
+switch(a)
+{
+    case 1:
+    printf("\n 1=Goa");
+    printf("\n 2=Maldives\n");
+    scanf("%d",&b);
+
+
+
+   switch(b)
+{
+
+   case 1:
+    printf("\n 1=Calangute Beach");
+    printf("\n 2=Paloem Beach");
+    printf("\n 3=Baga Beach");
+
+    break;
+    }
+
+     switch (b)
+     {
+     case 2:
+     printf("\n 1=Malvan Beach");
+     printf("\n 2=Chivla Beach");
+     printf("\n 3=Tarkarli Beach");
+     break;
+	  }
+	  break;
+	  }
+
+
+    switch(a)
+    {
+    case 2:
+    printf("\n 1=New York");
+    printf("\n 2=London\n");
+    scanf("%d",&c);
+
+    switch(c)
+    {
+    case 1:
+    printf("\n 1=Statue Of Liberty");
+    printf("\n 2=Central Park");
+    printf("\n 3=Thr High Line");
+    break;
+    }
+    switch(c)
+    {
+    case 2:
+    printf("\n 1=Sky Garden");
+    printf("\n 2=Tower Bridege");
+    printf("\n 3=Shoreditch");
+    break;
+    }
+    }
+    switch(a)
+    {
+    case 3:
+    printf("\n 1=Switzerland");
+    printf("\n 2=Peru\n");
+    scanf("%d",&f);
+
+    switch(f)
+    {
+    case 1:
+    printf("\n 1=Matterhorn");
+    printf("\n 2=Rigi");
+    printf("\n 3=Mount Pilatus");
+    break;
+    }
+
+    switch(f)
+    {
+    case 2:
+    printf("\n 1=Nevado Auzangate");
+    printf("\n 2=Huandoy");
+    printf("\n 3=Salcantay");
+    break;
+    }
+
+    }
+    getch();
+    }

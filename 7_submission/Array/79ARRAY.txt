@@ -1,0 +1,31 @@
+/*
+Name:Parmar Vaibhav
+Roll No:836
+Title:WAP to Enter a 10 number and print 10 number using for loop
+Date:17/10/2023
+*/
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    int arr[10],i,nn=1,n=1;
+    clrscr();
+    printf("DATA STORING IN ARRAY\n");
+    for(i=0;i<10;i++)
+    {
+	printf("  ->Enter a %dth element:",nn);
+        	scanf("%d",&arr[i]);
+        	nn++;
+    }
+
+    clrscr();
+    printf("THE GIVEN DATA IS AS FOLLOWS\n\n");
+
+    for(i=0;i<10;i++)
+    {
+	printf("  ->%dth element is:%d\n",n,arr[i]);
+        n++;
+    }
+    getch();
+}

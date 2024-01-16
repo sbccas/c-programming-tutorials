@@ -1,0 +1,204 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int a;
+ int qty,rate,total;
+clrscr();
+printf("welcome to the program of hotel management using switch case\n");
+printf("1:cofee\n");
+printf("2:tea\n");
+printf("3:cold cofee\n");
+printf("4:cold water\n");
+printf("5:milk\n");
+printf("6:sup\n");
+printf("7:green sandwich\n");
+printf("8:chole bhature\n");
+printf("9:pizza\n");
+printf("10:burger\n");
+printf("11:paneer buji\n");
+printf("12:dhosa\n");
+printf("13:jini roll\n");
+printf("14:kaju kali\n");
+printf("15:GOTALO\n");
+printf("16:Dal bati\n");
+printf("17:manchurian\n");
+printf("18:noddle\n");
+printf("19:pav bhaji\n");
+printf("20:rice\n");
+printf("21:exit\n");
+printf("enter any choice : ");
+scanf("%d",&a);
+
+switch(a)
+{
+  case 1:
+	printf("\nYou have selected Coffee:-");
+	printf("\n  Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=5;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 2:
+	printf("\nYou have selected Tea:-");
+	printf("\n. Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=5;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 3:
+	printf("\nYou have selected Cold coffee:-");
+	printf("\n  Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=25;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 4:
+	printf("\nYou have selected cold water:");
+	printf("\nENTER THE QUANTITY:");
+	scanf("%d",&qty);
+	rate=20;
+	total=qty*rate;
+	printf("\n Total amount :%d",total);
+	break;
+  case 5:
+	printf("\n You have selected milk:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=10;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 6:
+	printf("\nYou have selected sup:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=10;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 7:
+	printf("\nYou have selected green sandwich:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=60;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 8:
+	printf("\nYou have selected chole bhature:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=75;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 9:
+	printf("\nYou have selected pizza:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=100;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	 break;
+  case 10:
+	printf("\nYou have selected burger:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=120;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 11:
+	printf("\nYou have selected paneer bhuji:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=80;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 12:
+	printf("\nYou have selected dosha:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=60;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 13:
+	printf("\nYou have selected jini roll:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=20;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 14:
+	printf("\nYou have selected kaju kali:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=110;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 15:
+	printf("\nYou have selected gotalo:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=30;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 16:
+	printf("\nYou have selected DAl bati:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=40;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 17:
+	printf("\nYou have selected manchurian:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=70;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 18:
+	printf("\nYou have selected nuddel:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=50;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 19:
+	printf("\nYou have selected pav baji:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=60;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 20:
+	printf("\nYou have selected rice:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=10;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 21:
+ printf("\nexit the program:-");
+	 
+	 break;
+    default:
+	 printf("plz enter valid choice");
+	 break;
+ }
+ getch();
+ }

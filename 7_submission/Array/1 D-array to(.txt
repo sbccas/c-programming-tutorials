@@ -1,0 +1,25 @@
+1 D-array to( storing and printing)
+#include<stdio.h>
+#include<conio.h>
+#define p printf
+
+void main()
+{
+    char i,A[15];
+    clrscr();
+    
+    for(i=0;i<10;i++)
+    {
+        p("enter elements : ");
+        scanf("%d",&A[i]);
+    }
+    
+    for(i=0;i<10;i++)
+    {
+        
+        p("A[%d] : %d\n",i,A[i]);
+        
+    }
+    
+    getch();
+}

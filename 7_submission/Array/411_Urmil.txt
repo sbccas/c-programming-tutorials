@@ -1,0 +1,29 @@
+/******************
+name :- kevadiya urmil
+roll no :- 411
+progarm name :- program for storing and printing in array
+*******************/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,array[30];
+	clrscr();
+	printf(" welcome to the program for the array dear user\n");
+	printf("\n----------------------------------------------\n");
+
+	for(i=0;i<30;i++)
+		{
+			printf("enter elements of the array[%d]:",i);
+			scanf("%d",&array[i]);
+		}
+
+	printf("\n content of the array::\n");
+	printf("--------------------------\n");
+	for(i=0;i<30;i++)
+	{
+		printf("element of array[%d] is %d\t\t",i,array[i]);
+	}
+
+	getch();
+}

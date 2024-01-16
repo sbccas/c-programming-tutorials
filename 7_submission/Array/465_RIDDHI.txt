@@ -1,0 +1,29 @@
+/*
+Name:Riddhi Khokhariya
+Roll no:465
+Title:WAP to print 1-D numeric array
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int i,n,fybca4[20];
+ clrscr();
+
+ printf("\nEnter Size of array :");
+ scanf("%d",&n);
+
+ printf("\n For Store data in array\n");
+	 for(i=0;i<n;i++)
+	 {
+	  printf("\n Enter element at %d:",i);
+	  scanf("%d",&fybca4[i]);
+	 }
+ printf("\nTo Display data of array\n");
+	for(i=0;i<n;i++)
+	{
+	 printf("\nfybca4[%d]: %d\t",i,fybca4[i]);
+	}
+printf("\nProgram run successfully..");
+getch();
+}

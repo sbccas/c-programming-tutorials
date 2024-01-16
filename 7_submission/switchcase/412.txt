@@ -1,0 +1,419 @@
+#include <stdio.h>
+
+void displayAppStore()
+{
+    printf("Welcome to My App Store\n");
+    printf("1. Games\n");
+    printf("2. Apps\n");
+    printf("3. Tools\n");
+    printf("4. Exit\n");
+    printf("Please select a category: ");
+}
+
+void displayGamesTypes()
+{
+    printf("Games Types:\n");
+    printf("1. Action Games\n");
+    printf("2. Puzzle Games\n");
+    printf("3. Racing Games\n");
+    printf("4. Back to main menu\n");
+    printf("Please select a game to install or go back: ");
+}
+
+void displayActionGames()
+{
+    printf("Action Games:\n");
+    printf("1. PUBG\n");
+    printf("2. Free Fire\n");
+    printf("3. Call Of Duty\n");
+    printf("4. Back to main menu\n");
+    printf("Please select a game to install or go back: ");
+}
+
+void displayPuzzleGames()
+{
+    printf("Puzzle Games:\n");
+    printf("1. Block Blast\n");
+    printf("2. Brain Out\n");
+    printf("3. The Room\n");
+    printf("4. Back to main menu\n");
+    printf("Please select a game to install or go back: ");
+}
+
+void displayRacingGames()
+{
+    printf("Racing Games:\n");
+    printf("1. Asphalt 9: Legends\n");
+    printf("2. Real Racing 3\n");
+    printf("3. Forza Horizon 5\n");
+    printf("4. Back to main menu\n");
+    printf("Please select a game to install or go back: ");
+}
+
+void displayAppsTypes()
+{
+    printf("Apps Types:\n");
+    printf("1. Business\n");
+    printf("2. Social\n");
+    printf("3. Entertainment\n");
+    printf("4. Back to main menu\n");
+    printf("Please select a social app to install or go back: ");
+}
+
+void displayBusinessApps()
+{
+    printf(" Business Apps:\n");
+    printf("1. LinkdIn\n");
+    printf("2. Zoom\n");
+    printf("3. iPlum\n");
+    printf("4. Back to main menu\n");
+    printf("Please select a social app to install or go back: ");
+}
+
+void displaySocialApps()
+{
+    printf(" Social Apps:\n");
+    printf("1. Instagram\n");
+    printf("2. Facebook\n");
+    printf("3. Whatsapp\n");
+    printf("4. Back to main menu\n");
+    printf("Please select a social app to install or go back: ");
+}
+
+void displayEntertaunmentApps()
+{
+    printf(" Entertaunment Apps:\n");
+    printf("1. Sony LIV\n");
+    printf("2. Twich\n");
+    printf("3. Hi TV\n");
+    printf("4. Back to main menu\n");
+    printf("Please select a social app to install or go back: ");
+}
+
+void displayTools()
+{
+    printf("Tools Types:\n");
+    printf("1. Editing Tool\n");
+    printf("2. Coding Tool\n");
+    printf("3. Scaning Tool\n");
+    printf("4. Back to main menu\n");
+    printf("Please select a tool to install or go back: ");
+}
+
+void displayEditingTools()
+{
+    printf("Editing Tools:\n");
+    printf("1. PhotoShop\n");
+    printf("2. VN\n");
+    printf("3. Vanva\n");
+    printf("4. Back to main menu\n");
+    printf("Please select a tool to install or go back: ");
+}
+
+void displayCodiingTools()
+{
+    printf("Coding Tools:\n");
+    printf("1. Mimo\n");
+    printf("2. Sololearn\n");
+    printf("3. CuriousJr\n");
+    printf("4. Back to main menu\n");
+    printf("Please select a tool to install or go back: ");
+}
+
+void displayScaningTools()
+{
+    printf("Scaning Tools:\n");
+    printf("1. TapScanner\n");
+    printf("2. CamScanner\n");
+    printf("3. Microsoft Lens\n");
+    printf("4. Back to main menu\n");
+    printf("Please select a tool to install or go back: ");
+}
+
+int main()
+{
+    int mainChoice, subChoice, Choice;
+
+    do
+    {
+        displayAppStore();
+        scanf("%d", &mainChoice);
+
+        switch (mainChoice)
+        {
+        case 1:
+            do
+            {
+                displayGamesTypes();
+                scanf("%d", &subChoice);
+
+                switch (subChoice)
+                {
+                case 1:
+                    do
+                    {
+                        displayActionGames();
+                        scanf("%d", &Choice);
+
+                        switch (Choice)
+                        {
+                        case 1:
+                            printf("Installing PUBG...\n");
+                            break;
+                        case 2:
+                            printf("Installing Free Fire...\n");
+                            break;
+                        case 3:
+                            printf("Installing Call Of Duty...\n");
+                            break;
+                        case 4:
+                            break;
+                        default:
+                            printf("Invalid choice. Please try again.\n");
+                        }
+                    } while (Choice != 4);
+                    break;
+                case 2:
+                    do
+                    {
+                        displayPuzzleGames();
+                        scanf("%d", &Choice);
+
+                        switch (Choice)
+                        {
+                        case 1:
+                            printf("Installing Block Blast...\n");
+                            break;
+                        case 2:
+                            printf("Installing Brain Out...\n");
+                            break;
+                        case 3:
+                            printf("Installing The Room...\n");
+                            break;
+                        case 4:
+                            break;
+                        default:
+                            printf("Invalid choice. Please try again.\n");
+                        }
+                    } while (Choice != 4);
+                    break;
+                case 3:
+                    do
+                    {
+                        displayRacingGames();
+                        scanf("%d", &Choice);
+
+                        switch (Choice)
+                        {
+                        case 1:
+                            printf("Installing Asphalt 9: Legends...\n");
+                            break;
+                        case 2:
+                            printf("Installing Real Racing 3...\n");
+                            break;
+                        case 3:
+                            printf("Installing Forza Horizon 5...\n");
+                            break;
+                        case 4:
+                            break;
+                        default:
+                            printf("Invalid choice. Please try again.\n");
+                        }
+                    } while (Choice != 4);
+                    break;
+                case 4:
+                    break;
+                default:
+                    printf("Invalid choice. Please try again.\n");
+                }
+            } while (subChoice != 4);
+            break;
+
+        case 2:
+            do
+            {
+                displayAppsTypes();
+                scanf("%d", &subChoice);
+
+                switch (subChoice)
+                {
+                case 1:
+                    do
+                    {
+                        displayBusinessApps();
+                        scanf("%d", &Choice);
+
+                        switch (Choice)
+                        {
+                        case 1:
+                            printf("Installing LinkdIn...\n");
+                            break;
+                        case 2:
+                            printf("Installing Zoom...\n");
+                            break;
+                        case 3:
+                            printf("Installing iPlum...\n");
+                            break;
+                        case 4:
+                            break;
+                        default:
+                            printf("Invalid choice. Please try again.\n");
+                        }
+                    } while (Choice != 4);
+                    break;
+                case 2:
+                    do
+                    {
+                        displaySocialApps();
+                        scanf("%d", &Choice);
+
+                        switch (Choice)
+                        {
+                        case 1:
+                            printf("Installing Instagram...\n");
+                            break;
+                        case 2:
+                            printf("Installing Facebook...\n");
+                            break;
+                        case 3:
+                            printf("Installing Whatsapp...\n");
+                            break;
+                        case 4:
+                            break;
+                        default:
+                            printf("Invalid choice. Please try again.\n");
+                        }
+                    } while (Choice != 4);
+                    break;
+                case 3:
+                    do
+                    {
+                        displayEntertaunmentApps();
+                        scanf("%d", &Choice);
+
+                        switch (Choice)
+                        {
+                        case 1:
+                            printf("Installing Sony LIV...\n");
+                            break;
+                        case 2:
+                            printf("Installing Twich...\n");
+                            break;
+                        case 3:
+                            printf("Installing Hi TV...\n");
+                            break;
+                        case 4:
+                            break;
+                        default:
+                            printf("Invalid choice. Please try again.\n");
+                        }
+                    } while (Choice != 4);
+                    break;
+                case 4:
+                    break;
+                default:
+                    printf("Invalid choice. Please try again.\n");
+                }
+            } while (subChoice != 4);
+            break;
+
+        case 3:
+            do
+            {
+                displayTools();
+                scanf("%d", &subChoice);
+
+                switch (subChoice)
+                {
+                case 1:
+                    do
+                    {
+                        displayEditingTools();
+                        scanf("%d", &Choice);
+
+                        switch (Choice)
+                        {
+                        case 1:
+                            printf("Installing PhotoShop...\n");
+                            break;
+                        case 2:
+                            printf("Installing VN...\n");
+                            break;
+                        case 3:
+                            printf("Installing Canva...\n");
+                            break;
+                        case 4:
+                            break;
+                        default:
+                            printf("Invalid choice. Please try again.\n");
+                        }
+                    } while (Choice != 4);
+                    break;
+                case 2:
+                    do
+                    {
+                        displayCodiingTools();
+                        scanf("%d", &Choice);
+
+                        switch (Choice)
+                        {
+                        case 1:
+                            printf("Installing Mimo...\n");
+                            break;
+                        case 2:
+                            printf("Installing Sololearn...\n");
+                            break;
+                        case 3:
+                            printf("Installing CuriousJr...\n");
+                            break;
+                        case 4:
+                            break;
+                        default:
+                            printf("Invalid choice. Please try again.\n");
+                        }
+                    } while (Choice != 4);
+                    break;
+                case 3:
+                    do
+                    {
+                        displayScaningTools();
+                        scanf("%d", &Choice);
+
+                        switch (Choice)
+                        {
+                        case 1:
+                            printf("Installing TapScanner...\n");
+                            break;
+                        case 2:
+                            printf("Installing CamScanner...\n");
+                            break;
+                        case 3:
+                            printf("Installing Microsoft Lens...\n");
+                            break;
+                        case 4:
+                            break;
+                        default:
+                            printf("Invalid choice. Please try again.\n");
+                        }
+                    } while (Choice != 4);
+                    break;
+                case 4:
+                    break;
+                default:
+                    printf("Invalid choice. Please try again.\n");
+                }
+            } while (subChoice != 4);
+            break;
+
+        case 4:
+            printf("Exiting App Store...\n");
+            break;
+
+        default:
+            printf("Invalid choice. Please try again.\n");
+        }
+
+    } while (mainChoice != 4);
+
+    return 0;
+}

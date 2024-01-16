@@ -1,0 +1,56 @@
+/*
+REMARK
+NAME= MANIYA HET
+ROLL NO = 734
+TITLE = ENTER 10 NUMBERS AND PRINT 10 NUMBERS IN ARRAY.
+
+*/
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+// int marks[10];
+// int marks[10] = {100,200,300,400,500,600,700,800,900,1000};
+int i, marks[10];
+
+clrscr();
+
+/* marks[0] = 100;
+marks[1] = 200;
+marks[2] = 300;
+marks[3] = 400;
+marks[4] = 500;
+marks[5] = 600;
+marks[6] = 700;
+marks[7] = 800;
+marks[8] = 900;
+marks[9] = 1000; */
+
+
+/* printf("ARRAY OF marks[0] = %d\n",marks[0]);
+printf("ARRAY OF marks[1] = %d\n",marks[1]);
+printf("ARRAY OF marks[2] = %d\n",marks[2]);
+printf("ARRAY OF marks[3] = %d\n",marks[3]);
+printf("ARRAY OF marks[4] = %d\n",marks[4]);
+printf("ARRAY OF marks[5] = %d\n",marks[5]);
+printf("ARRAY OF marks[6] = %d\n",marks[6]);
+printf("ARRAY OF marks[7] = %d\n",marks[7]);
+printf("ARRAY OF marks[8] = %d\n",marks[8]);
+printf("ARRAY OF marks[9] = %d\n",marks[9]); */
+
+for(i=0;i<10;i++)
+{
+printf("enter the marks[%d] = ",i);
+scanf("%d",&a[i]);
+}
+
+for(i=0;i<10;i++)
+{
+printf("\nmarks[%d] = %d",i,marks[i]);
+}
+
+getch();
+}

@@ -1,0 +1,31 @@
+/*
+Name    : Hitanshu Khunt
+Roll no : 466
+Title   : Program of 1-D numeric array
+*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   int i,n,arr[100];
+   clrscr();
+   printf("Enter the size of array : ");
+   scanf("%d",&n);
+   printf("\nEnter %d elements:\n",n);
+
+   for(i=0;i<n;i++)
+   {
+   printf("%d> ",i);
+   scanf("%d",&arr[i]);
+   }
+
+   printf("\nElements in array are : \n");
+   for(i=0;i<n;i++)
+   {
+   printf("%d> %d",i,arr[i]);
+   printf("\n");
+   }
+   getch();
+
+}

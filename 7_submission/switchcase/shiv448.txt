@@ -1,0 +1,250 @@
+#include<stdio.h>
+#include<conio.h>
+void main ()
+
+{
+    int i,a,j,h,u,s,x,z,g,q;
+    clrscr();
+
+    printf("choose one option:\n");
+    printf("1.movie\n2.game\n3.bike\n");
+    scanf("%d",&i);
+    switch (i)
+    {
+
+
+    case 1:
+        printf("you choose to watch movie\n");
+        printf("select one option\n");
+        printf("1.theatre\n2.mobile\n3.laptop\n");
+        scanf("%d",&a);
+        switch(a)
+
+        {
+        case 1:
+            printf("you choose to watch movie at thertre\n");
+            printf("select which movie you want to watch\n");
+            printf("1.halfgirlfriend\n2.thenun\n3.oppenheimer\n");
+            scanf("%d",&h);
+            switch(h)
+            {
+            case 1:
+                printf("you choose to watch half girlfriend movie at theatre\n");
+                break;
+            case 2:
+                printf("you choose to watch thenun at theatre\n");
+                break;
+
+            case 3:
+                printf("you choose to watch oppenheimer at theatre\n");
+                break;
+
+
+
+            }
+            break;
+        case 2:
+            printf("you choose to watch movie on mobile\n");
+            printf("select which movie you want to watch\n");
+            printf("1.halfgirlfriend\n2.thenun\n3.oppenheimer\n");
+            scanf("%d",&h);
+            switch(h)
+            {
+            case 1:
+                printf("you choose to watch half girlfriend movie on mobile\n");
+                break;
+            case 2:
+                printf("you choose to watch thenun on mobile\n");
+                break;
+
+            case 3:
+                printf("you choose to watch oppenheimer on mobile\n");
+                break;
+
+
+            }
+            break;
+        case 3:
+            printf("you choose to watch movie on laptop\n");
+            printf("select which movie you want to watch\n");
+            printf("1.halfgirlfriend\n2.thenun\n3.oppenheimer\n");
+            scanf("%d",&h);
+            switch(h)
+            {
+            case 1:
+                printf("you choose to watch half girlfriend movie on laptop\n");
+                break;
+            case 2:
+                printf("you choose to watch thenun on laptop\n");
+                break;
+
+            case 3:
+                printf("you choose to watch oppenheimer on laptop\n");
+                break;
+
+
+            }
+            break;
+        default:
+            printf("you choose wrong option\n");
+            break;
+        }
+        break;
+    case 2:
+        printf("you choice to play game\n");
+        printf("select one option\n");
+        printf("1.indoor\n2.outdoor\n3.on mobile\n");
+        scanf("%d",&j);
+        switch(j)
+        {
+        case 1:
+            printf("you choose to play indoor game\n");
+            printf("select one game\n");
+            printf("1.chess\n2.carrom\n3.tabeltennis\n");
+            scanf("%d",&u);
+            switch(u)
+            {
+            case 1:
+                printf("you choose to play chess\n");
+                break;
+            case 2:
+                printf("you choose to play carrom\n");
+                break;
+            case 3:
+                printf("you choose to play table tennis\n");
+                break;
+
+
+            }
+            break;
+
+
+        case 2:
+            printf("you choose to play outdoor game\n");
+            printf("select one game\n");
+            printf("1.cricket\n2.hide and see\n3.baseball\n");
+            scanf("%d",&s);
+            switch(s)
+            {
+            case 1:
+                printf("you choose to play cricket\n");
+                break;
+            case 2:
+                printf("you choose to play hide and seek\n");
+                break;
+            case 3:
+                printf("you choose to play table baseball\n");
+                break;
+
+            }
+            break ;
+        case 3:
+            printf("you choose to play game on mobile\n");
+            printf("select one option \n");
+            printf("1.bgmi\n2.coc\n3.cod\n");
+            scanf("%d",&x);
+            switch(x)
+            {
+            case 1:
+                printf ("you choose to play bgmi\n");
+                break;
+
+            case 2:
+                printf("you choose to play coc\n");
+                break;
+            case 3:
+                printf("you choose to play table cod\n");
+                break;
+            }
+        default:
+            printf("you choose wrong option\n");
+            break;
+        }
+
+        break;
+    case 3:
+        printf("you choose one bike\n");
+        printf("select one option\n");
+        printf("1.fz\n2.r15\n3.zx10r\n");
+        scanf("%d",&z);
+        switch(z)
+        {
+        case 1:
+            printf("you choose fz bike\n");
+            printf("select  one colour for bike\n");
+            printf("1.blue\n2.green\n3.black\n");
+            scanf("%d",&z);
+            switch(z)
+            {
+            case 1:
+                printf("you choose blue colour for a bike\n");
+                break;
+            case 2:
+                printf("you choose green colour for a bike\n");
+                break;
+            case 3:
+                printf("you choose black colour for a bike\n");
+            }
+
+            break;
+        case 2:
+            printf("you choose r15\n");
+            printf("select breaking system for a bike\n");
+            printf("1.anti-lock\n2.disc brake\n3.electromagnetism\n");
+            scanf ("%d",&g);
+            switch (g)
+            {
+            case 1:
+
+                printf("you choose anti-lock breaking system for a bike\n");
+                break;
+            case 2:
+                printf("you choose disc brake breaking system for a bike\n");
+                break;
+            case 3:
+                printf("you choose electromagnetism breaking system for a bike\n");
+                break;
+
+
+            }
+            break;
+
+
+
+
+        case 3:
+            printf("you choose  zx10r bike\n");
+            printf("select a exhaust for a bike\n");
+            printf("1.sc project\n2.akrapovic\n3.leovince\n");
+            scanf("%d",&q);
+            switch(q)
+            {
+            case 1:
+                printf("you choose sc project exhaust for a bike\n");
+                break ;
+            case 2:
+                printf("you choose akrapovic exhaust for a bike\n");
+                break;
+
+            case 3:
+                printf("you choose leovince exhaust for a bike\n");
+                break;
+
+            }
+        default:
+            printf("you choose wrong option\n");
+            break;
+
+
+            break ;
+
+
+
+
+        }
+
+
+    }
+
+    getch ();
+}

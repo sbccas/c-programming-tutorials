@@ -1,0 +1,23 @@
+//  MEET RATHOD  847  FYBCA  DIV - 8
+//  WAP TO STORE AND PRINT 10 NUMBER USING 1-D ARRAY
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,number[10]={1,18,32,18,21,12,7,13,19,10};
+clrscr();
+
+printf("\nHELLO \nWELCOME TO PROGRAM OF 1-D ARRAY");
+printf("\n\nSTORING DATA IN 1-D ARRAY : ");
+
+	for (i=0;i<10;i++)
+	{
+	  printf("\nNUMBER [%d] = %d",i,number[i]);
+	}
+
+printf("\nDATA STORED SUCESSFULLY");
+printf("\n\nPROGRAM IS ENDED !");
+
+getch();
+}

@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+     int i,j;
+     clrscr();
+     for(i=1;i<6;i++)
+     {
+       for(j=1;j<15;j++)
+       {
+	 if(j==5)
+	 {
+	   continue;
+	 }
+	 printf("%d\n",j);
+	 }
+     }
+      getch();
+}

@@ -1,0 +1,26 @@
+/*
+Name:Khokhariya Riddhi
+Roll no:465
+Title: WAP to skip any number using continue statement
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int i,a,j;
+  clrscr();
+  printf("\n Welcome To My Program :skip any number using continue statement");
+  printf("\n Enter value for first number :  ");
+  scanf("%d",&a);
+  printf("\n Enter value for second number : ");
+  scanf("%d",&j);
+
+  for(i=1;i<=a;i++)
+      {         if(i==j)
+		continue;
+		printf("\n %d",i);
+
+      }
+      getch();
+  printf("The program is succesfully run....");
+}

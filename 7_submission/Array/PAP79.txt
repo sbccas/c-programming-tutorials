@@ -1,0 +1,47 @@
+/*
+Name : Raj Vasoya
+Div : 8 
+Roll no : 867
+
+Title : Print 10 Number By Using Array.
+*/
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+   int i,fybca[10];
+
+   textcolor(RED);
+   textbackground(GREEN);
+
+   clrscr();
+
+   printf("\n<--------------------------->\n");
+
+   printf("STORING DATA 1-D ARRAY : \n\n ");
+
+   printf("\n<--------------------------->\n");
+
+   for(i=1;i<=10;i++)
+   {
+   printf("\n Enter A Array : ");
+   scanf("%d",fybca[10]);
+   }
+
+   printf("\n<--------------------------->\n");
+
+   printf("\n STORED DATA 1-D ARRAY : ");
+
+   printf("\n<--------------------------->\n");
+
+   for(i=1;i<=10;i++)
+   {
+   printf("\n Display Array : %d",i,fybca[10]);
+   }
+
+   printf("\n<--------------------------->\n");
+
+getch();
+}

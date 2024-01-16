@@ -1,0 +1,22 @@
+/*
+Tital: WAP to store and print data in 1-d array
+Roll no : 835
+Name : Nirbhay m. pansheriya
+*/
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+    int i,fybca8[10];
+   printf("\n STORING DATA IN 1-D ARRAY: ");
+    for(i=0;i<10;i++)
+         {
+            printf("\n Enter the data : ");
+            scanf("\n %d",&fybca8[i]);
+         }
+            printf("\n PRINTING VALUE OF ARRAY : ");
+            for(i=0;i<10;i++)
+            {   
+                printf("\n value is fybca8[%d]=%d",i,fybca8[i]);
+            }
+}

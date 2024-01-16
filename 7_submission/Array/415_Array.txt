@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+int i;
+int a[5];
+
+	printf("Here 1-D Array\n");
+	for(i=0;i<5;i++)
+	{
+		printf("\nEnter Element at %d:",i);
+		scanf("%d",&a[i]);
+	}
+	 printf("\nYour array is:\n");
+	 for (i=0;i<5;i++)
+	{
+	 	printf("a[%d]=%d\n",i,a[i]);
+	}
+
+getch();
+}

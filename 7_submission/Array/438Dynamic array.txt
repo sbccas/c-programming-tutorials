@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int array;
+    int i;
+    printf("please enter the size of array\n");
+    scanf("%d",&array);
+    
+    int n[array];
+    for(i=0;i<array;i++)
+    {
+        printf("please enter the number\n");
+        scanf("%d",&n[i]);
+    }
+    printf("\n Dynamic array\n");
+    for(i=0;i<array;i++)
+    {
+        printf("n[%d] is %d\n ",i,n[i]);
+    }
+    return 0;
+    
+}

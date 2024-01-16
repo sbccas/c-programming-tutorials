@@ -1,0 +1,59 @@
+/*
+
+REMARK
+
+NAME :-MAHEK SAVALIYA
+ROLL NO :- 760
+TITLE :- ENTER 10 NUMBERS AND PRINT 10 NUMBERS IN ARRAY.
+
+*/
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+        //   int fybca7[10];
+        //   int fybca7 [10] = {10,20,30,40,50,60,70,80,90,100};
+            int i, fybca7[10];
+
+         clrscr();
+
+  /*	
+           fybca7[0] = 10;
+	 fybca7[1] = 20;
+	 fybca7[2] = 30;
+	 fybca7[3] = 40;
+	 fybca7[4] = 50;
+          fybca7[5] = 60;
+	 fybca7[6] = 70;
+	 fybca7[7] = 80;
+	 fybca7[8] = 90;
+	 fybca7[9] = 100;   */
+
+
+  /*    printf("ARRAY OF fybca7[0] = %d\n",marks[0]);
+	printf("ARRAY OF fybca7[1] = %d\n",marks[1]);
+	printf("ARRAY OF fybca7[2] = %d\n",marks[2]);
+	printf("ARRAY OF fybca7[3] = %d\n",marks[3]);
+	printf("ARRAY OF fybca7[4] = %d\n",marks[4]);
+	printf("ARRAY OF fybca7[5] = %d\n",marks[5]);
+	printf("ARRAY OF fybca7[6] = %d\n",marks[6]);
+	printf("ARRAY OF fybca7[7] = %d\n",marks[7]);
+	printf("ARRAY OF fybca7[8] = %d\n",marks[8]);
+	printf("ARRAY OF fybca7[9] = %d\n",marks[9]);      */
+
+	for(i=0;i<10;i++)
+	{
+	     printf("enter the fybca7[%d] = ",i);
+	     scanf("%d",&a[i]);
+	}
+
+	for(i=0;i<10;i++)
+	{
+	   printf("\n fybca7[%d] = %d",i,marks[i]);
+   	}
+
+	getch();
+}

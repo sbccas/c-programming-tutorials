@@ -1,0 +1,1335 @@
+/************************************************
+Title       : programe of menu written
+Programmer  : Vitarang Rajeshbhai Lakhani
+Roll no.    : 423
+Written For : http://amrolibca.in
+************************************************/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int num,i,qua,go;
+clrscr();
+again:
+printf("\n");
+for(i = 1; i <= 160; i++)
+printf("-");
+printf("\n=> Shop List\n");
+printf("1. Domino's\n");
+printf("2. La pino'z\n");
+printf("3. Pizza Hut\n");
+printf("4. exit\n");
+printf("\nEnter your number : ");
+scanf("%d",&num);
+switch(num)
+{
+
+//Domino's
+again11:
+case 1:
+   for(i=1;i<=80;i++)
+   printf("-");
+   printf("\n\t\t\t\tWel come to Domino's.\n");
+   printf("\n=> Main Menu.\n");
+   printf("chocie your pizza.\n");
+   printf("1. Cheese N Corn Pizza\n");
+   printf("2. Veg Extravaganza Pizza\n");
+   printf("3. Peppy Paneer Pizza\n");
+   printf("4. To go to Shop list\n");
+   printf("5. exit\n");
+
+   printf("\nEnter your number : ");
+   scanf("%d",&num);
+
+   switch(num)
+   {
+   again111:
+    case 1 :
+	      printf("---------------------------------------\n");
+	      printf("\n=> Pizza size.\n");
+	      printf("\n\nCheese N Corn Pizza.\n");
+	      printf("1. Regular Size : 169 Rs.\n");
+	      printf("2. Medium size : 309 Rs.\n");
+	      printf("3. Large Size : 499 Rs.\n");
+	      printf("4. To go to Main Manu.\n");
+	      printf("5. exit\n");
+
+	     printf("\nEnter your nubmer : ");
+	      scanf("%d",&num);
+
+	      switch(num)
+		    {
+		     case 1:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tCheese N Corn Pizza.\n");
+			     printf("\nRegular Size : 169 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 169);
+		again1111:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Cheese N Corn Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again11;
+					case 3:
+					    goto again111;
+					case 4:
+						exit(0);
+					break;
+
+				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1111;
+					}
+		     break;
+
+		     case 2:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tCheese N Corn Pizza.\n");
+			     printf("\nMedium Size : 309 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 309);
+		again1112:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Cheese N Corn Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again11;
+					case 3:
+					    goto again111;
+					case 4:
+						exit(0);
+					break;
+ 
+					default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1112;
+					}
+		     break;
+
+		     case 3:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tCheese N Corn Pizza.\n");
+			     printf("\nLarg Size : 499 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 499);
+		again1113:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Cheese N Corn Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again11;
+					case 3:
+					    goto again111;
+					case 4:
+						exit(0);
+					break;
+ 
+					default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1113;
+					}
+		     break;
+
+		     case 4:
+			 goto again11;
+
+		     case 5:
+			exit(0);
+			break;
+			
+			default:
+			printf("Invalid choise for Cheese N Corn Pizza Size.\n");
+			goto again111;
+		      }
+	   break;
+          
+          again112:
+	  case 2 :
+	       printf("---------------------------------------\n");
+	      printf("\n=> Pizza size.\n");
+	      printf("\n\nVeg Extravaganza Pizza.\n");
+	      printf("1. Regular Size : 249 Rs.\n");
+	      printf("2. Medium size : 459 Rs.\n");
+	      printf("3. Large Size : 699 Rs.\n");
+	      printf("4. To go to Main Manu.\n");
+	      printf("5. exit\n");
+
+	     printf("\nEnter your nubmer : ");
+	      scanf("%d",&num);
+
+	      switch(num)
+		    {
+		     case 1:  printf("---------------------------------------\n");
+			     printf("\n\t\t\tVeg Extravaganza Pizza.\n");
+			     printf("\nRegular Size : 249 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 249);
+                 again1121:  printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Cheese N Corn Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again11;
+					case 3:
+					    goto again112;
+					case 4:
+						exit(0);
+					break;
+
+ 					default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1121;
+					}
+		     break;
+
+		     case 2:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tVeg Extravaganza Pizza.\n");
+			     printf("\nMedium Size : 459 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			    printf("\nTotal amount is : %d Rs.",qua * 459);
+		again1122:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Cheese N Corn Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again11;
+					case 3:
+					    goto again112;
+					case 4:
+						exit(0);
+					break;
+
+				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1122;
+					}
+		     break;
+
+		     case 3:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tVeg Extravaganza Pizza.\n");
+			     printf("\nLarg Size : 699 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 699);
+		again1123:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Cheese N Corn Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+				       case 2:
+					    goto again11;
+				       case 3:
+					    goto again112;
+				       case 4:
+						exit(0);
+					break;
+
+ 				   default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1123;
+					 }
+		     break;
+
+		     case 4:
+			 goto again11;
+
+		     case 5:
+			exit(0);
+			break;
+
+			default:
+			printf("Invalid choise for Veg Extravaganza Pizza Size.\n");
+			goto again112;
+		      }
+	   break;
+
+	again113:   
+	case 3 :
+	       printf("---------------------------------------\n");
+	      printf("\n=> Pizza size.\n");
+	      printf("\n\nPeppy Paneer Pizza.\n");
+	      printf("1. Regular Size : 229 Rs.\n");
+	      printf("2. Medium size : 399 Rs.\n");
+	      printf("3. Large Size : 599 Rs.\n");
+	      printf("4. To go to Main Manu.\n");
+	      printf("5. exit\n");
+
+	     printf("\nEnter your nubmer : ");
+	      scanf("%d",&num);
+
+	      switch(num)
+		    {
+		     case 1:
+				 printf("---------------------------------------\n");
+			     printf("\n\t\t\tPeppy Paneer Pizza.\n");
+			     printf("\nRegular Size : 229 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 229);
+		again1131:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			      printf("3. go to Cheese N Corn Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again11;
+					case 3:
+					    goto again113;
+					case 4:
+						exit(0);
+					break;
+
+ 					default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1131;
+					}
+		     break;
+
+		     case 2:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tPeppy Paneer Pizza.\n");
+			     printf("\nMedium Size : 399 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 399);
+		again1132:    printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			      printf("3. go to Cheese N Corn Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again11;
+					case 3:
+					    goto again113;
+					 case 4:
+						exit(0);
+					break;
+
+ 				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1132;
+					}
+		     break;
+
+		     case 3:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tPeppy Paneer Pizza.\n");
+			     printf("\nLarg Size : 599 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 599);
+		again1133:    printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			      printf("3. go to Cheese N Corn Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+				       case 2:
+					    goto again11;
+				       case 3:
+					    goto again113;
+				       case 4:
+						exit(0);
+					break;
+
+ 					default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1132;
+					 }
+		     break;
+
+		     case 4:
+			 goto again11;
+
+		     case 5:
+			exit(0);
+			break;
+
+			default:
+			printf("Invalid choise for Cheese N Corn Pizza Size.\n");
+			goto again113;
+		      }
+	   break;
+
+	   case 4 :
+	       goto again;
+
+	  case 5:
+	      exit(0);
+	   break;
+
+	default:
+	printf("Invalid choise for Domino's Main Manu.\n");
+	goto again11;
+	 }
+break;
+
+//La pino'z
+again12:
+case 2:
+   for(i=1;i<=80;i++)
+   printf("-");
+   printf("\n\t\t\t\tWel come to La pino'z.\n");
+   printf("\n=> Main Menu.\n");
+   printf("chocie your pizza.\n");
+   printf("1. Margherita pizza\n");
+   printf("2. Paneer Special Pizza\n");
+   printf("3. Peri Peri veg Pizza\n");
+   printf("4. To go to Shop list\n");
+   printf("5. exit\n");
+
+   printf("\nEnter your number : ");
+   scanf("%d",&num);
+
+   switch(num)
+   {
+   again121:
+    case 1 :
+	      printf("---------------------------------------\n");
+	      printf("\n=> Pizza size.\n");
+	      printf("\n\nMargherita pizza.\n");
+	      printf("1. Regular Size : 135 Rs.\n");
+	      printf("2. Medium size : 295 Rs.\n");
+	      printf("3. Large Size : 465 Rs.\n");
+	      printf("4. To go to Main Manu.\n");
+	      printf("5. exit\n");
+
+	     printf("\nEnter your nubmer : ");
+	      scanf("%d",&num);
+
+	      switch(num)
+		    {
+		     case 1:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tMargherita pizza.\n");
+			     printf("\nRegular Size : 135 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 135);
+		again1211:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Margherita pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again12;
+					case 3:
+					    goto again121;
+					case 4:
+						exit(0);
+					break;
+
+ 				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1211;
+					}
+		     break;
+
+		     case 2:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\Margherita pizza.\n");
+			     printf("\nMedium Size : 295 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 295);
+		again1212:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Margherita pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again12;
+					case 3:
+					    goto again121;
+					case 4:
+						exit(0);
+					break;
+
+				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1212;
+					}
+		     break;
+
+		     case 3:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tMargherita pizza.\n");
+			     printf("\nLarg Size : 465 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 465);
+		again1213:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Margherita pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again12;
+					case 3:
+					    goto again121;
+					case 4:
+						exit(0);
+					break;
+ 					
+					default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1213;
+					}
+		     break;
+
+		     case 4:
+			 goto again12;
+
+		     case 5:
+			exit(0);
+			break;
+
+			default:
+			printf("Invalid choise for Margherita pizza Size.\n");
+			goto again121;
+		      }
+	   break;
+
+	again122:
+	  case 2 :
+	       printf("---------------------------------------\n");
+	      printf("\n=> Pizza size.\n");
+	      printf("\n\nPaneer Special Pizza.\n");
+	      printf("1. Regular Size : 235 Rs.\n");
+	      printf("2. Medium size : 545 Rs.\n");
+	      printf("3. Large Size : 725 Rs.\n");
+	      printf("4. To go to Main Manu.\n");
+	      printf("5. exit\n");
+
+	     printf("\nEnter your nubmer : ");
+	      scanf("%d",&num);
+
+	      switch(num)
+		    {
+		     case 1:  printf("---------------------------------------\n");
+			     printf("\n\t\t\tPaneer Special Pizza.\n");
+			     printf("\nRegular Size : 235 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 235);
+              again1221:     printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Paneer Special Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again12;
+					case 3:
+					    goto again122;
+					case 4:
+						exit(0);
+					break;
+
+ 				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1221;
+					}
+		     break;
+
+		     case 2:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tPaneer Special Pizza.\n");
+			     printf("\nMedium Size : 545 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			    printf("\nTotal amount is : %d Rs.",qua * 545);
+		again1222:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Paneer Special Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again12;
+					case 3:
+					    goto again122;
+					case 4:
+						exit(0);
+					break;
+
+				     default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1222;
+					}
+		     break;
+
+		     case 3:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tPaneer Special Pizza.\n");
+			     printf("\nLarg Size : 725 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 725);
+		again1223:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Paneer Special Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+				       case 2:
+					    goto again12;
+				       case 3:
+					    goto again122;
+				       case 4:
+						exit(0);
+					break;
+
+					 default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1223;
+					 }
+		     break;
+
+		     case 4:
+			 goto again12;
+
+		     case 5:
+			exit(0);
+			break;
+
+			default:
+			printf("Invalid choise for Paneer Special Pizza size.\n");
+			goto again122;
+		      }
+	   break;
+
+	again123:   
+	case 3 :
+	       printf("---------------------------------------\n");
+	      printf("\n=> Pizza size.\n");
+	      printf("\n\nPeri Peri Veg Pizza.\n");
+	      printf("1. Regular Size : 275 Rs.\n");
+	      printf("2. Medium size : 625 Rs.\n");
+	      printf("3. Large Size : 795 Rs.\n");
+	      printf("4. To go to Main Manu.\n");
+	      printf("5. exit\n");
+
+	     printf("\nEnter your nubmer : ");
+	      scanf("%d",&num);
+
+	      switch(num)
+		    {
+		     case 1:
+				 printf("---------------------------------------\n");
+			     printf("\n\t\t\tPeri Peri Veg Pizza.\n");
+			     printf("\nRegular Size : 275 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 275);
+		again1231:    printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			      printf("3. go to Peri Peri Veg Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again12;
+					case 3:
+					    goto again123;
+					case 4:
+						exit(0);
+					break;
+
+ 					default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1231;
+					}
+		     break;
+
+		     case 2:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tPeri Peri Veg Pizza.\n");
+			     printf("\nMedium Size : 625 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 625);
+		again1232:  printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			      printf("3. go to Peri Peri Veg Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again12;
+					case 3:
+					    goto again123;
+					 case 4:
+						exit(0);
+					break;
+
+ 					default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1232;
+					}
+		     break;
+
+		     case 3:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tPeri Peri Veg Pizza.\n");
+			     printf("\nLarg Size : 795 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 795);
+		again1233:    printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			      printf("3. go to Peri Peri Veg Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+				       case 2:
+					    goto again12;
+				       case 3:
+					    goto again123;
+				       case 4:
+						exit(0);
+					break;
+
+				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1233;
+					 }
+		     break;
+
+		     case 4:
+			 goto again12;
+
+		     case 5:
+			exit(0);
+			break;
+
+			default:
+			printf("Invalid choise for Peri Peri Veg Pizza size.\n");
+			goto again123;
+		      }
+	   break;
+
+	   case 4 :
+	       goto again;
+
+	  case 5:
+	      exit(0);
+	   break;
+
+	default:
+	printf("Invalid choise for La Pino'z Main Manu.\n");
+	goto again12;
+	 }
+break;
+
+//Pizza Hut
+again13:
+case 3:
+   for(i=1;i<=80;i++)
+   printf("-");
+   printf("\n\t\t\t\tWel come to Pizza Hut.\n");
+   printf("\n=> Main Menu.\n");
+   printf("chocie your pizza.\n");
+   printf("1. Super Supreme Pizza\n");
+   printf("2. Cheese Lover's Pizza\n");
+   printf("3. Pepperoni Lover's Pizza\n");
+   printf("4. To go to Shop list\n");
+   printf("5. exit\n");
+
+   printf("\nEnter your number : ");
+   scanf("%d",&num);
+
+   switch(num)
+   {
+   again131:
+    case 1 :
+	      printf("---------------------------------------\n");
+	      printf("\n=> Pizza size.\n");
+	      printf("\n\nSuper Supreme Pizza.\n");
+	      printf("1. Regular Size : 145 Rs.\n");
+	      printf("2. Medium size : 305 Rs.\n");
+	      printf("3. Large Size : 459 Rs.\n");
+	      printf("4. To go to Main Manu.\n");
+	      printf("5. exit\n");
+
+	     printf("\nEnter your nubmer : ");
+	      scanf("%d",&num);
+
+	      switch(num)
+		    {
+		     case 1:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tSuper Supreme Pizza Pizza.\n");
+			     printf("\nRegular Size : 145 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 145);
+		again1311:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Super Supreme Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again13;
+					case 3:
+					    goto again131;
+					case 4:
+						exit(0);
+					break;
+
+ 				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1311;
+					}
+		     break;
+
+		     case 2:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tSuper Supreme Pizza.\n");
+			     printf("\nMedium Size : 305 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 305);
+		again1312:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Super Supreme Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again13;
+					case 3:
+					    goto again131;
+					case 4:
+						exit(0);
+					break;
+
+ 				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1312;
+					}
+		     break;
+
+		     case 3:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tSuper Supreme Pizza.\n");
+			     printf("\nLarg Size : 459 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 459);
+		again1313:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Super Supreme Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again13;
+					case 3:
+					    goto again131;
+					case 4:
+						exit(0);
+					break;
+
+ 				   default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1313;
+					}
+		     break;
+
+		     case 4:
+			 goto again13;
+
+		     case 5:
+			exit(0);
+			break;
+
+			default:
+			printf("Invalid choise for Super Supreme Pizza size.\n");
+			goto again131;
+		      }
+	   break;
+
+	again132: 
+	case 2 :
+	       printf("---------------------------------------\n");
+	      printf("\n=> Pizza size.\n");
+	      printf("\n\nCheese Lover's Pizza.\n");
+	      printf("1. Regular Size : 167 Rs.\n");
+	      printf("2. Medium size : 329 Rs.\n");
+	      printf("3. Large Size : 699 Rs.\n");
+	      printf("4. To go to Main Manu.\n");
+	      printf("5. exit\n");
+
+	     printf("\nEnter your nubmer : ");
+	      scanf("%d",&num);
+
+	      switch(num)
+		    {
+		     case 1:  printf("---------------------------------------\n");
+			     printf("\n\t\t\tCheese Lover's Pizzaa.\n");
+			     printf("\nRegular Size : 167 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 167);
+		again1321:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Cheese Lover's Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again13;
+					case 3:
+					    goto again132;
+					case 4:
+						exit(0);
+					break;
+
+				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1321;
+					}
+		     break;
+
+		     case 2:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tCheese Lover's Pizza.\n");
+			     printf("\nMedium Size : 329 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			    printf("\nTotal amount is : %d Rs.",qua * 329);
+		again1322:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Cheese Lover's Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again13;
+					case 3:
+					    goto again132;
+					case 4:
+						exit(0);
+					break;
+
+ 				   default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1322;
+					}
+		     break;
+
+		     case 3:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tCheese Lover's Pizza.\n");
+			     printf("\nLarg Size : 699 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 699);
+		again1323:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			     printf("3. go to Cheese Lover's Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+				       case 2:
+					    goto again13;
+				       case 3:
+					    goto again132;
+				       case 4:
+						exit(0);
+					break;
+
+ 				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1323;					 }
+		     break;
+
+		     case 4:
+			 goto again13;
+
+		     case 5:
+			exit(0);
+			break;
+
+			default:
+			printf("Invalid choise for Cheese Lover's Pizza size.\n");
+			goto again132;
+		      }
+	   break;
+
+	again133:
+	   case 3 :
+	       printf("---------------------------------------\n");
+	      printf("\n=> Pizza size.\n");
+	      printf("\n\nPepperoni Lover's Pizza.\n");
+	      printf("1. Regular Size : 245 Rs.\n");
+	      printf("2. Medium size : 399 Rs.\n");
+	      printf("3. Large Size : 689 Rs.\n");
+	      printf("4. To go to Main Manu.\n");
+	      printf("5. exit\n");
+
+	     printf("\nEnter your nubmer : ");
+	      scanf("%d",&num);
+
+	      switch(num)
+		    {
+		     case 1:
+				 printf("---------------------------------------\n");
+			     printf("\n\t\t\tPepperoni Lover's Pizza.\n");
+			     printf("\nRegular Size : 245 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 245);
+		again1331:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			      printf("3. go to Pepperoni Lover's Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again13;
+					case 3:
+					    goto again133;
+					case 4:
+						exit(0);
+					break;
+
+ 				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1331;
+					}
+		     break;
+
+		     case 2:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tPepperoni Lover's Pizza.\n");
+			     printf("\nMedium Size : 399 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 399);
+		again1332:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			      printf("3. go to Pepperoni Lover's Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+					case 2:
+					    goto again13;
+					case 3:
+
+					    goto again133;
+					 case 4:
+						exit(0);
+					break;
+
+ 				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1332;
+					}
+		     break;
+
+		     case 3:
+			      printf("---------------------------------------\n");
+			     printf("\n\t\t\tPepperoni Lover's Pizza.\n");
+			     printf("\nLarg Size : 689 Rs.\n");
+			     printf("Enter your Quantity : ");
+			     scanf("%d",&qua);
+
+			     printf("\nTotal amount is : %d Rs.",qua * 689);
+		again1333:   printf("\n\nWhere do you want to go next ?.\n");
+			     printf("1. go to Shop List.\n");
+			     printf("2. go to Main Manu.\n");
+			      printf("3. go to Pepperoni Lover's Pizza size.\n");
+			     printf("4. exit\n");
+
+			     printf("\nEnter your number : ");
+			     scanf("%d",&go);
+
+				switch(go)
+					{
+					case 1:
+					   goto again;
+				       case 2:
+					    goto again13;
+				       case 3:
+					    goto again133;
+				       case 4:
+						exit(0);
+					break;
+
+ 				    default:
+				    printf("Choose the number given above between one to four.\n");
+					goto again1333;
+					 }
+		     break;
+
+		     case 4:
+			 goto again13;
+
+		     case 5:
+			exit(0);
+			break;
+
+			default:
+			printf("Invalid choise for Pepperoni Lover's Pizza Size.\n");
+			goto again133;
+		      }
+	   break;
+
+	   case 4 :
+	       goto again;
+
+	  case 5:
+	      exit(0);
+	   break;
+
+	default:
+	printf("Invalid choise for Pizza Hut Main Manu.\n");
+	goto again13;
+	 }
+break;   
+
+case 4:
+   exit(0);
+break;
+
+default:
+	  printf("Invalid choise for Shop List.\n");
+	goto again;
+      }
+getch();
+}

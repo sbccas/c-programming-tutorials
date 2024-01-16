@@ -1,0 +1,26 @@
+﻿/*REMARK
+NAME: GOHIL MANISH 
+ROLL NO :716
+ TITLE:WAP TO 1 D ARRAY:
+*/
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+int fybca7[10],J;
+clrscr();
+    printf("ENTER A STORE VALUES IN ARRAY:\n");
+	     for(J=0;J<10;J++)
+   	{
+     	printf("\nEnter values for fybca7[%d]= ",J);
+     	scanf("%d",&fybca7[J]);
+                          printf("\n");
+   	}
+         printf("DISPLAYING STORED VALUES IN ARRAY:\n\n");
+            for(J=0;J<10;J++)
+         {
+            printf("VALUES AT fybca[%d]=%d\n",J,fybca7[J]);
+         }
+   getch();
+
+}

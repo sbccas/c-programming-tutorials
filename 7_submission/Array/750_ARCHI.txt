@@ -1,0 +1,27 @@
+/*
+NAME : ARCHI PATEL
+ROLL NO : 750
+TITLE : 1-D NUMARIC ARRAY
+*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,fybca7[10];
+clrscr();
+
+printf("\t\t\t Store data in Array \n\n");
+for(i=0 ; i<10 ; i++)
+{
+	printf("Please enter a value of fybca7[%d] : ",i);
+	scanf("%d",&fybca7[i]);
+}
+printf("\n\t\t\tDisplay of stored data\n");
+
+for(i=0 ; i<10 ; i++)
+{
+printf("\nYour values of fybca7[%d] : %d",i,fybca7[i]);
+}
+getch();
+}

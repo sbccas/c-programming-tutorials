@@ -1,0 +1,23 @@
+  /* NAME : VARIYA HARSHIT B.
+    ROLL NO : 865 , DIV : 8,
+    TITLE : 1-D ARRAY (STORING AND PRINTING)    */
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,fybca8[10];
+clrscr();
+printf("STORING DATA IN 1-D ARRAY\n : ");
+	for(i=0;i<10;i++)
+	{
+	printf("\n ENTER DATA FOR FYBCA8[%d] : ",i);
+	scanf("%d",&fybca8[i]);
+	}
+	printf("\n DISPLAY THE OUTPUT OF ARRAY");
+		for(i=0;i<10;i++)
+
+		 printf("\nFYBCA8[%d]=%d",i,fybca8[i]);
+
+getch();
+}
+

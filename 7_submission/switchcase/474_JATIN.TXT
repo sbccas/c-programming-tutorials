@@ -1,0 +1,453 @@
+/*****************************
+  PROGRAMMER : JATIN JETHAVA
+  PROGRAM. : USE SWETCH CASE AND MAKE MANU DRIVEN PROGRAM.
+  ROLL NO. : 474
+  DIV.    : 4
+  SID NO. : 23410484
+*****************************/
+#include<stdio.h> 
+#include<conio.h>
+void main() 
+{ 
+   int a,sub,unit,c,cppm1,cppm2,maths1,maths2,maths3,maths4,dma1,dma2,dma3,dma4,dma5,cs1,cs2,cs3;
+   clrscr();
+   for (a=1;a<=45;a++)
+       printf("=");
+   
+   printf("       [ WELCOME TO JATIN'S PROGRAM ]\n");    
+   for (a=1;a<=45;a++)
+       printf("=");
+ 
+   printf("which subject you want select ...\n");
+   printf("\n1.CPPM");
+   printf("\n2.MATHS");
+   printf("\n3.DMA");
+   printf("\n select any one choice plz : ");
+   scanf("%d",&sub);
+   
+   switch (sub)
+   {
+      case 1://CPPM
+       printf("\nwhich chapter you want select...\n");
+       printf("\nUNIT-1: Introduction");
+       printf("\nUNIT-2: Input/Output Statements and Operators");
+       printf("\nUNIT-3: Decision Making statements");
+       printf("\nUNIT-4: Iterative statements");
+       printf("\nUNIT-5: Concepts of Arrays and pointer");
+       printf("\n select any one choice plz : ");
+       scanf("%d",&unit);
+       
+        switch (unit)
+         {
+           case 1://UNIT 1. 
+            printf("\nwhich topic you want select...\n");
+            printf("\n1: Concepts of Programming Language");
+            printf("\n2: Concepts of Editor, Interpreter and Compiler");
+            printf("\n select any one choice plz :");
+            scanf("%d",&c);
+            
+            switch (c)
+             {
+              case 1:
+               printf("\nYOU HAVE 3 OPTION...\n");
+               printf("\n1.1.1 Introduction of Source Code, Object Code and executable code");
+               printf("\n1.1.2 Algorithm and Flowchart");
+               printf("\n1.1.3 Concepts of Structured Programming Language");
+               printf("\n select any one choice plz :");
+               scanf("%d",&cppm1);
+               
+               switch (cppm1)
+               {
+                 case 1:
+                  printf("\n=> Source code鈥� A code created by programmer using programing language known as source code/program. E.g. .c files");
+                  printf("\n=> Object code鈥� Source code given as input to the compiler and produce object code. An object code is also known as binary code/machine code. E.g. .obj file");
+                  printf("\n=> Executable code- object code links with linker and system library and generate executable file knows as executable code. E.g .exe files");
+                  break;
+                  
+                 case 2:
+                  printf("\n=> Algorithm- An algorithm is a step-by-step procedure (process) to Solve given problem.Algorithms have a definite beginning and a definite end, and a finite number ofSteps. An algorithm produces output depending on the basis of given input, and several algorithms combine to perform complex tasks such as writing a computer program."); 
+                  printf("\n=> Flowchart is a graphical way to represent the algorithm. \n=> Flowchart is very helpful to solve the complicated programming problem. \n=> Once the flowchart is drawn, it has become easy to write a program.");
+                  break;
+                  
+                 case 3:
+                  printf("\n=> C called a structured programming language because to solve a large problem, C programming language divides the problem into smaller modules called functions or procedures each of which handles a particular responsibility. The program that solves the entire problem is a collection of such functions.Here is an example of Matrix addition program, which divided into these sub procedures - input matrix, display matrix, add matrix, save result matrix to file."); 
+                  break;
+               
+               }
+               break;
+               
+              case 2:
+               printf("\nyou have 5 option...");
+               printf("\n1.2.1 Introduction of C program body structure");
+               printf("\n1.2.2 Character Set, concepts of variables and constants");
+               printf("\n1.2.3 Identifiers, literals, Key words");
+               printf("\n1.2.4 Data types");
+               printf("\n1.2.5 Concepts of source code, object code and executable code.");
+               printf("\n select any one choice plz :");
+               scanf("%d",&cppm2);
+               
+               switch (cppm2)
+                {
+                  case 1:
+                   printf("\n1. Documentation section ");
+                   printf("\n2. Link section ");
+                   printf("\n3. Definition section ");
+                   printf("\n4. Global declaration section ");
+                   printf("\n5. main () function section");
+                   printf("\n6. Declaration part");
+                   printf("\n7. Executable part ");
+                   printf("\n8. Subprogram section ");
+                   break;
+                  
+                  case 2:
+                   printf("\n=> Character set are the set of alphabets, letters and some special characters that are valid in C language.");
+                   printf("\n=> Alphabet,digits and Special Characters");
+                   printf("\n=> variable concept ::Variable is basically nothing but the name of a memory location that we use for storing data. We can change the value of a variable in C or any other language, and we can also reuse it multiple times. We use symbols in variables for representing the memory location- so that it becomes easily identifiable by any user");
+                   printf("\n=> constant ex::Numeric constant \nInteger constants \nReal (Floating-point) constants \nCharacter constants \nString constants");
+                   break ;
+                   
+                  case 3:
+                   printf("\n=> Identifiers are names given to variables, functions, structures etc. For example:int A;"); 
+                   printf("\n=> keywords like = auto,double,int,Struct,break,else,long,Switch,case,enum,register,Typedef,char,extern,return,Union,continue,for,signed,Void,do,if,static,While,default,goto,sizeof,volatile,const,float,short,unsigned");
+                   break ;
+                   
+                  case 4:
+                   printf("\n1.int"); 
+                   printf("\n2.long int");
+                   printf("\n3.float");
+                   printf("\n4.char");
+                   printf("\n5.double");
+                   printf("\n6.long double");
+                   break ;
+                   
+                  case 5:  
+                   printf("\n=> Source code: The program written in high level language (HLL) is known as sourcecode/program. Source code is given as input to the compiler.");
+                   printf("\n=> Object code: the program written in HLL and converter to machine level language (MLL) isknown as object code /program. An object code is also known as binary code/machine code.");
+                   printf("\n=> Translator : it is required to convert source program (HLL) into object program (MLL).Compiler and interpreter both is translator. Main difference between compiler and interpreterexplain in below.");
+                   break ;
+                   
+                  default:
+                   printf("\n\n\t||||..this is not possible..||||");
+                   break;
+                
+                }
+               break;
+              
+              default:
+               printf("\n\n\t||||..this is not possible..||||");
+               break;
+             }
+             break;
+             
+           default :
+            printf("\n\n\t||||..this is not possible..||||");
+            break;
+                        
+         }
+         break ;
+       
+      case 2:// MATHS 
+       printf("\nwhich chapter you want select...\n");
+       printf("\nUNIT-1:SET THEORY");
+       printf("\nUNIT-2:FUNCTION");
+       printf("\nUNIT-3:Mathematical Logic");
+       printf("\n select any one choice plz :");
+       scanf("%d",&maths1);
+       
+       switch (maths1)
+        {
+          case 1://UNIT 1
+           printf("\n1.all law");
+           printf("\n2.types of set");
+           printf("\n3.cartesion product");
+           printf("\n select any one choice plz :");
+           scanf("%d",&maths2);
+           
+           switch (maths2)
+            {
+               case 1:
+                printf("\n1.Commutative law");
+                printf("\n2.Associative law");
+                printf("\n3.Distibutive law");
+                printf("\n4.De morgan's law");
+                break ;
+                
+               case 2:
+                printf("\n1.finite set"); 
+                printf("\n2.infinite set"); 
+                printf("\n3.singleton set"); 
+                printf("\n4.empty or null set");  
+                printf("\n5.equal set"); 
+                printf("\n6.equivalent sets"); 
+                printf("\n7.subset of a set");  
+                printf("\n8.proper subset");  
+                printf("\n9.power set"); 
+                break ;
+                
+               case 3:
+                printf("\n[AxB = {(x,y) | x鈧珹 and y鈧珺}]"); 
+                break ;
+               
+               default:
+                printf("\n\n\t||||..this is not possible..||||");
+                break; 
+            }
+           break ;
+           
+          case 2://UNIT 2
+           printf("\n1.defination");  
+           printf("\n2.All functions");
+           printf("\n select any one choice plz :");
+           scanf("%d",&maths3);
+           
+           switch (maths3)
+            {
+               case 1:
+                printf("\n=> FUNCTION: if set A and B are non-empty set and if each element of set A is associated with one and only one element of set B by relation correspondence then that relation of correspondence is said to be FUNCTION...");
+                break ;
+                
+               case 2:
+                printf("\n1. one-one function"); 
+                printf("\n2. many-one function");
+                printf("\n3. constant function");
+                printf("\n4. onto function");
+                printf("\n5. equal function");
+                printf("\n6. real function");
+                printf("\n7. supply function");
+                printf("\n8. revenue function");
+                printf("\n9. profit function");
+                printf("\n10. cost function");
+                printf("\n11. linear function");
+                printf("\n12. quadratic function");
+                break ;
+                
+               default:
+                printf("\n\n\t||||..this is not possible..||||");
+                break;   
+            
+            }
+           
+           break ;
+           
+          case 3://UNIT 3
+           printf("\n1.logical connectives");
+           printf("\n2.law of logical connectives");
+           printf("\n select any one choice plz :");
+           scanf("%d",&maths4);
+           
+           switch (maths4)
+            {
+              case 1:
+               printf("\n1.Conjunction");
+               printf("\n2.Disjunction");
+               printf("\n3.Negation");
+               printf("\n4.Implication");
+               printf("\n5.Double implication");
+               break ;
+               
+              case 2:
+               printf("\n1.commutative law");  
+               printf("\n2.associative law");
+               printf("\n3.de-morgan's law");
+               printf("\n4.distributive law");
+               printf("\n5.law for nagation");
+               break;
+               
+              default:
+               printf("\n\n\t||||..this is not possible..||||");
+               break;   
+            
+            }
+           break ;
+           
+          default:
+           printf("\n\n\t||||..this is not possible..||||");
+           break; 
+        
+        }
+       
+       break;
+      
+      case 3:// DMA 
+       printf("\nwhich chapter you want select...\n");
+       printf("\nUNIT-1:INTRODUCTION TO WORKBOOK");
+       printf("\nUNIT-2:FORMULA,CHART AND DATA");
+       printf("\nUNIT-3:CONCEPT OF DATABASE");
+       printf("\n select any one choice plz :");
+       scanf("%d",&dma1);
+       
+       switch (dma1)
+        {
+          case 1:
+           printf("\n1.define workbook");
+           printf("\n2.What to learn in this unit");
+           printf("\n select any one choice plz :");
+           scanf("%d",&dma2);
+           
+           switch (dma2)
+            {
+               case 1:
+                printf("\n\tWORKBOOK => A workbook is an Excel file that contains one or more worksheets where you can enter and store data. ");
+                break ;
+                
+               case 2:
+                printf("\n1.how to insert worksheet"); 
+                printf("\n2.how to delete worksheet");
+                printf("\n3.how to rename worksheet");
+                printf("\n4.how to insert and delete row");
+                printf("\n5.how to insert and delete column");
+                printf("\n6.cell refrences");
+                printf("\n7.format cell");
+                printf("\n8.cell size");
+                printf("\n9.protect sheet or lock sheet or cell or row or column");
+                printf("\n10.to unlock cell and sheet");
+                printf("\n11.copy and paste");
+                printf("\n12.cut and paste");
+                printf("\n13.paste and paste special");
+                printf("\n14.format painter");
+                printf("\n15.formatting tools bar");
+                printf("\n16.cell alignment");
+                printf("\n17.header and footer");
+                printf("\n18.save file as csv");
+                printf("\n19.print and page review");
+                printf("\n20.split cell and window");
+                printf("\n21.freeze panes");
+                printf("\n22.hide row and column");
+                printf("\n23.quick print");
+                printf("\n24.linking spread sheet");
+                printf("\n25.spell check and comma style");
+                break ;
+                
+               default :
+                printf("\n\n\t||||..this is not possible..||||");
+                break;
+            
+            }
+           break ;
+           
+          case 2:
+           printf("\n1.Chart"); 
+           printf("\n2.Formula");
+           printf("\n3.Data");
+           printf("\n select any one choice plz :");
+           scanf("%d",&dma3);
+           
+           switch (dma3)
+            {
+              case 1:
+               printf("\nline chart \nbar chart \npie chart \nscatter char \ncolumn chart");
+               break ;
+               
+              case 2:
+               printf("\n1.Common function"); 
+               printf("\n2.logical function");
+               printf("\n3.day and date function");
+               printf("\n select any one choice plz :");
+               scanf("%d",&dma4);
+               
+               switch (dma4)
+                {
+                    case 1:
+                     printf("\n1.sum");
+                     printf("\n2.average");
+                     printf("\n3.count");
+                     printf("\n4.max");
+                     printf("\n4.min");
+                     printf("\n6.sum if");
+                     printf("\n7.pmt");
+                     printf("\n8.stdev");
+                     break ;
+                     
+                    case 2:
+                     printf("\n1.true"); 
+                     printf("\n2.false");
+                     printf("\n3.and");
+                     printf("\n4.or");
+                     printf("\n5.if");
+                     printf("\n6.not");
+                     break ;
+                     
+                    case 3:
+                     printf("\n1.date");  
+                     printf("\n2.day");
+                     printf("\n3.time");
+                     printf("\n4.hour");
+                     printf("\n5.minute");
+                     printf("\n6.second");
+                     printf("\n7.now");
+                     printf("\n8.dayd360");
+                     printf("\n9.weekday");
+                     break ;
+                    
+                    default :
+                     printf("\n\n\t||||..this is not possible..||||");
+                     break;  
+             
+                 }
+               break ;
+              
+              case 3:
+               printf("\n1.sort data");
+               printf("\n2.filter data");
+               printf("\n3.criteria range");
+               printf("\n4.remove duplication");
+               printf("\n5.text to column");
+               break ;
+              
+              default :
+               printf("\n\n\t||||..this is not possible..||||");
+               break;  
+            
+            }
+           
+           break ;
+           
+          case 3: 
+           printf("\n1.database");
+           printf("\n2.database components");
+           printf("\n3.database models");
+           printf("\n select any one choice plz :");
+           scanf("%d",&dma5);
+           
+           switch (dma5)
+            {
+               case 1:
+                printf("\n1.schema");
+                printf("\n2.instance");
+                printf("\n3.data abstraction");
+                printf("\n4.data independence");
+                break ;
+                
+               case 2:
+                printf("\n1.user,application,DBMS,database");
+                printf("\n2.database architecture");
+                break;
+                
+               case 3:
+                printf("\n1.hierachical");
+                printf("\n2.network");
+                printf("\n3.relational");
+                printf("\n4.ER ");
+                break ;
+                
+               default :
+                printf("\n\n\t||||..this is not possible..||||");
+                break; 
+            }
+           break ;
+          
+          default :
+           printf("\n\n\t||||..this is not possible..||||");
+           break; 
+        
+        }
+        
+       break;
+       
+      default :
+       printf("\n\n\t||||..this is not possible..||||");
+       break;
+   
+   }
+   getch();
+} 

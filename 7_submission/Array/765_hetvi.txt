@@ -1,0 +1,24 @@
+/*
+ REMARK
+ NAME      :- HETVI SIDDHPURIYA
+ ROLL NO   :- 765
+ TOPIC     :- 1-D NUMERIC ARRAY
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,fybca7[10];
+clrscr();
+
+for (i=0;i<10;i++)
+{
+	printf("\n Please Enter A Fybca7[%d] : ",i);
+	scanf("%d",&fybca7[i]);
+}
+for (i=0;i<10;i++)
+{
+	printf("\n  Your Values Of Fybca7[%d] : %d",i,fybca7[i]);
+}
+getch();
+}

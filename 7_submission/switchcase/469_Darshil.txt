@@ -1,0 +1,390 @@
+/*
+ Name    :  Darshil Bhalala
+ Roll No :  469
+ Subject :  Program of Best Food Item on their City.
+*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int s,c1,c2,c3,c4,c5;
+ int i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15;
+ clrscr();
+ printf("\n*****-=-=-=-=-=- Welcome to Program -=-=-=-=-=-*****");
+ printf("\n\n -=-=-=-Top 5 State in India-=-=-=-");
+ printf("\n 1. Gujarat");
+ printf("\n 2. Maharashtra");
+ printf("\n 3. Tamilnadu");
+ printf("\n 4. Punjab");
+ printf("\n 5. West Bengal");
+ printf("\n 6. Exit");
+ printf("\n Please Select State in India : ");
+ scanf("%d",&s);
+ switch(s)
+	{
+	 case 1:printf("\n\n -=-=-=-Top 3 City In Gujarat-=-=-=-");
+		printf("\n 1. Surat");
+		printf("\n 2. Ahemdabad");
+		printf("\n 3. Gandhinagar");
+		printf("\n Please Select City in Gujarat :");
+		scanf("%d",&c1);
+
+		switch(c1)
+			{
+			 case 1:printf("\n\n -=-=-=-Most Popular item in Surat-=-=-=-");
+				printf("\n 1. Jalebi-Fafda");
+				printf("\n 2. Locho");
+				printf("\n Please select one item :");
+				scanf("%d",&i1);
+
+				switch(i1)
+				   {
+				    case 1:printf("\n Jalebi-Fafda is Most famous Item in Surat");
+				    break;
+
+				    case 2:printf("\n Locho is Most Famous Item in Surat");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 case 2:printf("\n\n -=-=-=-Most Popular item in Ahemdabad-=-=-=-");
+				printf("\n 1. Panipuri");
+				printf("\n 2. Cholafali");
+				printf("\n Please select one item :");
+				scanf("%d",&i2);
+
+				switch(i2)
+				   {
+				    case 1:printf("\n Panipuri is Most famous Item in Ahemdabad");
+				    break;
+
+				    case 2:printf("\n Cholafali is Most famous item in Ahemdabad");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 case 3:
+				printf("\n\n -=-=-=-Most Popular item in Gandhinagar-=-=-=-");
+				printf("\n 1. Sev-Khaman");
+				printf("\n 2. Frenkie");
+				printf("\n Please select one item :");
+				scanf("%d",&i3);
+
+				switch(i3)
+				   {
+				    case 1:printf("\n Sev-khaman is Most famous Item In Gandhinagar");
+				    break;
+
+				    case 2:printf("\n Frenkie is Most famous Item In Gandhinagar");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 default:printf("Invalid Number");
+			 break;
+			}
+	 break;
+
+	case 2:printf("\n\n -=-=-=-Top 3 City In Maharashtra-=-=-=-");
+		printf("\n 1. Mumbai");
+		printf("\n 2. Nashik");
+		printf("\n 3. Saputara");
+		printf("\n Please Select City in Maharashtra :");
+		scanf("%d",&c2);
+
+		switch(c2)
+			{
+			 case 1:printf("\n\n -=-=-=-Most Popular item in Mumbai-=-=-=-");
+				printf("\n 1. Vadapav");
+				printf("\n 2. Misal-pav");
+				printf("\n Please select one item :");
+				scanf("%d",&i4);
+
+				switch(i4)
+				   {
+				    case 1:printf("\n Vadapav is Most famous Item in Surat");
+				    break;
+
+				    case 2:printf("\n Misal-pav is Most Famous Item in Surat");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 case 2:printf("\n\n -=-=-=-Most Popular item in Nashik-=-=-=-");
+				printf("\n 1. Thalipeeth");
+				printf("\n 2. Pav Bhaji");
+				printf("\n Please select one item :");
+				scanf("%d",&i5);
+
+				switch(i5)
+				   {
+				    case 1:printf("\n Thalipeeth is Most famous Item in Ahemdabad");
+				    break;
+
+				    case 2:printf("\n Pav Bhaji is Most famous item in Ahemdabad");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 case 3:
+				printf("\n\n -=-=-=-Most Popular item in Saputara-=-=-=-");
+				printf("\n 1. Maggi");
+				printf("\n 2. Pasta");
+				printf("\n Please select one item :");
+				scanf("%d",&i6);
+
+				switch(i6)
+				   {
+				    case 1:printf("\n Maggi is Most famous Item In Saputara");
+				    break;
+
+				    case 2:printf("\n Pasta is Most famous Item In Saputara");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 default:printf("Invalid Number");
+			 break;
+			}
+
+	 break;
+
+	 case 3:printf("\n\n -=-=-=-Top 3 City In Tamilnadu-=-=-=-");
+		printf("\n 1. Chennai");
+		printf("\n 2. Madurai");
+		printf("\n 3. Salem");
+		printf("\n Please Select City in Tamilnadu :");
+		scanf("%d",&c3);
+
+		switch(c3)
+			{
+			 case 1:printf("\n\n -=-=-=-Most Popular item in Chennai-=-=-=-");
+				printf("\n 1. Dosa");
+				printf("\n 2. Idli");
+				printf("\n Please select one item :");
+				scanf("%d",&i7);
+
+				switch(i7)
+				   {
+				    case 1:printf("\n Dosa is Most famous Item in Chennai");
+				    break;
+
+				    case 2:printf("\n Idli is Most Famous Item in Chennai");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 case 2:printf("\n\n -=-=-=-Most Popular item in Madurai-=-=-=-");
+				printf("\n 1. Bun Parotta");
+				printf("\n 2. Chukkumalli Coffee");
+				printf("\n Please select one item :");
+				scanf("%d",&i8);
+
+				switch(i8)
+				   {
+				    case 1:printf("\n Bun Parotta is Most famous Item in Madurai");
+				    break;
+
+				    case 2:printf("\n Chukkumalli-Coffee is Most famous item in Madurai");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 case 3:
+				printf("\n\n -=-=-=-Most Popular item in Salem-=-=-=-");
+				printf("\n 1. Salem Mango");
+				printf("\n 2. Kozhukkattai");
+				printf("\n Please select one item :");
+				scanf("%d",&i9);
+
+				switch(i9)
+				   {
+				    case 1:printf("\n Salem Mango is Most famous Food In Salem");
+				    break;
+
+				    case 2:printf("\n Kozhukkattai is Most famous Sweet In Salem");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 default:printf("Invalid Number");
+			 break;
+			}
+	 break;
+
+	 case 4:printf("\n\n -=-=-=-Top 3 City In Punjab-=-=-=-");
+		printf("\n 1. Amritsar");
+		printf("\n 2. Ludhiana");
+		printf("\n 3. Jalandhar");
+		printf("\n Please Select City in Punjab :");
+		scanf("%d",&c4);
+
+		switch(c4)
+			{
+			 case 1:printf("\n\n -=-=-=-Most Popular item in Amritsar-=-=-=-");
+				printf("\n 1. Amritsari Kulcha");
+				printf("\n 2. Idli");
+				printf("\n Please select one item :");
+				scanf("%d",&i10);
+
+				switch(i10)
+				   {
+				    case 1:printf("\n Amritsari Kulcha is Most famous Item in Amritsar");
+				    break;
+
+				    case 2:printf("\n Lassi is Most Famous Sweet Drink in Amritsar");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 case 2:printf("\n\n -=-=-=-Most Popular item in Ludhiana-=-=-=-");
+				printf("\n 1. Chicken Shawarma");
+				printf("\n 2. Panner Masala");
+				printf("\n Please select one item :");
+				scanf("%d",&i11);
+
+				switch(i11)
+				   {
+				    case 1:printf("\n Chicken Shawarma is Most famous Item in Ludhiana");
+				    break;
+
+				    case 2:printf("\n Panner Masala is Most famous item in Ludhiana");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 case 3:
+				printf("\n\n -=-=-=-Most Popular item in Jalandhar-=-=-=-");
+				printf("\n 1. Rabdi Jalebi");
+				printf("\n 2. Samosa");
+				printf("\n Please select one item :");
+				scanf("%d",&i12);
+
+				switch(i12)
+				   {
+				    case 1:printf("\n Rabdi Jalebi is Most famous Sweet In Jalandhar");
+				    break;
+
+				    case 2:printf("\n Samosa is Most famous Food In Jalandhar");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 default:printf("Invalid Number");
+			 break;
+			}
+	 break;
+
+	 case 5:printf("\n\n -=-=-=-Top 3 City In West Bengal-=-=-=-");
+		printf("\n 1. Kolkata");
+		printf("\n 2. Nadia");
+		printf("\n 3. Darjeeling");
+		printf("\n Please Select City in Maharashtra :");
+		scanf("%d",&c5);
+
+		switch(c5)
+			{
+			 case 1:printf("\n\n -=-=-=-Most Popular item in Kolkata-=-=-=-");
+				printf("\n 1. Rasgulla");
+				printf("\n 2. Shukto");
+				printf("\n Please select one item :");
+				scanf("%d",&i13);
+
+				switch(i13)
+				   {
+				    case 1:printf("\n Rasgulla is Most famous Sweet in Kolkata");
+				    break;
+
+				    case 2:printf("\n Shukto is Most Famous Item in Kolkata");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 case 2:printf("\n\n -=-=-=-Most Popular item in Nadia-=-=-=-");
+				printf("\n 1. Sandesh");
+				printf("\n 2. Kati roll");
+				printf("\n Please select one item :");
+				scanf("%d",&i14);
+
+				switch(i14)
+				   {
+				    case 1:printf("\n Sandesh is Most famous Sweet in Nadia");
+				    break;
+
+				    case 2:printf("\n Kati roll is Most famous item in Nadia");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+			 case 3:printf("\n\n -=-=-=-Most Popular item in Darjeeling-=-=-=-");
+				printf("\n 1. Momos");
+				printf("\n 2. Thukpa");
+				printf("\n Please select one item :");
+				scanf("%d",&i15);
+
+				switch(i15)
+				   {
+				    case 1:printf("\n Momos is Most famous Item In Darjeeling");
+				    break;
+
+				    case 2:printf("\n Thukpa is Most famous Dish In Darjeeling");
+				    break;
+
+				    default:printf("Invalid Number");
+				    break;
+				    }
+			 break;
+
+
+			 default: printf("\n Invalid number");
+			 break;
+			}
+
+	 case 6: printf("");
+	 	 break;
+	}
+ getch();
+}

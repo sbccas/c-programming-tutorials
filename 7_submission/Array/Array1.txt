@@ -1,0 +1,27 @@
+/*
+Name    : Navin ShankheshvariyaRoll no : 853
+Title   : Program of 1-D numeric array
+*/
+
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+
+{
+int i;
+int fybca8[9];
+
+	printf("Storing Data in 1-D Array:\n");
+	for(i=0;i<10;i++)
+	{
+	printf("\nEnter Element at %d:",i);
+	scanf("%d",&fybca8[i]);
+	}
+	 printf("\nDISPLAYING CONTENTS OF ARRAY\n");
+	 for (i=0;i<10;i++)
+	 printf("fybca8[%d]=%d\n",i,fybca8[i]);
+
+
+getch();
+}

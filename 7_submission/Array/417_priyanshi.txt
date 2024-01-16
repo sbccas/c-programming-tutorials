@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i;
+int stud_marks[7];
+clrscr();
+
+for(i=0;i<7;i++)
+{
+    printf("enter the marks of %d subject:",i+1);
+    scanf("%d",&stud_marks[i]);
+}
+
+printf("\ndata you entered");
+
+for(i=0; i<7; i++)
+{
+   printf("\nvalue in index[%d] is %d",i,stud_marks[i]);
+}
+getch();
+}

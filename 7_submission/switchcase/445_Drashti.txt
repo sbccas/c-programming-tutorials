@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+int main ( ) 
+{
+Int i;
+Clrscr( );
+for ( i = 1; i <= 100; i++) 
+{
+ if (i == 50) 
+{  //skip number 50
+ continue;
+}
+printf ("%d\n", i);
+}
+return 0;
+}

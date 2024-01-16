@@ -1,0 +1,147 @@
+/*
+
+  NAME : MEET CHAUHAN
+  ROLL NO : 431
+  COLLAGE : SUTEX BANK COLLAGE OF COMPUTER APPLICATION AND SCIENCE
+  DIVITION : 4
+
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int choice;
+ int a,b,c,d,e;
+ float div;
+ clrscr();
+
+ printf("\nWHAT WILL YOU DO TODAY ? :\n");
+ printf("\n1.EATING IN RESTAURANT \n");
+ printf("2.WATCHING MOVIE IN THEATRE \n");
+ printf("3.FOR A LONG DRIVE \n");
+ printf("4.GOING TO ADDVANTURE PARK \n");
+ scanf("%d",&choice);
+
+ switch(choice)
+ {
+	case 1:
+	printf("\n WHICH ITEM EAT IN RESTAURANT ?\n ");
+	printf("\n1. CHINESS FOOD : ");
+	printf("\n2. PUNJABI FOOD: ");
+	printf("\n3. SOUTH INDIAN FOOD: ");
+	printf("\nENTER CHOICE ");
+	scanf("%d",&a);
+
+		switch(a)
+		  {
+			case 1:
+			printf("\n YOU ARE IT MANCHURIAN ");
+			break;
+
+			case 2:
+			printf("\n YOU ARE IT NAN AND PANEER ");
+			break;
+
+			case 3:
+			printf("\n YOU ARE IT DHOSA ");
+			break;
+
+			default:
+			printf("\n RONG CHOICE ");
+			break;
+
+		  }
+		  break;
+
+	case 2:
+	printf("\n WHICH TYPE OF MOVIE ?\n ");
+	printf("\n1. HOLLYWOOD MOVIE : ");
+	printf("\n2. BOLLYWOOD MOVIE : ");
+	printf("\n3. SOUTH INDIAN MOVIE : ");
+	printf("\nENTER CHOISE :");
+	scanf("\n%d",&b);
+
+			 switch(b)
+			 {
+			case 1:
+			printf("\n THE GOOD DINOSOR ");
+			break;
+
+			case 2:
+			printf("\n OMG 2 ");
+			break;
+
+			case 3:
+			printf("\n BATTING RAJA ");
+			break;
+
+			default:
+			printf("\n RONG CHOICE ");
+			break;
+
+			 }
+	break;
+
+	case 3:
+	printf("\n SELECT LONG DRIVE CAR \n ");
+	printf("\n1. BUGGATI : ");
+	printf("\n2. MARCIDIS : ");
+	printf("\n3. MASTAN GT : ");
+	printf("\nENTER CHOICE :");
+	scanf("\n%d",c);
+
+		  switch(c)
+		  {
+			case 1:
+			printf("\n LONAVALA ");
+			break;
+
+			case 2:
+			printf("\n DUUMAS ");
+			break;
+
+			case 3:
+			printf("\n SAPUTARA ");
+			break;
+
+			default:
+			printf("\n RONG CHOICE ");
+			break;
+
+		  }
+	break;
+
+	case 4:
+	printf("\n SELECT RIDE   ");
+	printf("\n1. ROLER COSTER : ");
+	printf("\n2. JUMPING : ");
+	printf("\n3. WOOP GAMES : ");
+	printf("\nENTER CHOICE :");
+	scanf("%d",&d);
+			switch(d)
+		  {
+			case 1:
+			printf("\n 200 rs .ticket ");
+			break;
+
+			case 2:
+			printf("\n 300 rs . ticket ");
+			break;
+
+			case 3:
+			printf("\n 500 rs . ticket ");
+			break;
+
+			default:
+			printf("\n RONG CHOICE ");
+			break;
+
+		  }
+	break;
+
+	default:
+	printf("\nTHE CHOICE IS INVALAID ! RETRY ..");
+ }
+	getch();
+
+}

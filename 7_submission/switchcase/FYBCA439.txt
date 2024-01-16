@@ -1,0 +1,278 @@
+/* write a program to select drfferent choice in c */
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int choice,hotel,highlight,food,river,place,park,enjoy,purpose;
+int places,india;
+clrscr();
+printf("welcome....\n");
+//difference place we go in vacation
+printf("1 : GOA\n");
+printf("2 : MANALI\n");
+printf("3 : MUMBAI\n");
+printf("please select any one place : ");
+scanf("%d",&choice);
+switch(choice)
+{
+	case 1:
+		printf("\nGOA");
+	printf("\n1 : CARVELA BEACH RESORT");
+	printf("\n2 : NANUTEL MARGAO");
+	printf("\n3 : HARD ROCK HOTEL");
+	printf("\nwhich hotel you choose to stay : ");
+	scanf("%d",&hotel);
+	switch(hotel)
+	{
+	case 1:
+		printf("\nCARAVELA BEACH RESORT\n");
+	printf("\n1 : WATER SPORTS IN CALANGUTE");
+	printf("\n2 : BOATING ON CHAPORA RIVER");
+	printf("\n3 : FLEA MARKET OF GOA");
+	printf("\nwhich highlight you want to enjoy in goa : ");
+	scanf("%d",&highlight);
+	switch(highlight)
+	{
+		case 1:
+			printf("\nWATER SPORTS IN CALANGUTE");
+			break;
+
+		case 2:
+			printf("\nBOATING ON CHAPORA RIVER");
+			break;
+
+		case 3:
+			printf("\nFLEA MARKET OF GOA");
+			break;
+
+		default:
+			printf("please choose any one option");
+			break;
+	}
+	break;
+	case 2:
+		printf("NANUTEL MARGAO");
+		printf("\nwhich food you want to enjoy in goa");
+		printf("\n1 : BIRYANI");
+		printf("\n2 : PALAK PANNER");
+		printf("\n3 : PALAK PANNER\n");
+		scanf("%d",&food);
+
+	switch(food)
+	{
+		case 1:
+		printf("\nBIRYANI");
+		break;
+
+		case 2:
+		printf("\nPALAK PANNER");
+		break;
+
+		case 3:
+		printf("\nPALAK PANNER");
+		break;
+
+		default:
+		printf("\nplease choose any one option");
+		break;
+}
+ break;
+
+	case 3:
+		printf("HARD ROCK HOTEL");
+
+	printf("\nwhich river you want to go in goa");
+	printf("\n1 : MANDORI RIVER");
+	printf("\n2 : ZUARI RIVER");
+	printf("\n3 : SAL RIVER\n");
+	scanf("%d",&river);
+
+	switch(river)
+	{
+		case 1:
+		printf("\nMANDORI RIVER");
+		break;
+
+		case 2:
+		printf("\nZUARI RIVER");
+		break;
+
+		case 3:
+		printf("\nSAL RIVER");
+		break;
+
+		default:
+		printf("\nplease choose any one option");
+		break;
+	}
+	break;
+
+	default:
+		printf("please choose option");
+		break;
+	}
+	break;
+
+	case 2:
+		printf("\nMANALI");
+
+		printf("\nwhich place you want to go in manali : ");
+		printf("\n1 : VAN VIHAR NATIONAL PARK");
+		printf("\n2 : NEHRU KUND");
+		printf("\n3 : JOGNI WATERFALL ROAD\n");
+		scanf("%d",&place);
+
+	switch(place)
+	{
+		case 1:
+		printf("\nVAN VIHAR NATIONAL PARK");
+		printf("\nwhich park you want to go in van vihar national park");
+		printf("\n1 : ZOO PARK");
+		printf("\n2 : GARDEN");
+		printf("\n3 : BOATING\n");
+		scanf("%d",&park);
+
+	switch(park)
+	{
+		case 1:
+		printf("\nZOO PARK");
+		break;
+
+		case 2:
+		printf("\nGARDEN");
+		break;
+
+		case 3:
+		printf("\nBOATING");
+		break;
+
+		default:
+		printf("\nplease choose any one option");
+		break;
+	}
+	break;
+
+		case 2:
+		printf("\nNEHRU KUND");
+		printf("\nwhich type you want to enjoy in nehru kund");
+		printf("\n1 : PHOTOGRAPHY");
+		printf("\n2 : ENJOY WITH FRIENDS");
+		printf("\n3 : FILL OUR NATURE\n");
+		scanf("%d",&enjoy);
+
+	switch(enjoy)
+	{
+		case 1:
+		printf("\nPHOTOGRAPHY");
+		break;
+
+		case 2:
+		printf("\nENJOY WITH FRIENDS");
+		break;
+
+		case 3:
+		printf("\nFILL OUR NATURE");
+		break;
+
+		default:
+		printf("\nplease choose any one option");
+		break;
+	}
+	break;
+
+		case 3:
+		printf("\nJOGNI WATERFALL ROAD");
+		printf("\nwhich purpose you want to go jogni waterfall road");
+		printf("\n1 : NATURAL BEAUTY");
+		printf("\n2 : GODDESS JOGNI MATA");
+		printf("\n3 : WATERFALL ENJOY\n");
+		scanf("%d",&purpose);
+
+	switch(purpose)
+	{
+		case 1:
+		printf("\nNATURAL BEAUTY");
+		break;
+
+		case 2:
+		printf("\nGODDESS JOGNI MATA");
+		break;
+
+		case 3:
+		printf("\nWATERFALL ENJOY");
+		break;
+
+		default:
+		printf("\nplease choose any one option");
+		break;
+	}
+	break;
+
+
+		default:
+		printf("\nplease choose any one option ");
+		break;
+	}
+	break;
+	case 3:
+		printf("\nMUMBAI");
+		printf("\n1 : GATEWAY OF INDIA");
+		printf("\n2 : ELEPHANTA CAVES");
+		printf("\n3 : MARINE DRIVE\n");
+		printf("\nwhich place you want to go in mumbai : ");
+		scanf("%d",&places);
+
+	switch(places)
+	{
+		case 1:
+		printf("\nGATEWAY OF INDIA");
+		printf("\nwho whould you choose to go with ?");
+		printf("\n1 : FRIENDS");
+		printf("\n2 : PARTNER");
+		printf("\n3 : FAMILY\n");
+		scanf("%d",&india);
+
+	switch(india)
+	{
+		case 1:
+		printf("\nFREINDS");
+		break;
+
+		case 2:
+		printf("\nPARTNER");
+		break;
+
+		case 3:
+		printf("\nFAMILY");
+		break;
+
+		default:
+		printf("\nplease choose any one option");
+		break;
+	}
+	break;
+
+		case 2:
+		printf("\nELEPHANTA CAVES");
+		break;
+
+		case 3:
+		printf("\nMARINE DRIVE");
+		break;
+
+		default:
+		printf("\nplease choose any one option");
+		break;
+
+
+	}
+	break;
+
+	case 4:
+		printf("please select one option");
+		break;
+
+}
+getch();
+}
+

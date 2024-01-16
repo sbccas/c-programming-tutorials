@@ -1,0 +1,226 @@
+/*
+    Name    : Hitanshu Khunt
+    Roll no : 466
+    Title   : programe of menu written
+*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+   int m,s;
+   int a,b,c,d,e,f,g,h,i;
+   clrscr();
+
+   while(1)
+   {
+     printf("Main menu : \n");
+     printf("1.Domino's\n");
+     printf("2.McDonald's\n");
+     printf("3.Exit\n");
+     printf("\nEnter number of your choise : ");
+     scanf("%d",&m);
+
+     switch(m)
+     {
+      case 1:
+
+	printf("Domino's menu : \n");
+	printf("1.Pizza\n");
+	printf("2.Chicken\n");
+	printf("3.Pasta\n");
+	printf("4.Sandwiches\n");
+	printf("5.Sides\n");
+	printf("6.Dessert\n");
+
+	printf("\nEnter number of your choise : ");
+	scanf("%d",&s);
+
+	switch(s)
+	{
+	case 1:
+
+	  printf("Chose type of Pizza :\n");
+	  printf("1.Pepperoni pizza\n");
+	  printf("2.Maegherita pizza\n");
+	  printf("3.Supreme pizza\n");
+	  printf("4.BBQ Chiken pizza\n");
+	  printf("5.Veggie pizza\n");
+
+	  printf("\nEnter number of pizza that you want : ");
+	  scanf("%d",&a);
+	  break;
+
+	  case 2:
+
+	  printf("Chose type of Chicken :\n");
+	  printf("1.Chicken Wings\n");
+	  printf("2.Chicken Tenders\n");
+	  printf("3.Chicken Kickers\n");
+
+	  printf("\nEnter number of Chicken that you want : ");
+	  scanf("%d",&b);
+	  break;
+
+	  case 3:
+
+	  printf("Chose type of Pasta :\n");
+	  printf("1.Pasta primavera\n");
+	  printf("2.Italian Sausage Marinara\n");
+	  printf("3.Chicken Alfredo Pasta\n");
+
+	  printf("\nEnter number of Pasta that you want : ");
+	  scanf("%d",&c);
+	  break;
+
+	  case 4:
+
+	  printf("Chose type of Sandwiches :\n");
+	  printf("1.Italian Sandwich\n");
+	  printf("2.Open Cheese Sandwich\n");
+	  printf("3.Phily Cheese Steak\n");
+
+	  printf("\nEnter number of Sandwich that you want : ");
+	  scanf("%d",&d);
+	  break;
+
+	  case 5:
+
+	  printf("Chose type of sides :\n");
+	  printf("1.Breadsticks");
+	  printf("2.Stuffed Cheesy Bread");
+	  printf("3.Garlic Bread");
+
+	  printf("\nEnter number of Sides that you want : ");
+	  scanf("%d",&e);
+	  break;
+
+	  case 6:
+
+	  printf("Chose type of Dessert :\n");
+	  printf("1.Chocolate Lava Cake\n");
+	  printf("2.Cinnamon Bread Twists\n");
+	  printf("3.Marbled Cookie Brownie\n");
+
+	  printf("\nEnter number of Dessert that you want : ");
+	  scanf("%d",&f);
+	  break;
+
+	  default:
+
+	  printf("Invalid choise for Domino's munu");
+
+	}
+	break;
+
+      case 2:
+
+      printf("McDonald's Menu:\n");
+      printf("1.Burger\n");
+      printf("2.Chicken & Sandwiches\n");
+      printf("3.Breakfast\n");
+      printf("4.fries & Sides\n");
+      printf("5.Desserts\n");
+      printf("6.Beverages\n");
+
+      printf("\nEnter number of your choise : ");
+      scanf("%d",&s);
+
+      switch(s)
+      {
+	 case 1:
+
+	 printf("Chose type of Burger :\n");
+	 printf("1.Big mac\n");
+	 printf("2.Quarter Pounder with Cheese\n");
+	 printf("3.McChiken\n");
+	 printf("4.Filter-o-Fish");
+
+	 printf("\nEnter number of Burger that you want : ");
+	 scanf("%d",&g);
+	 break;
+
+	 case 2:
+
+	 printf("Chose type of Chicken & Sandwiches :\n");
+	 printf("1.McChicken\n");
+	 printf("2.Spicy McChicken\n");
+	 printf("3.McDouble\n");
+	 printf("4.McWrap\n");
+
+	 printf("\nEnter number of Chicken & Sandwiches that you want : ");
+	 scanf("%d",&h);
+	 break;
+
+	 case 3:
+
+	 printf("Chose type of Breakfast :\n");
+	 printf("1.Egg McMuffin\n");
+	 printf("2.Sausage McMuffin\n");
+	 printf("3.Hotcakes\n");
+	 printf("4.Bacon,Egg & cheese biscuit\n");
+
+	 printf("\nEnter number of Breakfast that you want : ");
+	 scanf("%d",&i);
+	 break;
+
+	 case 4:
+
+	 printf("Chose type of Fries & Sides :\n");
+	 printf("1.French Fries\n");
+	 printf("2.Apple Slices\n");
+	 printf("3.Mozzarella sticks\n");
+	 printf("4.Chicken McNuggets\n");
+
+	 printf("\nEnter number of Fries & Sides that you want : ");
+	 scanf("%d",&g);
+	 break;
+
+	 case 5:
+
+	 printf("Chose type of Dessert :\n");
+	 printf("1.Apple Pie\n");
+	 printf("2.McFlurry\n");
+	 printf("3.Sundae\n");
+	 printf("4.Soft Serve Cone\n");
+
+	 printf("\nEnter number of Dessert that you want : ");
+	 scanf("%d",&h);
+	 break;
+
+	 case 6:
+
+	 printf("Chose type of Beverages :\n");
+	 printf("1.Soft Drinks\n");
+	 printf("2.Coffee\n");
+	 printf("3.Milkshakes\n");
+	 printf("4.Fruit Smoothies\n");
+
+	 printf("\nEnter number of Beverages that you want : ");
+	 scanf("%d",&i);
+	 break;
+
+	 default:
+
+	 printf("Invalid choice for McDonald's menu\n");
+
+      }
+       break;
+
+     case 3:
+
+     printf("Exiting the program.\nGoodbye!\n");
+     break;
+
+
+       default:
+       printf("Invalid choice.\nPlease enter a valid option.\n");
+     }
+	 break;
+   }
+
+
+getch();
+
+}

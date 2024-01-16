@@ -1,0 +1,1179 @@
+#include<stdio.h>
+int main()
+{
+   int food,pizza,cheese,burger,sandwich,pasta,coffee;
+   clrscr();
+   printf("HELLO MY LORD\n");
+   printf("what you like for eat.\nall food are as an given below\n");
+    printf("--------------------------------\n");
+   printf("what you like 'pizza' than ennter '1' number\n");
+   printf("what you like 'burger' than ennter '2' number\n");
+   printf("what you like 'sandwich' than ennter '3' number\n");
+   printf("what you like 'pasta' than ennter '4' number\n");
+   printf("what you like 'coffee' than ennter '5' number\n");
+   printf("---------------------------------\n");
+   printf("enter number");
+   scanf("%d",&food);
+   switch(food)
+     {
+	   case 1:printf("enter '1' to eat 'margherita pizza'\n");
+		  printf("enter '2' to eat 'Quick tomato pizza'\n");
+		  printf("enter '3' to eat 'four cheese pizza'\n");
+		  printf("enter '4' to eat 'cheesy vegetable pizza'\n");
+		  printf("enter '5' to eat 'paneer pizza'\n");
+		  printf("enter '6' to eat 'thin crust hawaiian pizza'\n");
+		  printf("enter '7' to eat 'uttpan pizza'\n");
+		  printf("enter '8' to eat 'chocolate pizza'\n");
+		  printf("-------------------------------\n");
+		  printf("enter number ");
+		  scanf("%d",&pizza);
+		     switch(pizza)
+			  {
+			  case 1:printf("enter '1' to eat Non cheese pizza\n");
+				 printf("enter '2' to eat single cheese pizza\n");
+				 printf("enter '3' to eat 'double cheese pizza'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 2:printf("enter '1' to eat Non cheese pizza\n");
+				 printf("enter '2' to eat single cheese pizza\n");
+				 printf("enter '3' to eat 'double cheese pizza'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 3:printf("enter '1' to eat Non cheese pizza\n");
+				 printf("enter '2' to eat single cheese pizza\n");
+				 printf("enter '3' to eat 'double cheese pizza'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 4:printf("enter '1' to eat Non cheese pizza\n");
+				 printf("enter '2' to eat single cheese pizza\n");
+				 printf("enter '3' to eat 'double cheese pizza'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 5:printf("enter '1' to eat Non cheese pizza\n");
+				 printf("enter '2' to eat single cheese pizza\n");
+				 printf("enter '3' to eat 'double cheese pizza'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 6:printf("enter '1' to eat Non cheese pizza\n");
+				 printf("enter '2' to eat single cheese pizza\n");
+				 printf("enter '3' to eat 'double cheese pizza'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 7:printf("enter '1' to eat Non cheese pizza\n");
+				 printf("enter '2' to eat single cheese pizza\n");
+				 printf("enter '3' to eat 'double cheese pizza'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 8:printf("enter '1' to eat Non cheese pizza\n");
+				 printf("enter '2' to eat single cheese pizza\n");
+				 printf("enter '3' to eat 'double cheese pizza'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  }
+		break;
+		case 2:printf("enter '1' to eat Lentin burger\n");
+		  printf("enter '2' to eat mushroom burger\n");
+		  printf("enter '3' to eat stuffed bean burger\n");
+		  printf("enter '4' to eat potato corn burger\n");
+		  printf("enter '5' to eat supreme veggie burger\n");
+		  printf("enter '6' to eat pizza burger\n");
+		  printf("-------------------------------\n");
+		  printf("enter number ");
+		  scanf("%d",&burger);
+		     switch(burger)
+			  {
+			  case 1:printf("enter 1 to eat Non cheese burger\n");
+				 printf("enter 2 to eat single cheese burger\n");
+				 printf("enter 3 to eat double cheese burger\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 2:printf("enter 1 to eat Non cheese burger\n");
+				 printf("enter 2 to eat single cheese burger\n");
+				 printf("enter 3 to eat double cheese burger\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 3:printf("enter 1 to eat Non cheese burger\n");
+				 printf("enter 2 to eat single cheese burger\n");
+				 printf("enter 3 to eat double cheese burger\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 4:printf("enter 1 to eat Non cheese burger\n");
+				 printf("enter 2 to eat single cheese burger\n");
+				 printf("enter 3 to eat double cheese burger\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 5:printf("enter 1 to eat Non cheese burger\n");
+				 printf("enter 2 to eat single cheese burger\n");
+				 printf("enter 3 to eat double cheese burger\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 6:printf("enter 1 to eat Non cheese burger\n");
+				 printf("enter 2 to eat single cheese burger\n");
+				 printf("enter 3 to eat double cheese burger\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  }
+	   break;
+	   case 3:printf("enter '1' to eat 'Dahi sandwich'\n");
+		  printf("enter '2' to eat 'CLASSIC VEGTARIEN CLUB SANDWUCH'\n");
+		  printf("enter '3' to eat 'MASALA IN MILK SANDWICH'\n");
+		  printf("enter '4' to eat 'VEGTARIEN CLUB SANDWUC'\n");
+		  printf("enter '5' to eat 'CHEESE GARLIC TOTASTIE'\n");
+		  printf("--------------------------------\n");
+		  printf("enter number ");
+		  scanf("%d",&pizza);
+		     switch(pizza)
+			  {
+			  case 1:printf("enter '1' to eat Non cheese sandwich\n");
+				 printf("enter '2' to eat single cheese sandwich\n");
+				 printf("enter '3' to eat 'double cheese sandwich'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 2:printf("enter '1' to eat Non cheese sandwich\n");
+				 printf("enter '2' to eat single cheese sandwich\n");
+				 printf("enter '3' to eat 'double cheese sandwich'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 3:printf("enter '1' to eat Non cheese sandwich\n");
+				 printf("enter '2' to eat single cheese sandwich\n");
+				 printf("enter '3' to eat 'double cheese sandwich'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 4:printf("enter '1' to eat Non cheese sandwich\n");
+				 printf("enter '2' to eat single cheese sandwich\n");
+				 printf("enter '3' to eat 'double cheese sandwich'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 5:printf("enter '1' to eat Non cheese sandwich\n");
+				 printf("enter '2' to eat single cheese sandwich\n");
+				 printf("enter '3' to eat 'double cheese sandwich'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  }
+	   break;
+	   case 4:printf("enter '1' to eat 'SPAGHETTI'\n");
+		  printf("enter '2' to eat 'FETTUCCINE'\n");
+		  printf("enter '3' to eat 'ANGEL HAIR PASTA'\n");
+		  printf("enter '4' to eat 'MACARONI'\n");
+		  printf("enter '5' to eat 'Fusilli'\n");
+		  printf("--------------------------------\n");
+		  printf("enter number ");
+		  scanf("%d",&pasta);
+		     switch(pasta)
+			  {
+			  case 1:printf("enter '1' to eat Non cheese pasta\n");
+				 printf("enter '2' to eat single cheese pasta\n");
+				 printf("enter '3' to eat 'double cheese pasta'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 2:printf("enter '1' to eat Non cheese pasta\n");
+				 printf("enter '2' to eat single cheese pasta\n");
+				 printf("enter '3' to eat 'double cheese pasta'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 3:printf("enter '1' to eat Non cheese pasta\n");
+				 printf("enter '2' to eat single cheese pasta\n");
+				 printf("enter '3' to eat 'double cheese pasta'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 4:printf("enter '1' to eat Non cheese pasta\n");
+				 printf("enter '2' to eat single cheese pasta\n");
+				 printf("enter '3' to eat 'double cheese  pasta'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 5:printf("enter '1' to eat Non cheese pasta\n");
+				 printf("enter '2' to eat single cheese pasta\n");
+				 printf("enter '3' to eat 'double cheese pasta'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number\n ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  }
+	    break;
+	    case 5:printf("enter '1' to eat 'Flat whith'\n");
+		  printf("enter '2' to eat 'Caramel Macchiato'\n");
+		  printf("enter '3' to eat 'Caffe Latte '\n");
+		  printf("enter '4' to eat 'Americano Brewed Coffee'\n");
+		  printf("enter '5' to eat 'Cappuccino '\n");
+		  printf("----------------------------------------\n");
+		  printf("enter number ");
+		  scanf("%d",&coffee);
+		     switch(coffee)
+			  {
+			  case 1:printf("enter '1' to drink 'Short size coffee'\n");
+				 printf("enter '2' to drink 'Tall size cooffee'\n");
+				 printf("enter '3' to drink 'Granda size coffee'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+				 break;
+			  case 2:printf("enter '1' to drink 'Short size coffee'\n");
+				 printf("enter '2' to drink 'Tall size cooffee'\n");
+				 printf("enter '3' to drink 'Granda size coffee'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");			  break;
+			  case 3:printf("enter '1' to drink 'Short size coffee'\n");
+				 printf("enter '2' to drink 'Tall size cooffee'\n");
+				 printf("enter '3' to drink 'Granda size coffee'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 4:printf("enter '1' to drink 'Short size coffee'\n");
+				 printf("enter '2' to drink 'Tall size cooffee'\n");
+				 printf("enter '3' to drink 'Granda size coffee'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  case 5:printf("enter '1' to drink 'Short size coffee'\n");
+				 printf("enter '2' to drink 'Tall size cooffee'\n");
+				 printf("enter '3' to drink 'Granda size coffee'\n");
+				 printf("--------------------------------\n");
+				 printf("enter number ");
+				 scanf("%d",&cheese);
+				 printf("thank you");
+			  break;
+			  }
+     }
+return 0;
+getch();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,303 @@
+/*****************************************************
+Name:Shubham Sonawane R.
+Div:4
+Roll no:422
+Program:Best picnic place information in india.
+******************************************************/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int picnic;
+	char ch;
+	clrscr();
+	printf("1.Amritsar");
+	printf("\n2.Agra");
+	printf("\n3.Delhi");
+	printf("\n4.Goa");
+	printf("\n5.Jaipur");
+
+	printf("\n*Enter your choise:");
+	scanf("%d",&picnic);
+	printf("**************************************************************************\n");
+
+
+	switch(picnic)
+	{
+		case 1:printf("Your choise is 'amritsa'.");
+		       printf("\n---------------------------------------");
+		       printf("\nA.Gobindgarh Fort");
+		       printf("\nB.Kaiser Bagh");
+		       printf("\nC.Sun city Waterpark");
+		       printf("\nD.Sadda Pind");
+
+
+		       printf("\n*Enter amritser in place:");
+		       scanf(" %c",&ch);
+		       printf("**************************************************************************\n");
+		       switch(ch)
+		       {
+				case 'A':printf("*Your choise is 'Gobindgarh Fort'.");
+				       printf("\n---------------------------------------");
+				       printf("\nLocation :Old Cantt Rode,vijay Chowk.");
+				       printf("\nTimings  :10:00am to 10:00pm.");
+				       printf("\nEntry fee:INR 180 onward(per person).");
+				       printf("\nSpecialty:30 min 7D show.");
+				       printf("\nRating	  :****(4.1)");
+				       break;
+
+				case 'B':printf("*Your choise is 'Kaiser Bagh'.");
+				       printf("\n---------------------------------------");
+				       printf("\nLocation :Guru ramdash nagar.");
+				       printf("\nTimings  :open 24 hours.");
+				       printf("\nEntry fee:Rs.10 per person.");
+				       printf("\nSpecialty:Mughal stule architecturs.");
+				       printf("\nRating   :***(3.9)");
+				       break;
+
+				case 'C':printf("*Your choise is 'Sun city Waterpark'.");
+				       printf("\n---------------------------------------");
+				       printf("\nLocation :Opp.Power House,Batala Rode.");
+				       printf("\nTimings  :10:00 am to 8:00 pm");
+				       printf("\nEntry fee:INR 600 inwards.");
+				       printf("\nSpecialty:floor and swimmingpull.");
+				       printf("\nRating   :***(3.4)");
+				       break;
+
+				case 'D':printf("*Your choise is 'Sadda Pind'");
+				       printf("\n---------------------------------------");
+				       printf("\nLocation :Main Bypass Rode.");
+				       printf("\nTimings  :10 am.");
+				       printf("\nEntry fee:INR 750(adult)");
+				       printf("\nSpecialty:old-sttle house.");
+				       printf("\nRating   :***(3.6)");
+				       break;
+
+				default :printf("Chack your choice.");
+					 break;
+		       }
+		       break;
+
+		case 2:printf("*Your choise is 'agra'.");
+		       printf("\n---------------------------------------");
+		       printf("\na.Taj Mahal.");
+		       printf("\nb.Mughal Gardens.");
+		       printf("\nc.Taj Museum.");
+		       printf("\nd.Mehtab Bagh.");
+
+		       printf("\n*Enter your choice:");
+		       scanf(" %c",&ch);
+		       printf("************************************************************\n");
+		       switch(ch)
+		       {
+				case 'a':printf("*Your choice is 'Taj Mahal'.");
+					 printf("\n---------------------------------------");
+					printf("\nLocation :Froest Colony,tajganj");
+					printf("\nTimings  :30 minutes befor Sunrise to 30 minutes before sunset,closed Fridays");
+					printf("\nEntry fee:Rs.50 for indians,Rs200 for musolem and Rs1250 for foreiners.");
+					printf("\nSpecialty:beutiful mahal.");
+					printf("\nRating   :****(4.9)");
+					break;
+
+				case 'b':printf("*Your choice is 'mughal Gardens'.");
+					 printf("\n---------------------------------------");
+					printf("\nLocation :Ram Bagh.");
+					printf("\nTimings  :6 am to 6 pm everyday.");
+					printf("\nEntry fee:Rs.15 for indians and Rs 200 for foreigners.");
+					printf("\nSpecialty:Beutiful Gardens.");
+					printf("\nRating   :****(4.5)");
+					break;
+
+				case 'c':printf("*Your choice is 'Taj Museum'.");
+					 printf("\n---------------------------------------");
+					printf("\nLocation :Forest ColonyTajganj.");
+					printf("\nTimings  :10 am -5 pm,closed on fridays.");
+					printf("\nEntry fee:Nil");
+					printf("\nSpecialty:Mughal miniature paintings.");
+					printf("\nRating   :****(4.3)");
+					break;
+
+				case 'd':printf("*Your choice is 'Mehtab Bagh'.");
+					 printf("\n---------------------------------------");
+					printf("\nLocation :Nagla Devjit.");
+					printf("\nTimings  :6 am - 6 pm.");
+					printf("\nEntry fee:Rs.15 for indian and Rs.200 for foreigners.");
+					printf("\nSpecialty:Moonlight Garden.");
+					printf("\nRating   :****(4.7)");
+					break;
+
+				default:printf("Check your choice.");
+					break;
+		       }
+		       break;
+
+		case 3:printf("*Your choise is 'Delhi'.");
+		       printf("\n---------------------------------------");
+		       printf("\nP.Red Fort");
+		       printf("\nQ.Salimgarh Fort");
+		       printf("\nR.Old fort");
+		       printf("\nS.Siri Fort");
+
+		       printf("\n*Enter your place:");
+		       scanf(" %c",&ch);
+		       printf("************************************************************\n");
+
+		       switch(ch)
+		       {
+				case 'P':printf("*Your choice is 'Red Fort'.");
+					printf("\n---------------------------------------");
+					printf("\nLocation :Lal Qila.");
+					printf("\nTimings  :9:30 am-4:30 pm.");
+					printf("\nEntry fee:Rs.10 only.");
+					printf("\nSpecialty:Historical place in delhi.");
+					printf("\nRating   :****(4.0)");
+					break;
+
+				case 'Q':printf("*Your choice is 'Salimgarh Fort'.");
+					 printf("\n---------------------------------------");
+					 printf("\nLocation :Lal Qila.");
+					 printf("\nTimings  :10:00 am - 5:00 pm.");
+					 printf("\nEntry fee:No Entry fees.");
+					 printf("\nSpecialty:Full red fort.");
+					 printf("\nRating   :***(3.3)");
+					 break;
+
+				case 'R':printf("*Your choice is 'Old Fort'.");
+					 printf("\n---------------------------------------");
+					 printf("\nLocation :Indraprastha.");
+					 printf("\nTimings  :9:00 am - 7:00 pm.");
+					 printf("\nEntry fee:Rs.20 only.");
+					 printf("\nSpecialty:Light and sound show.");
+					 printf("\nRating   :***(3.6)");
+					 break;
+
+				case 'S':printf("*Your choice is 'Siri Fort'.");
+					 printf("\n---------------------------------------");
+					 printf("\nLocation :Green Park and Hauz Khas.");
+					 printf("\nTimings  :9:00 am - 5:00 pm.");
+					 printf("\nEntry fee:Free.");
+					 printf("\nSpecialty:8000 mongol soldirs buried.");
+					 printf("\nRating   :****(4.2)");
+					 break;
+
+
+				default:printf("Check your choice.");
+					break;
+		       }
+		       break;
+
+		case 4:printf("*Your choise is Goa.");
+		       printf("\n---------------------------------------");
+		       printf("\np.museum of goa.");
+		       printf("\nq.Houses of goa museums.");
+		       printf("\nr.Goa Science center.");
+		       printf("\ns.Museum of christian Art.");
+
+		       printf("\n*Enter Your choice:");
+		       scanf(" %c",&ch);
+		       printf("************************************************************\n");
+
+		       switch(ch)
+		       {
+				case 'p':printf("*Your choice is Museum of goa.");
+					 printf("\n---------------------------------------");
+					 printf("\nLocation :Pilerne IDC bus stand.");
+					 printf("\nTimings  :10:00 am - 6:00 pm.");
+					 printf("\nEntry fee:Rs.50 only.");
+					 printf("\nSpecialty:Acronym for museum of goa.");
+					 printf("\nRating   :****(4.2)");
+					 break;
+
+				case 'q':printf("*Your choice is Houses of goa museums.");
+					 printf("\n---------------------------------------");
+					 printf("\nLocation :Gulyakade bus stand.");
+					 printf("\nTimings  :10:00 am - 7:30 pm.");
+					 printf("\nEntry fee:Rs.100 only.");
+					 printf("\nSpecialty:Beutiful house.");
+					 printf("\nRating   :****(4.6)");
+					 break;
+
+				case 'r':printf("*Your choice is Goa science center.");
+					 printf("\n---------------------------------------");
+					 printf("\nLocation :Sonata bus Stand.");
+					 printf("\nTimings  :10:00 am - 6:00 pm");
+					 printf("\nEntry fee:Rs.50 only.");
+					 printf("\nSpecialty:Places to visit in goa.");
+					 printf("\nRating   :****(4.1)");
+					 break;
+
+				case 's':printf("*Your choice is Museum of christian Art.");
+					 printf("\n---------------------------------------");
+					 printf("\nLocation :Old Goa Bus Stop.");
+					 printf("\nTimings  :9:30 am - 5:00 pm");
+					 printf("\nEntry fee:Rs.50 only.");
+					 printf("\nSpecialty:Famous churches in goa.");
+					 printf("\nRating   :***(3.9)");
+					 break;
+
+				default:printf("\nCheke your choice.");
+					break;
+
+		       }
+		       break;
+
+		case 5:printf("*Your choise is jaipur.");
+		       printf("\n---------------------------------------");
+		       printf("\nW.Nahargarh Fort.");
+		       printf("\nX.Central Park.");
+		       printf("\nY.Chandlai Lake.");
+		       printf("\nZ.Sisodia Rani ka baug.");
+
+		       printf("\n*Enter your choice:");
+		       scanf(" %c",&ch);
+		       printf("************************************************************\n");
+
+		       switch(ch)
+		       {
+				case 'W':printf("*Your choice is nahargarhFort.");
+					  printf("\n---------------------------------------");
+					 printf("\nLocation :Krishna nagar,Brahampuri.");
+					 printf("\nTimings  :10:00 am - 6:00 pm.");
+					 printf("\nEntry fee:Rs.200 only.");
+					 printf("\nSpecialty:amazing backdrop for clicking Photographs.");
+					 printf("\nRating   :****(4.1)");
+					 break;
+
+				case 'X':printf("*Your choice is Central Park.");
+					 printf("\n---------------------------------------");
+					 printf("\nLocation :Prithviraj Rd,Rambagh.");
+					 printf("\nTimings  :5:00 am - 9:00 pm.");
+					 printf("\nEntry fee:Rs.150 only.");
+					 printf("\nSpecialty:It is largest park in india..");
+					 printf("\nRating   :***(3.4)");
+					 break;
+
+				case 'Y':printf("*Your choice is Chandlai lake.");
+					 printf("\n---------------------------------------");
+					 printf("\nLocation :Tonk Rode.");
+					 printf("\nTimings  :Open all-day.");
+					 printf("\nEntry fee:Rs.200 only.");
+					 printf("\nSpecialty:From march to may,you can observe migatory birds near the lake.");
+					 printf("\nRating   :****(4.2)");
+					 break;
+
+				case 'Z':printf("*Your choice is Sisodia Rani baug.");
+					 printf("\n---------------------------------------");
+					 printf("\nLocation :Agra Rd,Ghat ki guni.");
+					 printf("\nTimings  :8:00 am - 7:30 pm.");
+					 printf("\nEntry fee:Rs.100 only.");
+					 printf("\nSpecialty:Water Fountain is at the centre formation.");
+					 printf("\nRating   :****(4.6)");
+					 break;
+
+				default:printf("Check your choice.");
+					break;
+			}
+			break;
+
+		default:printf("Check Your Choice.");
+			break;
+	}
+	printf("\n\n\n\t\t\t\t* * * * *\n");
+	getch();
+}

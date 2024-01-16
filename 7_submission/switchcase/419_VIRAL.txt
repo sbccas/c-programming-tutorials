@@ -1,0 +1,225 @@
+/*
+Name: Mandaviya Viral
+Roll no: 419
+*/
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,a1,a2,b,b1,b2,c,c1,c2,d,d1,e,f;
+    
+    printf("Where Are You Want To Go For Picnic?\n");
+    printf("1. Go to Goa\n");
+    printf("2. Go To Rajashthan\n");
+    printf("3. Go To Delhi\n");
+    printf("4. Exit\n");
+    scanf("%d",&a1);
+    switch (a1)
+    {
+	case 1:
+	printf("You choose To Go Goa For Picnic\n");
+	printf("How You Want Go To Goa?\n");
+	printf("1. in What Family Decide\n");
+	printf("2. Which is Best Way\n");
+	printf("3. Any How\n");
+	printf("4. Exit\n");
+	scanf("%d",&a2);
+	switch (a2)
+	{
+
+	case 1:
+	printf("\nYou choose To Go Goa in What Family Decide");
+	break;
+
+	case 2:
+	printf("\nYou choose To Go Goa Which is Best Way");
+	break;
+
+	case 3:
+	printf("\nYou choose To Go Goa Any How");
+	break;
+
+	}
+	break;
+
+	case 2:
+	printf("You choose To Go Rajashthan For Picnic\n");
+	printf("How You Want To Go Rajashthan\n");
+	printf("1. in Car\n");
+	printf("2. in Train\n");
+	printf("3. in Airoplane\n");
+	printf("4. Exit\n");
+	scanf("%d",&b);
+	switch (b)
+	{
+
+	case 1:
+	printf("You Choose To Go Rajashthan in Car\n");
+	printf("Which Car You Want To Go?\n");
+	printf("1. Audi\n");
+	printf("2. Thar\n");
+	printf("3. Fortuner\n");
+	printf("4. Exit\n");
+	scanf("%d",&b1);
+	switch (b1)
+	{
+
+	case 1:
+	printf("\nYou choose Audi");
+	break;
+
+	case 2:
+	printf("\nYou choose Thar");
+	break;
+
+	case 3:
+	printf("\nYou choose Fortuner");
+	break;
+
+	}
+	break;
+
+	case 2:
+	printf("You choose To Go Rajasthan in Train\n");
+	printf("Which Train You Want To Go?\n");
+	printf("1. Rajdhani Express\n");
+	printf("2. Vande Bharat Express\n");
+	printf("3. Shatabdi Express\n");
+	printf("4. Exit\n");
+	scanf("%d",&b2);
+	switch (b2)
+	{
+	case 1:
+	printf("\nYou choose Rajdhani Express ");
+	break;
+
+	case 2:
+	printf("\nYou choose Vande Bharat Express");
+	break;
+
+	case 3:
+	printf("\nYou Choose Shatabdi Express");
+	break;
+	}
+	break;
+
+	case 3:
+	printf("You choose To Go Rajashthan in Airoplane\n");
+	printf("Which Airoplane You Want To Go?\n");
+	printf("1. Chinook\n");
+	printf("2. Rafale\n");
+	printf("3. Hawk\n");
+	printf("4. Exit\n");
+	scanf("%d",&c);
+	switch (c)
+	{
+	case 1:
+	printf("\nYou choose Chinook");
+	break;
+
+	case 2:
+	printf("\nYou choose Rafale");
+	break;
+
+	case 3:
+	printf("\nYou choose Hawk");
+	break;
+	}
+	break;
+	}
+	break;
+   
+   case 3:
+	printf("You choose To Go Delhi For Picnic\n");
+	printf("How You Want To Go?\n");
+	printf("1. in Train\n");
+	printf("2. in Airoplane\n");
+	printf("3. in Car\n");
+	printf("4. Exit\n");
+	scanf("%d",&b);
+	switch (b)
+	{
+
+	case 1:
+	printf("You Choose To Go Delhi in Train\n");
+	printf("Which Train You Want To Go?\n");
+	printf("1. Shatabdi Express\n");
+	printf("2. Vande Bharat Express\n");
+	printf("3. Rajdhani Express\n");
+	printf("4. Exit\n");
+	scanf("%d",&b1);
+	switch (b1)
+	{
+
+	case 1:
+	printf("\nYou Choose Shatabdi Express");
+	break;
+
+	case 2:
+	printf("\nYou Choose Vande Bharat Express");
+	break;
+
+	case 3:
+	printf("\nYou Choose Rajdhani Express");
+	break;
+
+	}
+	break;
+
+	case 2:
+	printf("You Choose To Go Delhi in Airoplane\n");
+	printf("Which Airoplane You Want To Go?\n");
+	printf("1. Rafale\n");
+	printf("2. Chinook \n");
+	printf("3. Hawk\n");
+	printf("4. Exit\n");
+	scanf("%d",&b2);
+	switch (b2)
+	{
+	case 1:
+	printf("\nYou Choose To Go in Rafale");
+	break;
+
+	case 2:
+	printf("\nYou Choose To Go in Chinook");
+	break;
+
+	case 3:
+	printf("\nYou Choose To Go in Hawk");
+	break;
+	}
+	break;
+
+	case 3:
+	printf("You Choose To Go Delhi in Car\n");
+	printf("Which Car You Want To Go?\n");
+	printf("1. Thar\n");
+	printf("2. Audi\n");
+	printf("3. Fortuner\n");
+	printf("4. Exit\n");
+	scanf("%d",&c);
+	switch (c)
+	{
+	case 1:
+	printf("\nYou Choose Thar");
+	break;
+
+	case 2:
+	printf("\nYou Choose Audi");
+	break;
+
+	case 3:
+	printf("\nYou Choose Fortuner");
+	break;
+	}
+	break;
+	}
+	break;
+   
+
+	default:
+	break;
+    }
+    return 0;
+}

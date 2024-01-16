@@ -1,0 +1,370 @@
+/* ****************************************************************
+    Name    : Ladola Margi R.
+    Roll No : 420
+    Title   : W.A menu drivan program using switch case
+              Hotel menu select and find total bill amount.
+********************************************************************/
+
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+
+    int foodChoice;
+    int subchoice;
+    int totalBillAmount;
+
+    totalBillAmount = 0;
+mainmenu:
+    system("cls");
+    printf("\n.....Main Menu.....");
+    printf("\n 1 : Chinese..");
+    printf("\n 2 : Panjabi..");
+    printf("\n 3 : Italian..");
+    printf("\n 4 : South Indian..");
+    printf("\n 5 : Fast Food..");
+    printf("\n 6 : Gujarati..");
+    printf("\n 7 : Maxican..");
+    printf("\n 0 : Exit..");
+
+    printf("\n Enter Your Choice..[0 - 3 ]");
+    scanf("%d", &foodChoice);
+
+    switch (foodChoice)
+    {
+    case 1:
+    chinesemenu:
+        printf("\n ...Chinese Menu...");
+        printf("\n 1 : Manchurian         Rs. 120 /-");
+        printf("\n 2 : Chinese Bhel.      Rs. 120 /-");
+        printf("\n 3 : Paneer Chilli      Rs. 150 /-");
+        printf("\n 4 : Veg 365            Rs. 180 /-");
+        printf("\n 5 : Paneer rice        Rs. 180 /-");
+        printf("\n 0 : Main menu..");
+
+        printf("\n Enter Your Subchoice...[0 - 5] :: ");
+        scanf("%d", &subchoice);
+
+        switch (subchoice)
+        {
+        case 1:
+            printf("\n Your Select Manchurian..");
+            totalBillAmount += 120;
+            goto chinesemenu;
+            break;
+        case 2:
+            printf("\n Your Select Chinese Bhel..");
+            totalBillAmount += 120;
+            goto chinesemenu;
+            break;
+        case 3:
+            printf("\n Your Select Paneer Chilli...");
+            totalBillAmount += 150;
+            goto chinesemenu;
+            break;
+        case 4:
+            printf("\n Your Select Veg 365 ...");
+            totalBillAmount += 180;
+            goto chinesemenu;
+            break;
+        case 5:
+            printf("\n Your Select Paneer rice...");
+            totalBillAmount += 180;
+            goto chinesemenu;
+            break;
+        case 0:
+            goto mainmenu;
+            break;
+        }
+        break;
+    case 2:
+    panjabimenu:
+        printf("\n......Panjabi Menu......");
+        printf("\n 1 : Paneer Tikka.    Rs. 300/- ");
+        printf("\n 2 : Paneer Bhurji..  Rs. 250/- ");
+        printf("\n 3 : Naan..           Rs. 150/- ");
+        printf("\n 4 : Tanduri Roti     Rs. 80/- ");
+        printf("\n 5 : Paneer Handi..   Rs. 180/- ");
+        printf("\n 0 : Main Menu..");
+
+        printf("\n Enter Your Sub Choice :: ");
+        scanf("%d", &subchoice);
+
+        switch (subchoice)
+        {
+        case 1:
+            printf("\n Your Selection Paneer tikka..");
+            totalBillAmount += 300;
+            goto panjabimenu;
+            break;
+        case 2:
+            printf("\n Your Selection Paneer Bhurji..");
+            totalBillAmount += 250;
+            goto panjabimenu;
+            break;
+        case 3:
+            printf("\n Your Selection Naan..");
+            totalBillAmount += 150;
+            goto panjabimenu;
+            break;
+        case 4:
+            printf("\n Your Selection Tanduri Roti..");
+            totalBillAmount += 80;
+            goto panjabimenu;
+            break;
+        case 5:
+            printf("\n Your Selection Paneer Handi..");
+            totalBillAmount += 150;
+            goto panjabimenu;
+            break;
+        case 0:
+            goto mainmenu;
+            break;
+        }
+        break;
+    case 3:
+    italianmenu:
+        printf("\n......Italian Menu......");
+        printf("\n 1 : Pizza            Rs. 400/-");
+        printf("\n 2 : Burger           Rs. 200/-");
+        printf("\n 3 : Garlic Bread     Rs. 150/-");
+        printf("\n 4 : Panzenella       Rs. 250/-");
+        printf("\n 5 : Focaccia Bread   Rs. 350/-");
+        printf("\n 0 : Main Menu.");
+
+        printf("\n Enter Your Sub Choice :: ");
+        scanf("%d", &subchoice);
+
+        switch (subchoice)
+        {
+        case 1:
+            printf("\n Your Selection Pizza..");
+            totalBillAmount += 400;
+            goto italianmenu;
+            break;
+        case 2:
+            printf("\n Your Selection Burger..");
+            totalBillAmount += 200;
+            goto italianmenu;
+            break;
+        case 3:
+            printf("\n Your Selection Garlic Bread.");
+            totalBillAmount += 150;
+            goto italianmenu;
+            break;
+        case 4:
+            printf("\n Your Selection Panzenella.");
+            totalBillAmount += 250;
+            goto italianmenu;
+            break;
+        case 5:
+            printf("\n Your Selection Focaccia Bread.");
+            totalBillAmount += 350;
+            goto italianmenu;
+            break;
+        case 0:
+            goto mainmenu;
+            break;
+        }
+        break;
+    case 4:
+    southindianmenu:
+        printf("\n......South Indian Menu......");
+        printf("\n 1 : Dosa            Rs. 400/-");
+        printf("\n 2 : Idli            Rs. 200/-");
+        printf("\n 3 : Menduwada       Rs. 150/-");
+        printf("\n 3 : Masala Dosa     Rs. 180/-");
+        printf("\n 3 : Pizza Dosa      Rs. 250/-");
+        printf("\n 0 : Main Menu.");
+
+        printf("\n Enter Your Sub Choice :: ");
+        scanf("%d", &subchoice);
+
+        switch (subchoice)
+        {
+        case 1:
+            printf("\n Your Selection Dosa..");
+            totalBillAmount += 400;
+            goto southindianmenu;
+            break;
+        case 2:
+            printf("\n Your Selection Idli..");
+            totalBillAmount += 200;
+            goto southindianmenu;
+            break;
+        case 3:
+            printf("\n Your Selection Menduwada.");
+            totalBillAmount += 150;
+            goto southindianmenu;
+            break;
+        case 4:
+            printf("\n Your Selection Masala Dosa.");
+            totalBillAmount += 180;
+            goto southindianmenu;
+            break;
+        case 5:
+            printf("\n Your Selection Pizza Dosa.");
+            totalBillAmount += 250;
+            goto southindianmenu;
+            break;
+        case 0:
+            goto mainmenu;
+            break;
+        }
+        break;
+    case 5:
+    fastfoodmenu:
+        printf("\n......Fast Food Menu......");
+        printf("\n 1 : Sandwich            Rs. 400/-");
+        printf("\n 2 : Grill Sandwich      Rs. 200/-");
+        printf("\n 3 : Hot dog             Rs. 150/-");
+        printf("\n 4 : Frankie             Rs. 150/-");
+        printf("\n 5 : Cheese Tost         Rs. 180/-");
+        printf("\n 0 : Main Menu.");
+
+        printf("\n Enter Your Sub Choice :: ");
+        scanf("%d", &subchoice);
+
+        switch (subchoice)
+        {
+        case 1:
+            printf("\n Your Selection Sandwich..");
+            totalBillAmount += 400;
+            goto fastfoodmenu;
+            break;
+        case 2:
+            printf("\n Your Selection Grill Sandwich..");
+            totalBillAmount += 200;
+            goto fastfoodmenu;
+            break;
+        case 3:
+            printf("\n Your Selection Hot dog.");
+            totalBillAmount += 150;
+            goto fastfoodmenu;
+            break;
+        case 4:
+            printf("\n Your Selection Frankie.");
+            totalBillAmount += 150;
+            goto fastfoodmenu;
+            break;
+        case 5:
+            printf("\n Your Selection Cheese Tost..");
+            totalBillAmount += 180;
+            goto fastfoodmenu;
+            break;
+        case 0:
+            goto mainmenu;
+            break;
+        }
+        break;
+    case 6:
+    gujaratimenu:
+        printf("\n......Gujarati Menu......");
+        printf("\n 1 : Gujarati thali      Rs. 400/-");
+        printf("\n 2 : Bhakhri sev-tameta  Rs. 200/-");
+        printf("\n 3 : Rotlo Bharthu       Rs. 150/-");
+        printf("\n 4 : Dal Dhokli          Rs. 150/-");
+        printf("\n 5 : Undhiyu puri        Rs. 150/-");
+        printf("\n 6 : Masala Chass        Rs. 50/-");
+        printf("\n 0 : Main Menu.");
+
+        printf("\n Enter Your Sub Choice :: ");
+        scanf("%d", &subchoice);
+
+        switch (subchoice)
+        {
+        case 1:
+            printf("\n Your Selection Gujarati thali ..");
+            totalBillAmount += 400;
+            goto gujaratimenu;
+            break;
+        case 2:
+            printf("\n Your Selection Bhakhri sev-tameta..");
+            totalBillAmount += 200;
+            goto gujaratimenu;
+            break;
+        case 3:
+            printf("\n Your Selection Rotlo Bharthu.");
+            totalBillAmount += 150;
+            goto gujaratimenu;
+            break;
+        case 4:
+            printf("\n Your Selection Dal Dhokli.");
+            totalBillAmount += 150;
+            goto gujaratimenu;
+            break;
+        case 5:
+            printf("\n Your Selection Undhiyu puri.");
+            totalBillAmount += 150;
+            goto gujaratimenu;
+            break;
+        case 6:
+            printf("\n Your Selection Masala Chass .");
+            totalBillAmount += 50;
+            goto gujaratimenu;
+            break;
+        case 0:
+            goto mainmenu;
+            break;
+        }
+        break;
+    case 7:
+    maxcianmenu:
+        printf("\n......Gujarati Menu......");
+        printf("\n 1 : Tacos             Rs. 400/-");
+        printf("\n 2 : Guacamole         Rs. 500/-");
+        printf("\n 3 : Chilli Con Carne  Rs. 450/-");
+        printf("\n 4 : Tomato Salsa      Rs. 750/-");
+        printf("\n 5 : Enchiladas        Rs. 650/-");
+        printf("\n 6 : Guilt-Free Chilli Rs. 550/-");
+        printf("\n 0 : Main Menu.");
+
+        printf("\n Enter Your Sub Choice :: ");
+        scanf("%d", &subchoice);
+
+        switch (subchoice)
+        {
+        case 1:
+            printf("\n Your Selection Tacos ..");
+            totalBillAmount += 400;
+            goto maxcianmenu;
+            break;
+        case 2:
+            printf("\n Your Selection Guacamole..");
+            totalBillAmount += 500;
+            goto maxcianmenu;
+            break;
+        case 3:
+            printf("\n Your Selection Chilli Con Carne..");
+            totalBillAmount += 450;
+            goto maxcianmenu;
+            break;
+        case 4:
+            printf("\n Your Selection Tomato Salsa..");
+            totalBillAmount += 750;
+            goto maxcianmenu;
+            break;
+        case 5:
+            printf("\n Your Selection Enchiladas.");
+            totalBillAmount += 650;
+            goto maxcianmenu;
+            break;
+        case 6:
+            printf("\n Your Selection Guilt-Free Chilli..");
+            totalBillAmount += 550;
+            goto maxcianmenu;
+            break;
+        case 0:
+            goto mainmenu;
+            break;
+        }
+        break;
+    case 0:
+        system("cls");
+        printf("\n Your Total Bill Amount %d", totalBillAmount);
+        printf("\n Thank You Visit Again...");
+        break;
+    }
+    printf("\n");
+    return 0;
+}

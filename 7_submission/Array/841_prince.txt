@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main() {
+    int fybca8[10], i;
+clrscr();
+
+    for(i = 0; i < 10; i++) 
+{
+        printf("enter value for fybca8[%d] ", i); 
+        scanf("%d", &fybca8[i]);
+    }
+
+    for(i = 0; i < 10; i++)
+        printf("\t value at fybca8[%d] = %d\t\t", i, fybca8[i]);
+
+    getch(); 
+
+}

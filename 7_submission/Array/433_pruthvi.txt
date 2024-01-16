@@ -1,0 +1,16 @@
+﻿#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i ,a[20];
+    clrscr();
+    for(i=0;i<20;i++)
+   {
+   printf("\n enter a value of %d :",i);
+    scanf("%d",&a[i]);
+   }
+   for(i=0;i<20;i++)
+   
+    printf("\n your entered charector is:%d",a[i]);
+    getch();
+}

@@ -1,0 +1,24 @@
+/*
+NAME : ANSH PATEL
+ROLL NO : 837
+TITLE : 1-D ARRAY
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int arr[10],i,a=1,b=1,c;
+clrscr();
+
+for(i=0 ; i<10 ; i++)
+{
+	printf("Enter a %d element of array : ",a);
+	scanf("%d",&arr[i]);
+}
+for(c=0 ; c<10 ; c++)
+{
+	printf("\nElement of array : %d",b,arr[c]);
+	b++;
+}
+getch();
+}

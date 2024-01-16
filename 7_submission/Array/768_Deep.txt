@@ -1,0 +1,28 @@
+/*
+name:vadaliya deep
+roll no:768
+title:WAP of 1-D ARRAY(storing and printing)
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,rno[10];
+clrscr();
+
+printf("Enter roll number in array:"\n);
+
+for(i=0;i<10;i++)
+	{
+	printf("Enter rno[%d]:",i);
+	scanf("%d",&rno[i]);
+	}
+
+printf("\nDisplay store value:");
+ 
+for(i=0;i<10;i++)
+	{
+	printf("\nrno[%d]=%d",i,rno[i]);
+	}
+getch();
+}

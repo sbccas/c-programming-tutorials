@@ -1,0 +1,205 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   int movie,kdrama,song,series,n,i,j,a,b,c,d;
+   clrscr();
+   printf("enter 1 for movie\n");
+   printf("enter 2 for k-drama\n");
+   printf("enter 3 for song\n");
+   printf("enter 4 for series\n");
+   scanf("%d",&n);
+   switch(n)
+   {
+     case 1:movie =1;
+	    printf("choose the movie \n");
+	    printf("a . 3 ekka \n");
+	    printf("b . javaan \n");
+	    printf("c . gadder 2 \n");
+	    printf("d . quit \n");
+	    scanf("%d",&i);
+	    switch(i)
+	    {
+	      case 1 :// code to be executed if i=a
+		      a=1;
+		      printf("choose the price");
+		      printf(" 250\-");
+		      printf(" 150\-");
+		      scanf("%d",&j);
+		      printf("thanks");
+		      break;
+
+	      case 2 :// code to be executed if i=b
+		      b=2;
+		      printf("choose the price");
+		      printf(" 250\-");
+		      printf(" 150\-");
+		      scanf("%d",&j);
+		      printf("thanks");
+		      break;
+
+	      case 3 :// code to be executed if i=c
+		      c=3;
+		      printf("choose the price");
+		      printf(" 250\-");
+		      printf(" 150\-");
+		      scanf("%d",&j);
+		      printf("thanks");
+		      break;
+
+	      case 4 :// code to be executed if i=d
+		      d=4;
+		      printf("quit");
+		      printf("thanks");
+		      break;
+	     }
+	     break;
+
+
+     case 2:kdrama =2;
+	    printf("choose the kdrama \n");
+	    printf("a . gobline \n");
+	    printf("b . sweet home \n");
+	    printf("c . squid game \n");
+	    printf("d . quit \n");
+	    scanf("%d",&i);
+	    switch(i)
+	    {
+	      case 1:// code to be executed if i=a
+		     a;
+		     printf("choose the source");
+		     printf(" netflix \n");
+		     printf("amazon prime \n");
+		     scanf("%d",&j);
+		     printf("thanks");
+		     break;
+
+	      case 2:// code to be executed if i=b
+		     b;
+		     printf("choose the source");
+		     printf(" netflix \n");
+		     printf("amazon prime \n");
+		     scanf("%d",&j);
+		     printf("thanks");
+		     break;
+
+	       case 3:// code to be executed if i=c
+		     c;
+		     printf("choose the source");
+		     printf(" netflix \n");
+		     printf("amazon prime \n");
+		     scanf("%d",&j);
+		     printf("thanks");
+		     break;
+
+	       case 4:// code to be executed if i=d
+		      d;
+		      printf("quit");
+		      printf("thamks");
+		      break;
+	    }
+
+	    break;
+
+     case 3:song =3;
+	    printf("choose the song \n");
+	    printf("a . boy with luv \n");
+	    printf("b . pink vanom \n");
+	    printf("c . hard \n");
+	    printf("d . quit \n");
+	    scanf("%d",&i);
+	    switch(i)
+	    {
+	      case 1:// code to be executed if i=a
+		     a;
+		     printf("choose the source\n");
+		     printf("spotify\n");
+		     printf("ganna\n");
+		     printf("you tube\n");
+		     scanf("%d",&j);
+		     printf("thanks");
+		     break;
+
+	       case 2:// code to be executed if i=b
+		     b;
+		     printf("choose the source\n");
+		     printf("spotify\n");
+		     printf("ganna\n");
+		     printf("you tube\n");
+		     scanf("%d",&j);
+		     printf("thanks");
+		     break;
+
+	       case 3:// code to be executed if i=c
+		     c;
+		     printf("choose the source\n");
+		     printf("spotify\n");
+		     printf("ganna\n");
+		     printf("you tube\n");
+		     scanf("%d",&j);
+		     printf("thanks");
+		     break;
+
+	       case 4:// code to be executed if i=d
+		      d;
+		      printf("quit \n");
+		      printf("thanks");
+		      break;
+
+	    }
+	    break;
+
+     case 4:series =4;
+	    printf("choose the series \n");
+	    printf("a . marvel \n");
+	    printf("b . stranger thing \n");
+	    printf("c . the walking dead \n");
+	    printf("d . quit \n");
+	    scanf("%d",&i);
+	    switch(i)
+	    {
+	       case 1:// code to be executed if i=a
+		      a;
+		      printf("choose the stream");
+		      printf("series.com\n");
+		      printf("netfilx\n");
+		      printf("disney.com");
+		      printf("amazone prime");
+		      scanf("%d",&j);
+		      printf("thanks");
+		      break;
+
+		case 2:// code to be executed if i=b
+		      b;
+		      printf("choose the stream");
+		      printf("series.com\n");
+		      printf("netfilx\n");
+		      printf("disney.com");
+		      printf("amazone prime");
+		      scanf("%d",&j);
+		      printf("thanks");
+		      break;
+
+		case 3:// code to be executed if i=c
+		      c;
+		      printf("choose the stream");
+		      printf("series.com\n");
+		      printf("netfilx\n");
+		      printf("disney.com");
+		      printf("amazone prime");
+		      scanf("%d",&j);
+		      printf("thanks");
+		      break;
+
+		case 4:// code to be executed if i=d
+		       d;
+		       printf("quit \n");
+		       printf("thanks");
+		       break;
+
+	    }
+	    break;
+   }
+   getch();
+}
+

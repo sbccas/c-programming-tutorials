@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+
+{
+int fybca[10],i;
+clrscr();
+printf("\n ===> Program Store In Data Array");
+for(i=1;i<=10;i++)
+{
+printf("\n \n Please Enter Element For fybca[%d]=",i);
+scanf("%d",&fybca[i]);
+}
+printf("\n ===> DISPLAYING STORED DATA IN ARRAY ");
+for(i=1;i<=10;i++)
+{
+printf("\n \n fybca[%d]=%d",i,fybca[i]);
+}
+getch();
+}

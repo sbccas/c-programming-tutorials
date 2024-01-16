@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{
+    int Array[10], i;
+    clrscr();
+    printf("\t\t\tWelcome to my program");
+    printf("Enter Your Data::---\n");
+
+    for ( i = 0; i < 10; i++)
+    {
+        printf("Array[%d]=",i);
+        scanf("%d",&Array[i]);
+    }
+    
+    printf("Your Data ::---\n");
+
+    for ( i = 0; i < 10; i++)
+    {
+        printf("Array[%d]=%d\n",i,Array[i]);
+    }
+    
+    printf("\nGood Bye");
+    getch();
+}

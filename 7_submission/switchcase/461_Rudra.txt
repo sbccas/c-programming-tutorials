@@ -1,0 +1,558 @@
+/*
+Name: Rudra Dhameliya
+Roll no: 461
+*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int a;
+r2: clrscr();
+    //this line is for selecting main option catgory
+    printf("Enter any Option\n");
+    printf("1. Watch the movie\n");
+    printf("2. Play Video Games\n");
+    printf("3. Eat Something\n");
+    printf("4. Exit\n");
+    scanf("%d",&a);
+
+    switch (a)
+    {
+		case 1:
+	r3:     clrscr();
+		//this line for selecting where to watch
+		printf("\nYou entered watch the movie option\n");
+		printf("\nWhere to Watch movie?\n");
+		printf("1. Go to Theater\n");
+		printf("2. Watch On mobile\n");
+		printf("3. Watch on laptop\n");
+		printf("4. Exit\n");
+		scanf("%d",&a);
+		switch (a)
+    {
+			case 1:
+			clrscr();
+			//this code for which movie to watch
+			printf("\nYou choose to watch movie on theater\n");
+			printf("\nWhich movie you want to watch\n");
+			printf("1. Gadar 2\n");
+			printf("2. Jawaan\n");
+			printf("3. Openheimer\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+
+			case 1:
+			printf("\nYou choose gader 2 to Watch");
+			break;
+
+			case 2:
+			printf("\nYou choose Jawaan to Watch");
+			break;
+
+			case 3:
+			printf("\nYou choose Openheimer to Watch");
+			break;
+
+			//this is for return the previous option
+			case 4:
+			goto r3;
+			break;
+
+	}
+	break;
+
+		case 2:
+a1:             clrscr();
+		printf("\nYou choose to watch movie on Mobile\n");
+		printf("\nWhich Platform you want to watch\n");
+		printf("1. Amazon Prime\n");
+		printf("2. Netflix\n");
+		printf("3. Disney+ Hotstar\n");
+		printf("4. Exit\n");
+		scanf("%d",&a);
+		switch (a)
+	{
+
+			case 1:
+			clrscr();
+			printf("\nYou choose Amazon Prime to watch Movie\n");
+			printf("\nWhich movie you want to watch\n");
+			printf("1. Rocky aur Rani ki Prem kahaani\n");
+			printf("2. Pathaan\n");
+			printf("3. Satyaprem ki katha\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+
+			case 1:
+			printf("\nYou choose Rocky aur rani ki prem kahani to Watch");
+			break;
+
+			case 2:
+			printf("\nYou choose Pathaan to Watch");
+			break;
+
+			case 3:
+			printf("\nYou choose Satyaprem ki Katha to Watch");
+			break;
+
+			case 4:
+			goto a1;
+			break;
+
+			}
+			break;
+
+			case 2:
+			clrscr();
+			printf("\nYou choose Netflix to watch Movie\n");
+			printf("\nWhich movie you want to watch\n");
+			printf("1. The Sucide squad\n");
+			printf("2. tu jhooti main makkar\n");
+			printf("3. Extraction\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+			case 1:
+			printf("\nYou choose The Sucide Squad to Watch");
+			break;
+
+			case 2:
+			printf("\nYou choose tu jhooti main makkar to Watch");
+			break;
+
+			case 3:
+			printf("\nYou choose Extraction to Watch");
+			break;
+
+			case 4:
+			goto a1;
+			break;
+
+			}
+			break;
+
+			case 3:
+			clrscr();
+			printf("\nYou choose Disney+ Hotstar to watch Movie\n");
+			printf("\nWhich movie you want to watch\n");
+			printf("1. Avatar: The Way of water\n");
+			printf("2. Black Panther\n");
+			printf("3. Avengers: End game\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+			case 1:
+			printf("\nYou choose The Avatar: The Way of water to Watch");
+			break;
+
+			case 2:
+			printf("\nYou choose Black Panther to Watch");
+			break;
+
+			case 3:
+			printf("\nYou choose Avengers: End game to Watch");
+			break;
+
+			case 4:
+			goto a1;
+			break;
+
+			}
+			break;
+
+			case 4:
+			goto r3;
+			break;
+
+		}
+		break;
+		case 3:
+r7:		clrscr();
+		printf("\nYou choose to watch movie on Laptop\n");
+		printf("\nWhich Platform you want to watch\n");
+		printf("1. Amazon Prime\n");
+		printf("2. Netflix\n");
+		printf("3. Disney+ Hotstar\n");
+		printf("4. Exit\n");
+		scanf("%d",&a);
+		switch (a)
+		{
+
+			case 1:
+			clrscr();
+			printf("\nYou choose Amazon Prime to watch Movie\n");
+			printf("\nWhich movie you want to watch\n");
+			printf("1. Rocky aur Rani ki Prem kahaani\n");
+			printf("2. Pathaan\n");
+			printf("3. Satyaprem ki katha\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+
+			case 1:
+			printf("\nYou choose Rocky aur rani ki prem kahani to Watch");
+			break;
+
+			case 2:
+			printf("\nYou choose Pathaan to Watch");
+			break;
+
+			case 3:
+			printf("\nYou choose Satyaprem ki Katha to Watch");
+			break;
+
+			case 4:
+			goto r7;
+			break;
+
+			}
+			break;
+
+			case 2:
+			clrscr();
+			printf("\nYou choose Netflix to watch Movie\n");
+			printf("\nWhich movie you want to watch\n");
+			printf("1. The Sucide squad\n");
+			printf("2. tu jhooti main makkar\n");
+			printf("3. Extraction\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+			case 1:
+			printf("\nYou choose The Sucide Squad to Watch");
+			break;
+
+			case 2:
+			printf("\nYou choose tu jhooti main makkar to Watch");
+			break;
+
+			case 3:
+			printf("\nYou choose Extraction to Watch");
+			break;
+
+			case 4:
+			goto r7;
+			break;
+
+			}
+			break;
+
+			case 3:
+			clrscr();
+			printf("\nYou choose Disney+ Hotstar to watch Movie\n");
+			printf("\nWhich movie you want to watch\n");
+			printf("1. Avatar: The Way of water\n");
+			printf("2. Black Panther\n");
+			printf("3. Avengers: End game\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+			case 1:
+			printf("\nYou choose The Avatar: The Way of water to Watch");
+			break;
+
+			case 2:
+			printf("\nYou choose Black Panther to Watch");
+			break;
+
+			case 3:
+			printf("\nYou choose Avengers: End game to Watch");
+			break;
+
+			case 4:
+			goto r7;
+			break;
+
+			}
+			break;
+			case 4:
+			goto r3;
+			break;
+			}
+			break;
+
+			case 4:
+			goto r2;
+			break;
+
+	}
+	break;
+
+		case 2:
+b1:             clrscr();
+		printf("\nYou Choose to Play Video games\n");
+		printf("\nWhere you want to play games\n");
+		printf("1. Console\n");
+		printf("2. Pc\n");
+		printf("3. Mobile\n");
+		printf("4. Exit\n");
+		scanf("%d",&a);
+		switch (a)
+
+			{
+			case 1:
+			clrscr();
+			printf("\nYou choose to Play Games on Console\n");
+			printf("\nWhich Game You want to Play\n");
+			printf("1. Assassin's Creed Valhalla\n");
+			printf("2. Spider-man: Miles Morales\n");
+			printf("3. God of War Ragnarok\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+
+			case 1:
+			printf("\nYou choose Assassin's Creed Valhalla to Play");
+			break;
+
+			case 2:
+			printf("\nYou choose Spider-man: Miles Morales to Play");
+			break;
+
+			case 3:
+			printf("\nYou choose God of War Ragnarok to Play");
+			break;
+
+			case 4:
+			goto b1;
+			break;
+
+			}
+			break;
+
+			case 2:
+			clrscr();
+			printf("\nYou choose to Play game on PC\n");
+			printf("\nWhich Type of Game You want to Play\n");
+			printf("1. Story based game\n");
+			printf("2. Racing Game\n");
+			printf("3. Simulation games\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+
+			case 1:
+			clrscr();
+			printf("\nYou choose Story based Game to Play\n");
+			printf("\nWhich Game you want to play\n");
+			printf("1. Grand Theft Auto 5\n");
+			printf("2. Cyberpunk 2077\n");
+			printf("3. Red Dead Redemption 2\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+
+			case 1:
+			printf("\nYou choose Grand Theft Auto 5 to Play");
+			break;
+
+			case 2:
+			printf("\nYou choose Cyberpunk 2077 to Play");
+			break;
+
+			case 3:
+			printf("\nYou choose Red Dead Redemption 2 to Play");
+			break;
+
+			}
+			break;
+
+			case 2:
+			clrscr();
+			printf("\nYou choose Racing Game to Play\n");
+			printf("\nWhich Game you want to play\n");
+			printf("1. Forza Horizon 5\n");
+			printf("2. Asphalt 9: Legends\n");
+			printf("3. BeamNG.Drive\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+			case 1:
+			printf("\nYou choose Forza Horizon 5 to Play");
+			break;
+
+			case 2:
+			printf("\nYou choose Asphalt 9: Legends to Play");
+			break;
+
+			case 3:
+			printf("\nYou choose BeamNG.Drive to Play");
+			break;
+			}
+			break;
+
+			case 3:
+			clrscr();
+			printf("\nYou choose Simulation games to play\n");
+			printf("\nWhich Game you want to play\n");
+			printf("1. PC Building Simulator\n");
+			printf("2. Microsoft Flight Simulator\n");
+			printf("3. Farming Simulator 22\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+			case 1:
+			printf("\nYou choose PC Building Simulator to play");
+			break;
+
+			case 2:
+			printf("\nYou choose Microsoft Flight Simulator to Play");
+			break;
+
+			case 3:
+			printf("\nYou choose Farming Simulator 22 to Play");
+			break;
+			}
+			break;
+
+			case 4:
+			goto b1;
+			break;
+
+			}
+			break;
+
+			case 3:
+			clrscr();
+			printf("\nYou choose to Play game on Mobile\n");
+			printf("\nWhich Game you want to play\n");
+			printf("1. BGMI\n");
+			printf("2. Free Fire\n");
+			printf("3. Call Of Duty\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+
+			case 1:
+			printf("\nYou choose BGMI to play");
+			break;
+
+			case 2:
+			printf("\nYou choose Free Fire to play");
+			break;
+
+			case 3:
+			printf("\nYou choose Call of Duty to play");
+			break;
+
+			case 4:
+			goto b1;
+			break;
+
+			}
+			break;
+
+			case 4:
+			goto r2;
+			break;
+
+	}
+	break;
+
+		case 3:
+c1:             clrscr();
+		printf("You Choose to Eat Something\n");
+		printf("Which type of food you wan to eat\n");
+		printf("1. Drinks\n");
+		printf("2. Snacks\n");
+		printf("3. Exit\n");
+		scanf("%d",&a);
+		switch (a)
+		{
+			case 1:
+			clrscr();
+			printf("You choose Drinks\n");
+			printf("Which Drink you like to have?\n");
+			printf("1. Juice\n");
+			printf("2. Water\n");
+			printf("3. Milk\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+
+			case 1:
+			printf("\nYou choose Juice to drink");
+			break;
+
+			case 2:
+			printf("\nYou choose Water to drink");
+			break;
+
+			case 3:
+			printf("\nYou choose Milk to drink");
+			break;
+
+			case 4:
+			goto c1;
+			break;
+
+			}
+			break;
+
+			case 2:
+			clrscr();
+			printf("You choose Snacks to eat\n");
+			printf("Which Snacks you want to eat\n");
+			printf("1. Vadapav\n");
+			printf("2. samosa\n");
+			printf("3. Pani puri\n");
+			printf("4. Exit\n");
+			scanf("%d",&a);
+			switch (a)
+			{
+
+			case 1:
+			printf("\nYou choose Vadapav to eat");
+			break;
+
+			case 2:
+			printf("\nYou choose Samsosa to eat");
+			break;
+
+			case 3:
+			printf("\nYou choose Pani Puri eat");
+			break;
+
+		    case 4:
+			goto c1;
+			break;
+
+			}
+			break;
+
+			case 3:
+			goto r2;
+			break;
+
+			}
+			break;
+
+			// this line for exiting the program completely
+			case 4:
+			printf("\n Exiting The Program");
+			goto r1;
+			break;
+
+	default:
+	break;
+    }
+
+r1:    getch();
+}

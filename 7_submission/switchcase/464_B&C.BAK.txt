@@ -1,0 +1,26 @@
+/* roll no: 464
+    title: wap for odd number
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int x;
+ clrscr();
+ for(x=1;x<=20;x++)
+ printf(" wap programe for break and continue \n");
+ {
+   // only for break
+  /* if(x=15)
+   {
+    break;
+   }
+   printf("\n %d \n");
+  */
+  // break and continue
+   if(x%2==0)
+   continue;
+   printf("your odd number is: %d \n",x);
+ }
+ getch();
+}

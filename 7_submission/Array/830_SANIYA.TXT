@@ -1,0 +1,31 @@
+/* remark
+NAME:MARKANA SANIYA
+ROLL NO:830
+TITLE:WAP 10 DATA STOTE AND 10 DATA PRINT
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int fybca8[10],i;
+clrscr();
+
+	 printf("\n program to store in data array :");
+
+	{
+	    printf("\n please enter  element for fybca8[%d]=",i);
+	    scanf("%d",&fybca8[i]);
+	}
+
+	 printf("DISPLAYING STORED DATA IN ARRAY : \n");
+
+	 {
+	 printf("element at fybca8[%d]=%d\n",i,fybca8[i]);
+	 }
+
+
+
+
+ getch();
+
+}

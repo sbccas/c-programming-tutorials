@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,num[10];
+	clrscr();
+
+	printf("program to store in array:\n");
+	for(i=0;i<10;i++)
+	{
+	printf("please enter num[%d]:",i);
+	scanf("%d",&num[i]);
+	}
+	printf("display store data in array:\n");
+	for(i=0;i<10;i++)
+	{
+	printf("\n enter the num[%d]=%d",i,num[i]);
+	}
+      getch();
+ }
+
+
+
+
+

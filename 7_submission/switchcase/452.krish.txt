@@ -1,0 +1,208 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int a;
+ int qty,rate,total ;
+clrscr();
+printf("welcome to the program of Starbucks list using switch case\n");
+printf("1:vanilla sweet cream cold brew\n");
+printf("2: vanilla sweet cream nitro\n");
+printf("3: vanilla oatmilk shaken espresso \n");
+printf("4:iced caffe latte\n");
+printf("5:iced caffe mocha\n");
+printf("6:iced matcha latte\n");
+printf("7:cold brew with milk\n");
+printf("8:iced coffee with milk\n");
+printf("9:iced flat white\n");
+printf("10:pumpkin spice latte\n");
+printf("11:iced white chocolate mocha\n");
+printf("12:coffee frappuccino\n");
+printf("13:salted caramel cream cold brew\n");
+printf("14:iced shaken espresso\n");
+printf("15:honey almondmilk flat white\n");
+printf("16:caramel macchiato\n");
+printf("17:refreshers\n");
+printf("18:pumpkin spice frappuccino\n");
+printf("19:Featured Dark Roast Caffè Verona\n");
+printf("20:Featured Dark Roast Sumatra\n");
+printf("21:exit\n");
+printf("enter any choice : ");
+scanf("%d",&a);
+
+switch(a)
+{
+  case 1:
+	printf("\nYou have selected vanilla sweet cream cold brew:-");
+	printf("\n  Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=40;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 2:
+	printf("\nYou have selected vanilla sweet cream nitro:-");
+	printf("\n. Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=90;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 3:
+	printf("\nYou have selected vanilla oatmilk shaken espresso:-");
+	printf("\n  Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=50;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 4:
+	printf("\nYou have selected iced caffe latte:");
+	printf("\nENTER THE QUANTITY:");
+	scanf("%d",&qty);
+	rate=20;
+	total=qty*rate;
+	printf("\n Total amount :%d",total);
+	break;
+  case 5:
+	printf("\n You have selected iced caffe mocha:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=40;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 6:
+	printf("\nYou have selected iced matcha latte:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=20;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 7:
+	printf("\nYou have selected cold brew with milk:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=60;
+    total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 8:
+	printf("\nYou have selected iced coffee with milk:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=75;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 9:
+	printf("\nYou have selected iced flat white:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=30;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	 break;
+  case 10:
+	printf("\nYou have selected pumpkin spice latte:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=40;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 11:
+	printf("\nYou have selected iced white chocolate mocha:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=80;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 12:
+	printf("\nYou have selected coffee frappuccino:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=60;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 13:
+	printf("\nYou have selected salted caramel cream cold brew:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=20;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 14:
+	printf("\nYou have selected iced shaken espresso:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=80;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 15:
+	printf("\nYou have selected honey almondmilk flat white:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=30;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 16:
+	printf("\nYou have selected caramel macchiato:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=25;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 17:
+	printf("\nYou have selected refreshers:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=30;
+    total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 18:
+	printf("\nYou have selected pumpkin spice frappuccino:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=20;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 19:
+	printf("\nYou have selected Featured Dark Roast Caffè Verona:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=30;
+    total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 55:
+	printf("\nYou have selected Featured Dark Roast Sumatra:-");
+	printf("\n Enter THE QUANITITY:");
+	scanf("%d",&qty);
+	rate=100;
+	total=qty*rate;
+	printf("\nTotal amount :%d",total);
+	break;
+  case 21:
+	 printf("\nYou have selected Stalc:-");
+	 printf("\n Enter the quantity :");
+	 scanf("%d",&qty);
+	 rate=10;
+	 total=qty*rate;
+	 printf("\nTotal amount :%d",total);
+	 break;
+    default:
+	 printf("plz enter valid choice");
+	 break;
+ }
+ getch();
+ }

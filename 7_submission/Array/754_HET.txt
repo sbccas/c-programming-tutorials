@@ -1,0 +1,32 @@
+/*
+NAME: HET PRAJAPATI
+ROLL NO: 754
+TITLE: WAP OF 1-D ARRAY(STORING AND PRINTING)
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,rno[10];
+clrscr();
+
+printf("STORING VALUES IN ARRAY:\n");
+
+for(i=0;i<10;i++)
+	{
+	printf("ENTER ROLLNO[%d]:",i);
+	scanf("%d",&rno[i]);
+	}
+
+printf("\nDISPLAYING STORED VALUE THROUGH CONCEPT OF ARRAY:");
+printf("\n------------");
+
+for(i=0;i<10;i++)
+	{
+	printf("\nROLLNO[%d]=%d",i,rno[i]);
+	}
+
+printf("\n------------");
+
+getch();
+}

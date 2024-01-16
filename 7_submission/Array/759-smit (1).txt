@@ -1,0 +1,58 @@
+/*
+
+REMARK
+
+NAME =  sanghani  smit  j.
+ROLL NO = 759.
+TITLE = ENTER 10 NUMBERS AND PRINT 10 NUMBERS IN ARRAY.
+
+*/
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+
+        //   int marks[10];
+        //   int marks[10] = {10,20,30,40,50,60,70,80,90,100};
+            int i, marks[10];
+
+         clrscr();
+
+  /*	marks[0] = 10;
+	marks[1] = 20;
+	marks[2] = 30;
+	marks[3] = 40;
+	marks[4] = 50;
+	marks[5] = 60;
+	marks[6] = 70;
+	marks[7] = 80;
+	marks[8] = 90;
+	marks[9] = 100;   */
+
+
+  /*    printf("ARRAY OF marks[0] = %d\n",marks[0]);
+	printf("ARRAY OF marks[1] = %d\n",marks[1]);
+	printf("ARRAY OF marks[2] = %d\n",marks[2]);
+	printf("ARRAY OF marks[3] = %d\n",marks[3]);
+	printf("ARRAY OF marks[4] = %d\n",marks[4]);
+	printf("ARRAY OF marks[5] = %d\n",marks[5]);
+	printf("ARRAY OF marks[6] = %d\n",marks[6]);
+	printf("ARRAY OF marks[7] = %d\n",marks[7]);
+	printf("ARRAY OF marks[8] = %d\n",marks[8]);
+	printf("ARRAY OF marks[9] = %d\n",marks[9]);      */
+
+	for(i=0;i<10;i++)
+	{
+	     printf("enter the marks[%d] = ",i);
+	     scanf("%d",&a[i]);
+	}
+
+	for(i=0;i<10;i++)
+	{
+	   printf("\nmarks[%d] = %d",i,marks[i]);
+   	}
+
+	getch();
+}

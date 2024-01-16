@@ -1,0 +1,227 @@
+/*
+	Name:- SOLANKI DHRUMIL.
+    Title:- wap of menu driven using nested switch case.
+*/
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    char c;
+    int bike,place,course,p;
+    clrscr();
+    printf("what you want to do in your vacation\n");
+    printf("A.Go on Bike ride\nB.Go on a Trip\nC.Join any Course\n");
+    printf("Enter your choice:\n");
+    scanf("%c",&c);
+    switch(c)
+    {
+    case 'A':
+        printf("You choose to go on bike ride\n");
+        printf("select bike\n");
+        printf("you have 3 option:\n");
+        printf("1.ktm\n2.duke\n3.royal enfield\n");
+        scanf("%d",&bike);
+        switch(bike)
+        {
+        case 1:
+            printf("You choose to go on bike ride on ktm\n");
+            printf("Select with whom you want to go on bike ride\n");
+            printf("1.Friend\n2.Family member\n3.Alone\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose to go on bike ride on ktm with friend\n");
+                break;
+            case 2:
+                printf("You choose to go on bike ride on ktm with Family member\n");
+                break;
+            case 3:
+                printf("You choose to go on bike ride on ktm alone\n");
+                break;
+            }
+            break;
+        case 2:
+            printf("You choose to go on bike ride on duke\n");
+            printf("Select with whom you want to go on bike ride\n");
+            printf("1.Friend\n2.Family member\n3.Alone\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose to go on bike ride on ktm with friend\n");
+                break;
+            case 2:
+                printf("You choose to go on bike ride on ktm with Family member\n");
+                break;
+            case 3:
+                printf("You choose to go on bike ride on ktm alone\n");
+                break;
+            }
+            break;
+        case 3:
+            printf("You choose to go on bike ride on royal enfield\n");
+            printf("Select with whom you want to go on bike ride\n");
+            printf("1.Friend\n2.Family member\n3.Alone\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose to go on bike ride on ktm with friend\n");
+                break;
+            case 2:
+                printf("You choose to go on bike ride on ktm with Family member\n");
+                break;
+            case 3:
+                printf("You choose to go on bike ride on ktm alone\n");
+                break;
+            }
+            break;
+        default:
+            printf("on other bike\n");
+            break;
+        }
+        break;
+    case 'B':
+        printf("You choose to go on a trip\n");
+        printf("select place\n");
+        printf("You have 3 option:\n");
+        printf("1.at mountain\n2.at beaches\n3.at forest\n");
+        scanf("%d",&place);
+        switch(place)
+        {
+        case 1:
+            printf("You choose to go on a trip at mountain\n");
+            printf("Select with whom you want to go on a trip\n");
+            printf("1.Friend\n2.Family member\n3.Alone\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose to go on a trip at mountain with friend\n");
+                break;
+            case 2:
+                printf("You choose to go on a trip at mountain with Family member\n");
+                break;
+            case 3:
+                printf("You choose to go on a trip at mountain alone\n");
+                break;
+            }
+            break;
+        case 2:
+            printf("You choose to go on a trip at beaches\n");
+            printf("Select with whom you want to go on a trip\n");
+            printf("1.Friend\n2.Family member\n3.Alone\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose to go on a trip at beaches with friend\n");
+                break;
+            case 2:
+                printf("You choose to go on a trip at beaches with Family member\n");
+                break;
+            case 3:
+                printf("You choose to go on a trip at beaches alone\n");
+                break;
+            }
+            break;
+        case 3:
+            printf("You choose to go on a trip at forest\n");
+            printf("Select with whom you want to go on a trip\n");
+            printf("1.Friend\n2.Family member\n3.Alone\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose to go on a trip at forest with friend\n");
+                break;
+            case 2:
+                printf("You choose to go on a trip at forest with Family member\n");
+                break;
+            case 3:
+                printf("You choose to go on a trip at forest alone\n");
+                break;
+            }
+            break;
+        default:
+            printf("at other place\n");
+            break;
+        }
+        break;
+    case 'C':
+        printf("You choose to Join any course\n");
+        printf("select one course\n");
+        printf("You have 3 option:\n");
+        printf("1.ccc course\n2.drawing course\n3.spoken english course\n");
+        scanf("%d",&course);
+        switch(course)
+        {
+        case 1:
+            printf("You choose to join ccc course\n");
+            printf("Select with whom you want to join this course\n");
+            printf("1.Friend\n2.Family member\n3.Alone\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose to join ccc course with friend\n");
+                break;
+            case 2:
+                printf("You choose to join ccc course with Family member\n");
+                break;
+            case 3:
+                printf("You choose to join ccc course alone\n");
+                break;
+            }
+            break;
+        case 2:
+            printf("You choose to join drawing course\n");
+            printf("Select with whom you want to join this course\n");
+            printf("1.Friend\n2.Family member\n3.Alone\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose to join drawing course with friend\n");
+                break;
+            case 2:
+                printf("You choose to join drawing course with Family member\n");
+                break;
+            case 3:
+                printf("You choose to join drawing course alone\n");
+                break;
+            }
+            break;
+        case 3:
+            printf("You choose to join spoken english course\n");
+            printf("Select with whom you want to join this course\n");
+            printf("1.Friend\n2.Family member\n3.Alone\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose to join spoken english course with friend\n");
+                break;
+            case 2:
+                printf("You choose to join spoken english course with Family member\n");
+                break;
+            case 3:
+                printf("You choose to join spoken english course alone\n");
+                break;
+            }
+            break;
+        default:
+            printf("other course\n");
+            break;
+        }
+        break;
+
+    default:
+        printf("invalid choice");
+        break;
+
+    }
+    getch();
+}

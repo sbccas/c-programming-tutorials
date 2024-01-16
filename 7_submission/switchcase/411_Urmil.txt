@@ -1,0 +1,28 @@
+/*******************************
+name:-kevadiya urmil
+roll no:-411
+program name:-printing 1 to 100 number with 53 number missing
+**************************************/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i;
+	clrscr();
+	printf("\n wlcome to the program dear user");
+	printf("\n---------------------------------");
+	printf("\nthis program is for printing 1 to 100 number\n\n");
+
+	for(i=1;i<=100;i++)
+	{
+		if(i==53)
+		{
+			continue;
+		}
+
+		printf("%d\t",i);
+	}
+	printf("\n\n program has ended");
+	getch();
+
+}

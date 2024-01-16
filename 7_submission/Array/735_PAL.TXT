@@ -1,0 +1,35 @@
+/*Remark
+Name:Pal Maniya
+Title:1-D Numeric Array (Storing and Printing) 
+*/
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int i,elements[10]={10,20,30,40,50,60,70,80,90,100};
+	clrscr();
+
+	printf("Example of Array:\n");
+
+	for(i=0;i<10;i++)
+	{
+		printf("Element[%d]=%d\n",i,elements[i]);
+	}
+	getch();
+}
+
+/* Output
+Example of Array:
+Element[0]=10
+Element[1]=20
+Element[2]=30
+Element[3]=40
+Element[4]=50
+Element[5]=60
+Element[6]=70
+Element[7]=80
+Element[8]=90
+Element[9]=100
+*/

@@ -1,0 +1,28 @@
+/*
+Name : Meet Desai
+Roll No. : 810
+title : WAP to get array and print it
+*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a[100],i;
+	clrscr();
+
+	for(i=0 ; i<10 ; i++)
+	{
+		printf("A[%d] = ",i);
+		scanf("%d",&a[i]);
+	}
+
+	printf("\n");
+
+	for(i=0 ; i<10 ; i++)
+	{
+		printf("\nA[%d] = %d",i,a[i]);
+	}
+
+getch();
+}

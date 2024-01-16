@@ -1,0 +1,28 @@
+/*
+name   :Sarena maulik
+roll no:454
+title  :wap to Store number in array using 1-D Array 
+*/
+#include<stdio.h>
+#include<conio.h>
+
+void main ()
+{
+int i,n,roll[80];
+
+    printf("Enter The Size Of Arry\n ");
+    scanf("%d",&n);
+    printf("\nEnter %d elements\n",n);
+    for(i=0;i<=n;i++)
+   {
+        printf("%d: ",i);
+        scanf("%d",&roll[i]);
+   }
+    printf("\nElements in Arry are:\n");
+    for(i=0;i<=n;i++)
+    {
+    printf("%d: %d",i,roll[i]);
+    printf("\n");
+}
+getch();
+}

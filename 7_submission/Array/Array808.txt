@@ -1,0 +1,22 @@
+/* remark
+name : harsh chotaliya
+rollno:808
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int fybca8[10],a,b;
+    clrscr();
+    for(a=0;a<10;a++)
+    {
+        printf("enter number %d : ",a);
+        scanf("%d",&fybca8[a]);
+    }
+    printf("\n\n\n\n");
+    for(b=0;b<10;b++)
+    {
+        printf("----------------------------\nfybca8[%d] = %d\n",b,fybca8[b]);
+    }
+    getch();
+}

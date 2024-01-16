@@ -1,0 +1,24 @@
+/*
+Name:Avadh Narola   roll:744
+WAP: Enter 10 Numbers and print 10 Numbers 1D Array
+*/
+#include<stdio.h>
+
+void main()
+{
+int num[10],i,j;
+clrscr();
+	for(i=0;i<=9;i++)
+	{
+		printf("\n Enter Element For Num[%d] = ",i);
+		scanf("%d",&num[i]);
+	}
+printf("\n------------------------------");
+
+	for(j=0;j<10;j++)
+	{
+		printf("\n Element of Num[%d] = %d",j,num[j]);
+
+	}
+getch();
+}

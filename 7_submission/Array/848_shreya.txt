@@ -1,0 +1,30 @@
+/* REMARK
+   NAME   : RAVAL SHREYA
+   DIV    : 8
+   ROLL NO:848
+   CLASS  :FYBCA
+   TITAL  :WRITE A PROGRAM FOR 1-D NUMBERIC ARRAY (STORING AND PRINTING).
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int fybca8[10],i;
+ clrscr();
+    printf("program to store data in array:\n");
+    for(i=0;i<10;i++)
+    {
+      printf("\nplease enter element for fybca8[%d] :",i);
+      scanf ("%d",& fybca8[i]);
+    }
+    printf("\ndisplaying store data in array:\n");
+    for(i=0;i<10;i++)
+    {
+      printf("elemet at fybca8[%d]=%d\n",i,fybca8[i]);
+    }
+ getch();
+}
+
+
+
+

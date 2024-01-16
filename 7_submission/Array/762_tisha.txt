@@ -1,0 +1,26 @@
+/*
+name     : sheladiya tisha yogeshbhai.
+roll no. : 762.
+subject  : 1-D numeric array (storing and printing).
+*/
+
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+
+	//storigg data
+  int fybca7[5]={1,2,3,4,5};
+  clrscr();
+
+	//printing data
+
+ 
+   printf("fybca7 : %d : \n",fybca7[0]);
+   printf("fybca7 : %d : \n",fybca7[1]);
+   printf("fybca7 : %d : \n",fybca7[2]);
+   printf("fybca7 : %d : \n",fybca7[3]);
+   printf("fybca7 : %d : \n",fybca7[4]);
+
+   getch();
+}  

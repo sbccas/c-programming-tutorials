@@ -1,0 +1,24 @@
+/*   continue statement print 1 to 23
+name: sujal  roll no :407
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i=0;
+clrscr();
+while (i<=22)
+  {
+    i=i+1;
+    if (i==9)
+      {
+	continue;
+      }
+    if (i==11)
+      {
+	continue;
+      }
+    printf("\n%d",i);
+  }
+getch();
+}

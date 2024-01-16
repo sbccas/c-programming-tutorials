@@ -1,0 +1,233 @@
+/*
+	Name:- Gamit NIkhil.
+    Title:- wap of menu driven using nested switch case.
+*/
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    char c;
+    int laptop,mobile,bike,p;
+    clrscr();
+    printf("What you want to buy\n");
+    printf("A.laptop\nB.mobile\nC.bike\n");
+    printf("Enter your choice:\n");
+    scanf("%c",&c);
+    switch(c)
+    {
+    case 'A':
+        printf("you choose buy laptop\n");
+        printf("select laptop\n");
+        printf("you have 3 option:\n");
+        printf("1.HP\n2.LENOVO\n3.ASUS\n");
+        scanf("%d",&laptop);
+        switch(laptop)
+        {
+        case 1:
+            printf("You choose buy HP brand laptop\n");
+            printf("How to want to pay amount\n");
+            printf("1.Cash\n2.net banking\n3.EMI\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose buy HP brand laptop with Cash payment \n");
+                break;
+            case 2:
+                printf("You choose buy HP brand laptop with net banking payment \n");
+                break;
+            case 3:
+                printf("You choose buy HP brand laptop with EMI payment\n");
+                break;
+            }
+            break;
+
+        case 2:
+            printf("You choose buy LENOVO brand laptop \n");
+            printf("How to want to pay amount\n");
+            printf("1.Cash\n2.net banking\n3.EMI\n");
+            scanf("%d",&p);
+            switch (p)
+            { 
+case 1:
+                printf("You choose buy LENOVO brand laptop with Cash payment \n");
+                break;
+            case 2:
+                printf("You choose buy LENOVO brand laptop with net banking payment \n");
+                break;
+            case 3:
+                printf("You choose buy LENOVO brand laptop with EMI payment\n");
+                break;
+            }
+            break;
+
+        case 3:
+printf("You choose buy ASUS brand laptop \n");
+            printf("How to want to pay amount\n");
+            printf("1.Cash\n2.net banking\n3.EMI\n");
+            scanf("%d",&p);
+            switch (p)
+            { case 1:
+                printf("You choose buy ASUS brand laptop with Cash payment \n");
+                break;
+            case 2:
+                printf("You choose buy ASUS brand laptop with net banking payment \n");
+                break;
+            case 3:
+                printf("You choose buy ASUS brand laptop with EMI payment\n");
+                break;
+            }
+            break;
+ default:
+            printf("Any other brand\n");
+            break;
+        }
+        break;
+            
+
+
+case 'B':
+        printf("you choose buy mobile\n");
+        printf("select mobile\n");
+        printf("you have 3 option:\n");
+        printf("1.Apple\n2.Oppo\n3.Samsung \n");
+        scanf("%d",&mobile);
+        switch(mobile)
+        {
+        case 1:
+            printf("You choose buy Apple brand mobile\n");
+            printf("How to want to pay amount\n");
+            printf("1.Cash\n2.net banking\n3.EMI\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose buy Apple brand mobile with Cash payment \n");
+                break;
+            case 2:
+                printf("You choose buy Apple brand mobile with net banking payment \n");
+                break;
+            case 3:
+                printf("You choose buy Apple brand mobile with EMI payment\n");
+                break;
+            }
+            break;
+case 2:
+            printf("You choose buy Oppo brand mobile\n");
+            printf("How to want to pay amount\n");
+            printf("1.Cash\n2.net banking\n3.EMI\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose buy Oppo brand mobile with Cash payment \n");
+                break;
+            case 2:
+                printf("You choose buy Oppo brand mobile with net banking payment \n");
+                break;
+            case 3:
+                printf("You choose buy Oppo brand mobile with EMI payment\n");
+                break;
+            }
+            break;
+case 3:
+            printf("You choose buy Samsung brand mobile\n");
+            printf("How to want to pay amount\n");
+            printf("1.Cash\n2.net banking\n3.EMI\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose buy Samsung brand mobile with Cash payment \n");
+                break;
+            case 2:
+                printf("You choose buy Samsung brand mobile with net banking payment \n");
+                break;
+            case 3:
+                printf("You choose buy Samsung brand mobile with EMI payment\n");
+                break;
+            }
+            break;
+
+        default:
+            printf("Any other brand\n");
+            break;
+        }
+        break;
+
+case 'C':
+        printf("you choose buy bike\n");
+        printf("select bike\n");
+        printf("you have 3 option:\n");
+        printf("1.KTM\n2.Royal Enfield \n3.Honda \n");
+        scanf("%d",&bike);
+        switch(bike)
+        {
+        case 1:
+            printf("You choose buy KTM brand bike\n");
+            printf("How to want to pay amount\n");
+            printf("1.Cash\n2.net banking\n3.EMI\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose buy KTM brand bike with Cash payment \n");
+                break;
+            case 2:
+                printf("You choose buy KTM brand bike with net banking payment \n");
+                break;
+            case 3:
+                printf("You choose buy KTM brand bike with EMI payment\n");
+                break;
+            }
+            break;
+case 2:
+            printf("You choose buy Royal Enfield brand bike\n");
+            printf("How to want to pay amount\n");
+            printf("1.Cash\n2.net banking\n3.EMI\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose buy Royal Enfield brand bike with Cash payment \n");
+                break;
+            case 2:
+                printf("You choose buy Royal Enfield brand bike with net banking payment \n");
+                break;
+            case 3:
+                printf("You choose buy Royal Enfield brand bike with EMI payment\n");
+                break;
+            }
+            break;
+case 3:
+            printf("You choose buy Honda brand bike\n");
+            printf("How to want to pay amount\n");
+            printf("1.Cash\n2.net banking\n3.EMI\n");
+            scanf("%d",&p);
+            switch (p)
+            {
+            case 1:
+                printf("You choose buy Honda brand bike with Cash payment \n");
+                break;
+            case 2:
+                printf("You choose buy Honda brand bike with net banking payment \n");
+                break;
+            case 3:
+                printf("You choose buy Honda brand bike with EMI payment\n");
+                break;
+            }
+            break;
+        default:
+            printf("Any other brand\n");
+            break;
+        }
+        break;
+
+    default:
+        printf("invalid choice");
+        break;
+
+    }
+    getch();
+}

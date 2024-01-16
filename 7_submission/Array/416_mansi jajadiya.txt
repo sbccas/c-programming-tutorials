@@ -1,0 +1,67 @@
+/**********
+NAME   :- Mansi Jajadiya
+TITTLE :- Write A Program To Read And Print 1-D Array
+***************/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int fybca4[10],i;
+ clrscr();
+
+ for(i=0;i<10;i++)
+ {
+  printf("enter fybca4[%d]==",i);
+  scanf("%d",&fybca4[i]);
+ }
+
+ for(i=0;i<10;i++)
+ {
+  printf("a[%d] = %d\t",i,fybca4[i]);
+ }
+ getch();
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

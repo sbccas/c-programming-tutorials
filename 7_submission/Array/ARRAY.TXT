@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+/*
+int bca1[10],i;
+clrscr();
+printf("PARFOM THE TASK OF ARRY");
+	for(i=0;i<10;i++)
+	{
+	printf("\nEnter Element for bca1[%d]= ",i);
+	scanf("%d",&bca1[i]);
+	}
+printf("OUT PUT OF ARRY:\n");
+	for(i=0;i<10;i++)
+	{
+		printf("ARRAY ELEMANT bca1[%d]=%d\n",i,bca1[i]);
+	}
+
+    */
+
+int bca1[5]=[100,200,300,400,500];
+clrscr();
+printf("PARFOM THE TASK OF ARRY:\n");
+/*
+bca1[0] = 100;
+bca1[1] = 200;
+bca1[2] = 300;
+bca1[3] = 400;
+bca1[4] = 500;
+*/
+printf("OUT PUT OF ARRY:\n");
+printf("ARRAY ELEMANT bca1[0]=%d\n",bca1[0]);
+printf("ARRAY ELEMANT bca1[1]=%d\n",bca1[1]);
+printf("ARRAY ELEMANT bca1[2]=%d\n",bca1[2]);
+printf("ARRAY ELEMANT bca1[3]=%d\n",bca1[3]);
+printf("ARRAY ELEMANT bca1[4]=%d\n",bca1[4]);
+getch();
+}

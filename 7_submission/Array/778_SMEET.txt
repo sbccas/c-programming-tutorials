@@ -1,0 +1,50 @@
+
+
+1-D_NUMERIC_ARRAY_SMEET_NAVADIYA
+
+
+#include <stdio.h>
+#include<conio.h>
+void main()
+{
+int smeet[10], i;
+printf("Program to Store Data in Array:\n");
+for (i = 0; i < 10; i++)
+{
+printf("Please Enter Element for smeet[%d]: ", i);
+scanf("%d", &smeet[i]);
+}
+printf("Display Stored Data in Array:\n");
+for (i = 0; i < 10; i++)
+{
+printf("Element of smeet[%d]: %d\n", i, smeet[i]);
+}
+getch();
+}
+
+OUTPUT
+Program to Store Data in Array:
+Please Enter Element for smeet[0]: 1
+Please Enter Element for smeet[1]: 2
+Please Enter Element for smeet[2]: 3
+Please Enter Element for smeet[3]: 4
+Please Enter Element for smeet[4]: 5
+Please Enter Element for smeet[5]: 6
+Please Enter Element for smeet[6]: 7
+Please Enter Element for smeet[7]: 8
+Please Enter Element for smeet[8]: 9
+Please Enter Element for smeet[9]: 10
+Display Stored Data in Array:
+Element of smeet[0]: 1
+Element of smeet[1]: 2
+Element of smeet[2]: 3
+Element of smeet[3]: 4
+Element of smeet[4]: 5
+Element of smeet[5]: 6
+Element of smeet[6]: 7
+Element of smeet[7]: 8
+Element of smeet[8]: 9
+Element of smeet[9]: 10
+
+
+

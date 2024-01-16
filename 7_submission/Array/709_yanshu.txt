@@ -1,0 +1,42 @@
+/*
+REMARK
+NAME = YANSHU DANLHARA
+ROLL NO = 709
+TITLE = ENTER 10 NUMBERS AND PRINT 10 NUMBERS IN ARRAY.
+*/
+
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+
+{
+
+// int bca[10] = {10,20,30,40,50,60,70,80,90,100};
+
+  int i, bca[10];
+  clrscr();
+
+/*    printf("ARRAY OF bca[0] = %d\n", bca[0]);
+
+printf("ARRAY OF bca[1] = %d\n", bca[1]);
+printf("ARRAY OF bca[2] = %d\n", bca[2]);
+printf("ARRAY OF bca[3] = %d\n", bca[3]);
+printf("ARRAY OF bca[4] = %d\n", bca[4]);
+printf("ARRAY OF bca[5] = %d\n", bca[5]);
+printf("ARRAY OF bca[6] = %d\n", bca[6]);
+printf("ARRAY OF bca[7] = %d\n", bca[7]);
+printf("ARRAY OF bca[8] = %d\n", bca[8]);
+printf("ARRAY OF bca[9] = %d\n", bca[9]);      */
+
+for(i=0;i<=9;i++)
+  {
+    printf("enter the bca[%d] = ",i);
+    scanf("%d",& bca[i]);
+  }
+for(i=0;i=9;I++)
+   {
+    printf("\n bca[%d] = %d",i, bca[i]);
+   }
+getch();
+}

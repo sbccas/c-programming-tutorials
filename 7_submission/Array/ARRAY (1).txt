@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int bca770[10],n,i;
+	clrscr();
+	printf("enter array digit\n");
+	printf("enter legnth of array number:");
+	scanf("%d",&n);
+	for(i=0;i<n;i++)
+	{
+	printf("enter bca770[%d]:",i);
+	scanf("%d",&bca770[i]);
+	}
+	printf("display array values:\n");
+	for(i=0;i<n;i++)
+	{
+	printf("bca770[%d]=%d\n",i,bca770[i]);
+	}
+	getch();
+}

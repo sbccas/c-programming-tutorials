@@ -1,0 +1,24 @@
+/* remark
+name :Dhruvi Navadiya
+roll no : 745
+titale: Wap to print simple array
+*/
+ #include<stdio.h>
+ #include<conio.h>
+void main()
+{
+int fybca7[10],i,s;
+clrscr();
+printf("program to store data in array:\n");
+	for(i=0;i<10;i++)
+	{
+	printf("\nplease enter element for fybca7[%d]=",i);
+	scanf("%d",&fybca7[i]);
+	}
+printf("displaying stored data in array:\n");
+for(s=0;s<10;s++)
+{
+printf("element at fybca7[%d]=%d\n",s,fybca7[s]);
+}
+getch();
+}

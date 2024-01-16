@@ -1,0 +1,30 @@
+/*
+NAME : PATOLIYA RAJ R.
+WAP FOR ARREYS VALUES ENTERING BY FOR LOOP 
+
+*/
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+  int i;
+  
+  int j;
+  int a[1000];
+ 
+ printf("enter your aliment  of array \n");
+  scanf("%d",&j);
+
+
+  for(i=0; i<=j; i++)
+  {
+    printf("your array is %d :\t\t ",i);
+    scanf("%d",&a[i]);
+  }
+
+  for(i=0; i<=j; i++)
+  {
+    printf(" arrary is [%d] = %d \n",i,a[i]);
+  }
+
+}

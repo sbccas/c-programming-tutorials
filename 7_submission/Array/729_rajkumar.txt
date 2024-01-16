@@ -1,0 +1,25 @@
+/*
+name:LAKHANI RAJKUMAR KAMLESHBHAI
+class:fybca
+div:7
+roll no:729
+program:1-d array storing and printing in c
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,d[10];
+//a loop for to store the data
+for(a=0;a<=9;a++)
+{
+printf("enetr value for d[%d]:",a);
+scanf("%d",&d[a]);
+}
+//a loop for print values of d
+for(a=0;a<=9;a++)
+{
+printf("\nd[%d] value=%d",a,d[a]);
+}
+getch();
+}
