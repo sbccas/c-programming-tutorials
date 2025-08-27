@@ -1,0 +1,22 @@
+/*
+	Name: Hitesh Patel Roll No: 999
+	Title: WAP to check whether Year is Leap Year or Not.
+*/
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+   clrscr();
+   printf("WELCOME TO menu driven program of calculator \n");
+   printf("PLEASE SELECT ANY ONE CHOICE:\n");
+   printf("1. ADD:\n");
+   printf("2. SUB:\n");
+   printf("3. MUL:\n");
+   printf("4. DIV:\n");
+   printf("5. EXIT:\n");
+
+
+   getch();
+}
+
+

@@ -1,0 +1,18 @@
+/*
+WAP TO SHOW DEMO OF DO WHILE LOOP
+
+*/
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+printf("DEMO OF DO ..... WHILE LOOP:\n");
+do
+{
+printf("HU BACHI GAYO.");
+}while (1==1);
+
+getch();
+}

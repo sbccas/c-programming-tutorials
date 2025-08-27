@@ -1,0 +1,57 @@
+/* REMARK
+NAME:
+TITLE: WAP to PRINT PATTERN
+*            1             1           5            5             A
+* *          1 2           2 2         5 4          4 4           A A
+* * *        1 2 3         3 3 3       5 4 3        3 3 3         A A A
+* * * *      1 2 3 4       4 4 4 4     5 4 3 2      2 2 2 2       A A A A
+* * * * *    1 2 3 4 5     5 5 5 5 5   5 4 3 2 1    1 1 1 1 1     A A A A A
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+/*
+int i,j;
+char c ='A';
+clrscr();
+	for (i=0;i<=23;i++)
+	{
+	   for(j=0;j<=i;j++)
+	   {
+	    printf("%c ",c+j);
+	   }
+	   printf("\n");
+	}
+
+*/
+int i;
+char ch;
+ch='1';
+clrscr();
+printf("\n\n");
+for (i=0;i<=70;i++)
+   {
+
+      printf("%c\t",ch+i);
+   }
+
+
+
+
+
+getch();
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

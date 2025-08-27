@@ -1,0 +1,26 @@
+/* ******************************************
+Statement - Print Hello World
+Programmer - HITESH PATEL
+Written For - http://www.amrolicollege.ac.in
+******************************************* */
+
+#include <stdio.h>
+#include <conio.h>
+
+void main()
+{       clrscr();
+	printf("------------------------------------\n");
+	printf("|\tStudent Bio Data\t   |\n");
+	printf("------------------------------------\n");
+	printf("| Name :- |\t Hitesh Patel\t   |\n");
+	printf("------------------------------------\n");
+	printf("| Mobile :- |\t 9898989898\t   |\n");
+	printf("------------------------------------\n");
+	printf("| City :- |\t SURAT\t\t   |\n");
+	printf("------------------------------------\n");
+	printf("| PERCENTAGE :- |\t 89.90\t   |\n");
+	printf("------------------------------------\n");
+
+
+	getch();
+}

@@ -1,0 +1,21 @@
+/*
+TITLE : WAP FOR ODD OR EVEN
+NAME
+DIV
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int n;
+clrscr();
+printf("\nPROGRAM FOR ODD OR EVEN");
+printf("\nPLEASE ENTER NUMBER : ");
+scanf("%d",&n);
+//LOGIC FOR ODD OR EVEN
+if(n % 2 !=1)
+printf("NUMBER %d IS EVEN ",n);
+else
+printf("NUMBER %d IS ODD",n);
+getch();
+}

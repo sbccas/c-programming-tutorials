@@ -1,0 +1,24 @@
+/*
+	Name: Hitesh Patel Roll No: 999
+	Title: WAP to check whether Year is Leap Year or Not.
+*/
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+   int n,m;
+   n=1,m=0;
+   clrscr();
+   printf("\n\n\n\n\n\"WELCOME TO PROGRAM TO CHECK LEAP YEAR\"\n");
+amroli:  if(m<80)
+	{
+	printf("%d",n);
+	m = m+1;
+
+	goto  amroli;
+	}
+   printf("\nEnd of Program\n");
+   getch();
+}
+
+

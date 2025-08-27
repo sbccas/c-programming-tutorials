@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,k,n,l;
+n=8;
+clrscr();
+for (i=1;i<=n;i++)
+{
+	for(j=8;j>=i;j--)
+	{
+	printf(" ");
+	}
+	for(k=1;k<=i;k++)
+	{ printf("@");
+	}
+	for(l=i-1;l<=i-1;l++)
+	{
+	printf("#");
+	}
+
+       printf("\n");
+}
+getch();
+
+}

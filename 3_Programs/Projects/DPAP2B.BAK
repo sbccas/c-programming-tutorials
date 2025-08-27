@@ -1,0 +1,32 @@
+/*
+Name : Hitesh P Patel  Roll No: 999
+TITLE: WAP TO SCAN AND PRINT PERSONAL DETAILS
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int mob;
+float mob1;
+double mob2;
+long double mob3;
+clrscr();
+printf("PROGRAM FOR PRINTING PERSONAL DETAILS:\n");
+printf("\nENTER MOBILE NUMBER : ");
+scanf("%lf",&mob2);
+printf("%.0lf",mob2);
+getch();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

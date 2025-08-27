@@ -1,0 +1,18 @@
+/*REMARK
+NAME: HITESH ROLL NO: 999
+TITLE: WAP to PRINT YOUR NAME 108 TIMES USING FOR LOOP
+*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+//PRINT NAME  108 TIMES
+int i;
+clrscr();
+	for (i = 1;i<=108;i++)
+	{
+	printf("%d. AMROLIBCA\t",i);
+	}
+getch();
+
+}
