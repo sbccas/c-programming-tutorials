@@ -38,6 +38,8 @@
         "CP5PointertoArray.C": "cpp",
         "CP5PointertoArraySum.C": "cpp",
         "CP5CharArraycountnsearch.C": "cpp",
-        "CP5CharArraygetdata.C": "cpp"
+        "CP5CharArraygetdata.C": "cpp",
+        "U5P1StringData.C": "cpp",
+        "U5P2CountingCHaracterArray.C": "cpp"
     }
 }
